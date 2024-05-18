@@ -1,14 +1,14 @@
-이 GitHub 저장소는 [Openterface Mini-KVM](https://ko.openterface.com/) 웹사이트를 호스팅하며, 이는 오픈 소스이자 풍부한 기능을 갖춘 콤팩트한 KVM 장치로 [활발한 커뮤니티](https://ko.openterface.com/community/)가 지원하고 있습니다.
+이 GitHub 저장소는 [Openterface Mini-KVM](https://kr.openterface.com/) 웹사이트를 호스팅하며, 이는 오픈 소스이자 풍부한 기능을 갖춘 콤팩트한 KVM 장치로 [활발한 커뮤니티](https://kr.openterface.com/community/)가 지원하고 있습니다.
 
-우리는 중요한 순간에 도달했습니다: 우리의 [크라우드펀딩 캠페인](https://www.crowdsupply.com/techxartisan/openterface-mini-kvm)이 이제 **Crowd Supply**에서 라이브로 진행되고 있습니다! 우리는 단 몇 시간 만에 $12,000 목표를 달성했습니다! 여러분 모두 대단합니다! 이 파티를 계속 이어나갑시다! Mini-KVM Openterface를 더 빨리 만나볼 수 있도록 구독하고 후원해 주세요. 우리 [커뮤니티](https://ko.openterface.com/community/)에서 함께 해요!
+우리는 중요한 순간에 도달했습니다: 우리의 [크라우드펀딩 캠페인](https://www.crowdsupply.com/techxartisan/openterface-mini-kvm)이 이제 **Crowd Supply**에서 라이브로 진행되고 있습니다! 우리는 단 몇 시간 만에 $12,000 목표를 달성했습니다! 여러분 모두 대단합니다! 이 파티를 계속 이어나갑시다! Mini-KVM Openterface를 더 빨리 만나볼 수 있도록 구독하고 후원해 주세요. 우리 [커뮤니티](https://kr.openterface.com/community/)에서 함께 해요!
 
 ![pre_launch_poster](docs/images/event/pre_launch_poster.jpg)
 
-**[Openterface Mini-KVM](https://ko.openterface.com/)**은 미니 PC, 키오스크, 서버와 같은 헤드리스 타겟 장치를 추가 키보드, 마우스, 모니터 없이도 노트북이나 데스크탑에서 직접 제어할 수 있게 합니다.
+**[Openterface Mini-KVM](https://kr.openterface.com/)**은 미니 PC, 키오스크, 서버와 같은 헤드리스 타겟 장치를 추가 키보드, 마우스, 모니터 없이도 노트북이나 데스크탑에서 직접 제어할 수 있게 합니다.
 
 이것은 HDMI를 통한 디스플레이 연결과 USB를 통한 에뮬레이트된 키보드/마우스 (HID) 신호를 제공하는 플러그 앤 플레이 도구입니다. 최소한의 설정만 필요하며, 호스트 컴퓨터에 우리의 호스트 애플리케이션을 설치하면 이동 중에도 헤드리스 제어가 가능합니다.
 
-자세한 내용은 우리의 [FAQ 페이지](https://ko.openterface.com/faq/)에서 확인하세요.
+자세한 내용은 우리의 [FAQ 페이지](https://kr.openterface.com/faq/)에서 확인하세요.
 
 ## 언제 어디서나 장치를 제어하세요
 
@@ -16,7 +16,7 @@
 
 서버를 문제 해결해야 하는 IT 전문가, 엣지 컴퓨팅 머신에서 여러 테스트를 관리하는 개발자, 싱글 보드 컴퓨터를 해킹하는 기술 애호가, 또는 단순히 책상을 깔끔하게 유지하고 싶은 사람이라면 Openterface Mini-KVM이 해결책입니다.
 
-우리의 [사용 사례](https://ko.openterface.com/use-cases/)에 대해 더 알아보세요.
+우리의 [사용 사례](https://kr.openterface.com/use-cases/)에 대해 더 알아보세요.
 
 ## 특징 및 사양
 
@@ -32,7 +32,7 @@
 - **전환 가능한 USB Type-A 포트**: 호스트와 타겟 간 USB 접근 전환 가능, USB 드라이브를 재연결 없이 공유하는 데 이상적.
 - **깨끗한 설치**: 타겟 컴퓨터에 소프트웨어를 남기지 않음.
 
-[사양](https://ko.openterface.com/specifications/)에 대해 더 알아보세요.
+[사양](https://kr.openterface.com/specifications/)에 대해 더 알아보세요.
 
 ## 호스트 애플리케이션 설치
 
@@ -53,7 +53,7 @@
 
 ## 연락 및 최신 정보 유지
 
-저희에게 연락하려는 생각을 해 주셔서 감사합니다! 질문, 피드백 또는 인사하고 싶으시다면, [연락 페이지](https://ko.openterface.com/contact/)에서 모든 연락 방법을 확인하세요.
+저희에게 연락하려는 생각을 해 주셔서 감사합니다! 질문, 피드백 또는 인사하고 싶으시다면, [연락 페이지](https://kr.openterface.com/contact/)에서 모든 연락 방법을 확인하세요.
 
 커뮤니티와 소통하고 최신 정보를 얻으려면, 우리의 소셜 미디어 채널을 팔로우하세요:
 
