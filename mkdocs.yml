@@ -1,0 +1,204 @@
+# Project information
+site_name: Openterface Mini-KVM | 노트북을 KVM 콘솔로 변환하십시오
+site_url: https://ko.openterface.com/
+site_author: Billy Wang
+site_description: 기능이 풍부하고 오픈 소스이며 커뮤니티 중심의 KVM-over-USB 솔루션
+
+# Repository
+repo_name: Openterface
+repo_url: https://github.com/TechxArtisanStudio/Openterface
+
+# Copyright
+copyright: >-
+  저작권 &copy; All rights reserved. 2023 <a href="https://www.openterface.com">Openterface MiniKVM</a>, 광저우 Billio Tech. Co., Ltd. <br>
+  <a href="">홈</a> |
+  <a href="/terms-of-service">서비스 약관</a> |
+  <a href="/privacy-policy">개인정보 보호정책</a> | 
+  <a href="#__consent">쿠키 설정</a> | 
+  <a href="/contact">문의하기</a>
+
+extra_css:
+  - assets/stylesheets/extra.css
+
+# extra_javascript:
+#   - assets/javascripts/extra.js
+
+# Configuration
+theme:
+  name: material
+  custom_dir: docs/overrides
+  language: ko
+  font:
+    text: Roboto
+    code: Roboto Mono
+  logo: assets/logo.png
+  favicon: images/favicon.png
+  features:
+   - navigation.tabs
+   - navigation.sections
+   - navigation.top
+   - navigation.footer
+   - navigation.indexes
+   - toc.integrate
+   - search.suggest
+   - search.highlight
+   - content.tabs
+   - content.code.annotation
+   - content.code.copy
+  palette:
+    primary: deep orange
+    accent: custom
+  icon:
+    admonition:
+      note: fontawesome/solid/note-sticky
+      abstract: fontawesome/solid/book
+      info: fontawesome/solid/circle-info
+      tip: fontawesome/solid/bullhorn
+      success: fontawesome/solid/check
+      question: fontawesome/solid/circle-question
+      warning: fontawesome/solid/triangle-exclamation
+      failure: fontawesome/solid/bomb
+      danger: fontawesome/solid/skull
+      bug: fontawesome/solid/robot
+      example: fontawesome/solid/flask
+      quote: fontawesome/solid/quote-left
+
+extra:
+  social:
+    - icon: txa/crowd-supply-icon
+      link: https://www.crowdsupply.com/techxartisan/openterface-mini-kvm
+    - icon: fontawesome/brands/reddit-alien
+      link: https://www.reddit.com/r/Openterface_miniKVM/
+    - icon: fontawesome/brands/discord
+      link: https://discord.gg/sFTJD6a3R8
+    - icon: fontawesome/brands/youtube
+      link: https://youtube.com/@TechxArtisan
+    - icon: fontawesome/brands/x-twitter
+      link: https://twitter.com/TechxArtisan
+    - icon: fontawesome/brands/facebook-f
+      link: https://www.facebook.com/TechxArtisan
+    - icon: fontawesome/brands/linkedin-in
+      link: https://www.linkedin.com/company/techxartisan/
+
+    # - icon: fontawesome/brands/github-alt
+    #   link: https://github.com/TechxArtisan
+  
+  alternate:
+    - name: English
+      link: https://openterface.com/
+      lang: en
+    # - name: 中文简体
+    #   link: https://zh.openterface.com/
+    #   lang: zh
+    # - name: 中文繁體
+    #   link: https://tw.openterface.com/
+    #   lang: zh-Hant
+    - name: 日本語
+      link: https://jp.openterface.com/
+      lang: ja
+    - name: 한국어
+      link: https://kr.openterface.com/
+      lang: ko
+    - name: Français
+      link: https://fr.openterface.com/
+      lang: fr
+    - name: Deutsch
+      link: https://de.openterface.com/
+      lang: de
+    - name: Italiano
+      link: https://it.openterface.com/
+      lang: it
+    - name: Español
+      link: https://es.openterface.com/
+      lang: es
+    # - name: Português
+    #   link: https://pt.openterface.com/
+    #   lang: pt
+    # - name: Svenska
+    #   link: https://sv.openterface.com/
+    #   lang: sv
+    # - name: Polski
+    #   link: https://pl.openterface.com/
+    #   lang: pl
+    # - name: Nederlands
+    #   link: https://nl.openterface.com/
+    #   lang: nl
+
+  consent:
+    title: 쿠키 동의
+    description: >- 
+      우리는 문서 콘텐츠의 품질을 향상시키고, 사이트의 효과성과 요구사항을 분석하기 위해 쿠키를 사용합니다.
+      동의함으로써, 여러분은 저희 웹사이트를 개선하는 데 도움을 주실 수 있습니다. 감사합니다!
+    actions:
+      - accept
+      - reject
+  analytics:
+    provider: google
+    property: G-EKZEH6QYWT
+
+markdown_extensions:
+  - tables
+  # Enables admonitions
+  - admonition
+  - pymdownx.details
+  - pymdownx.superfences
+  - pymdownx.critic
+  - pymdownx.caret
+  - pymdownx.keys
+  - pymdownx.mark
+  - pymdownx.tilde
+  # Enables emoji shortcodes like :+1: or :sunglasses:
+  - attr_list
+  - md_in_html
+  - pymdownx.emoji:
+      emoji_index: !!python/name:material.extensions.emoji.twemoji
+      emoji_generator: !!python/name:material.extensions.emoji.to_svg
+      options:
+              custom_icons:
+                - overrides/.icons
+  - toc:
+      permalink: ¶
+      toc_depth: 3
+
+plugins:
+  - glightbox
+  - search
+  - tags:
+      tags_file: tags.md
+  - blog:
+      post_url_format: "{slug}"
+      authors_file: "{blog}/.authors.yml"
+      blog_toc: true
+      post_excerpt_separator: <!-- more -->
+      categories_name: Categories
+      categories_toc: true
+      pagination: true
+      pagination_per_page: 10
+      draft: true
+      archive: false
+
+nav:
+  - 홈: index.md
+  - 자주 묻는 질문: faq.md
+  - 문서:
+    - 빠른 시작: quick-start.md
+    - Openterface의 이유: why-openterface-minikvm.md
+    - 사용 사례: use-cases.md
+    - 사양: specifications.md
+    - 박스 안의 내용물: whats-in-the-box.md
+    - 작동 원리 💬: how-it-works.md
+    - 비교 💬: comparison.md
+    - 자주 묻는 질문 💬: faq.md
+    - 개발:
+          - 기여 💬: contributing.md
+          - 기본 테스트 💬: basic-testing.md
+  - 커뮤니티:
+      - 환영합니다: community.md
+  - 게시물:
+    - blog/index.md
+  - 소개:
+      - 연락처: contact.md
+      - 정책:
+        - 개인정보 보호정책: privacy-policy.md
+        - 이용 약관: terms-of-service.md
+        - 반품, 환불, 보증: return-refunds-warranty.md
