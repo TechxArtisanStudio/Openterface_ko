@@ -57,3 +57,5 @@ Mini-KVM 키트는 약 $400에 판매되는 VGA 입력을 지원하는 StarTech 
 - **$99**: Openterface Mini-KVM 툴킷으로, $79 리워드와 동일한 항목 외에 30cm HDMI 남성-남성 케이블, 30cm USB-C 남성-USB-A 남성 케이블 및 USB-A 여성-USB-C 남성 어댑터, 1.5m USB-C 남성-남성 케이블 및 툴킷 가방이 포함됩니다.
 
 또한 구형 서버 시스템이나 VGA 포트만 있는 시스템에 유용할 수 있는 VGA + 오디오 HDMI 변환기가 있습니다. 배송비는 미국 $8, 그 외 세계 $18이 추가됩니다. 백커들은 모든 것이 계획대로 진행된다면 2024년 9월 말까지 리워드를 받을 것으로 예상됩니다. 더 많은 정보는 [프로젝트 웹사이트](http://openterface.com/)에서 확인할 수 있습니다.
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/6OWaVIRXCaw?si=KpzsXY0ET8KnG8qT" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
