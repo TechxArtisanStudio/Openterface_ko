@@ -6,7 +6,7 @@ categories:
   - 기술 검토
 ---
 
-### CNX 소프트웨어 제품 리뷰: Openterface Mini-KVM - 저렴한 KVM-over-USB 장치 (크라우드 펀딩)
+# CNX 소프트웨어 제품 리뷰: Openterface Mini-KVM - 저렴한 KVM-over-USB 장치 (크라우드 펀딩)
 
 이 게시물은 [Jean-Luc Aufranc (CNXSOFT)](https://www.cnx-software.com/2024/05/09/openterface-mini-kvm-affordable-kvm-over-usb-device/)의 2024년 5월 9일 원본 기사 [Openterface Mini-KVM은 저렴한 KVM-over-USB 장치입니다 (크라우드 펀딩)]를 바탕으로 재구성되었습니다.
 
