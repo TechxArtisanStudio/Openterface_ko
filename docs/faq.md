@@ -16,32 +16,32 @@ Openterface Mini-KVM에 관해 가장 자주 묻는 질문을 자세히 살펴�
 ### 기초적인
 
 #### Openterface 미니 KVM이란 무엇입니까?
-Openterface Mini-KVM은 [활기찬 커뮤니티](https://openterface.com/community/)가 주도하는 컴팩트하고 기능이 풍부한 오픈 소스 KVM 가젯입니다. 이를 사용하면 자신의 노트북을 사용하여 [USB 및 HDMI 연결](https://openterface.com/quick-start/#connection-procedure)을 통해 헤드리스 장치를 직접 표시하고 제어할 수 있습니다. 이 KVM-over-USB 솔루션은 HDMI를 통해 비디오를 캡처하고 키보드 및 마우스 입력을 시뮬레이션합니다. 이는 단일 보드 컴퓨터를 탐색하는 기술 애호가뿐만 아니라 헤드리스 장치 문제를 해결하는 IT 전문가를 대상으로 하는 [다양한 애플리케이션](https://openterface.com/use-cases/)에 특히 유용합니다. 추가 모니터, 키보드, 마우스가 필요하지 않으므로 네트워크 연결이 불안정하거나 사용할 수 없는 환경에서 편리한 솔루션을 제공합니다.
+Openterface Mini-KVM은 [활기찬 커뮤니티](https://kr.openterface.com/community/)가 주도하는 컴팩트하고 기능이 풍부한 오픈 소스 KVM 가젯입니다. 이를 사용하면 자신의 노트북을 사용하여 [USB 및 HDMI 연결](https://kr.openterface.com/quick-start/#connection-procedure)을 통해 헤드리스 장치를 직접 표시하고 제어할 수 있습니다. 이 KVM-over-USB 솔루션은 HDMI를 통해 비디오를 캡처하고 키보드 및 마우스 입력을 시뮬레이션합니다. 이는 단일 보드 컴퓨터를 탐색하는 기술 애호가뿐만 아니라 헤드리스 장치 문제를 해결하는 IT 전문가를 대상으로 하는 [다양한 애플리케이션](https://kr.openterface.com/use-cases/)에 특히 유용합니다. 추가 모니터, 키보드, 마우스가 필요하지 않으므로 네트워크 연결이 불안정하거나 사용할 수 없는 환경에서 편리한 솔루션을 제공합니다.
 
 #### Openterface Mini-KVM이 왜 차이를 만드는가?
-당사의 [Openterface Mini-KVM 기능](https://openterface.com/#product-features) **휴대용 디자인, 간편한 플러그 앤 플레이, 빠른 응답 시간 및 전환 가능한 USB를 통한 직접 BIOS 레벨 액세스 포트**는 호스트와 대상 장치 간에 모두 공유됩니다. 네트워크 종속성의 제약 없이 HDMI 및 USB 연결을 통해 안정적이고 빠른 제어 환경을 보장하므로 특히 온-오프라인의 다양한 [사용 시나리오](https://openterface.com/use-cases/)에 적합합니다. 즉각적인 IT 작업 및 문제 해결.
+당사의 [Openterface Mini-KVM 기능](https://kr.openterface.com/#product-features) **휴대용 디자인, 간편한 플러그 앤 플레이, 빠른 응답 시간 및 전환 가능한 USB를 통한 직접 BIOS 레벨 액세스 포트**는 호스트와 대상 장치 간에 모두 공유됩니다. 네트워크 종속성의 제약 없이 HDMI 및 USB 연결을 통해 안정적이고 빠른 제어 환경을 보장하므로 특히 온-오프라인의 다양한 [사용 시나리오](https://kr.openterface.com/use-cases/)에 적합합니다. 즉각적인 IT 작업 및 문제 해결.
 
 또한 종종 높은 가격이 붙는 기존 KVM 콘솔과 달리 당사의 미니 KVM은 IT 전문가부터 기술 매니아에 이르기까지 더 광범위한 사용자가 접근할 수 있고 **저렴하게** 설계되었습니다.
 
 하지만 진정한 마법은 **오픈소스 개발** 및 **커뮤니티 참여**에 대한 우리의 헌신에 있습니다. 이러한 원칙을 수용함으로써 우리는 사용자가 고유한 요구 사항을 충족하도록 장치를 협업하고, 기여하고, 맞춤화하고, 혁신을 촉진하고, 가능한 것의 경계를 넓힐 수 있는 활기찬 생태계를 구축하고 있습니다.
 
 #### 이 미니 KVM의 사용 사례는 무엇입니까?
-이 페이지를 확인하세요: [사용 사례](https://openterface.com/use-cases/)
+이 페이지를 확인하세요: [사용 사례](https://kr.openterface.com/use-cases/)
 
 #### Openterface Mini-KVM과 호환되는 호스트 컴퓨터는 무엇입니까?
-이 미니 KVM을 사용하려면 호스트 컴퓨터에 MacOS, Windows 및 Linux를 지원하는 [호스트 애플리케이션](https://openterface.com/quick-start/#install-host-application) 중 하나를 설치해야 합니다. 웹 기반 확장 프로그램과 Android 앱이 현재 개발 중입니다.
+이 미니 KVM을 사용하려면 호스트 컴퓨터에 MacOS, Windows 및 Linux를 지원하는 [호스트 애플리케이션](https://kr.openterface.com/quick-start/#install-host-application) 중 하나를 설치해야 합니다. 웹 기반 확장 프로그램과 Android 앱이 현재 개발 중입니다.
 
 #### Openterface Mini-KVM과 호환되는 대상 장치는 무엇입니까?
 대상 장치에는 사전 설치나 구성이 필요하지 않습니다. 대상 장치가 비디오 출력(예: HDMI, VGA)으로 UI 작업을 지원하고 에뮬레이트된 키보드 및 마우스 제어(HID) 신호를 수신할 수 있는 USB 포트가 있으면 사용할 수 있습니다. 따라서 지원되는 대상 장치 플랫폼에는 Windows, MacOS, Linux, Android 및 iOS가 포함됩니다.
 
 #### Openterface Mini-KVM에 대한 기술 지원 및 문서가 제공됩니까?
 Openterface Mini-KVM에 대한 광범위한 문서는 당사 웹사이트 [Openterface.com](https://www.openterface.com/)에서 찾을 수 있습니다. 우리는 장치 사용 경험을 최적화하기 위해 이러한 리소스를 지속적으로 업데이트합니다.
-기술 지원을 받으려면 [커뮤니티](https://openterface.com/community/)에 가입하여 동료 사용자 및 전문가 팀과 질문과 통찰력을 공유하세요. 문제가 해결되지 않은 경우 당사 팀에서 추가 기술 지원을 제공해 드릴 수 있습니다. info@techxartisan.com으로 이메일을 보내 문의하실 수 있습니다.
+기술 지원을 받으려면 [커뮤니티](https://kr.openterface.com/community/)에 가입하여 동료 사용자 및 전문가 팀과 질문과 통찰력을 공유하세요. 문제가 해결되지 않은 경우 당사 팀에서 추가 기술 지원을 제공해 드릴 수 있습니다. info@techxartisan.com으로 이메일을 보내 문의하실 수 있습니다.
 
 #### 오픈소스 저장소가 비어 있는 이유는 무엇인가요?
 지연에 대해 사과드립니다. 우리는 크라우드 펀딩 캠페인과 관련된 다양한 행정 업무로 유난히 바빴습니다. 안심하십시오. 우리는 프로젝트의 하드웨어와 소프트웨어 모두를 오픈 소스화하기 위해 최선을 다하고 있습니다. 준비가 마무리되는 동안 기다려 주시기 바랍니다. 우리는 후원자에게 배송을 시작하기 전에 모든 것을 사용할 수 있도록 목표로 앞으로 2~3주에 걸쳐 하드웨어 세부 정보와 코드를 점진적으로 공개하기 시작할 것입니다.
 
-그동안 저희 프로젝트에 대한 자세한 내용은 [작동 방식](https://openterface.com/how-it-works/)에서 확인하실 수 있습니다. 이 리소스는 키보드 및 마우스 제어를 위한 **CH9329** 칩을 갖춘 USB-HDMI 캡처 통합에 대한 통찰력을 제공합니다. 기술 애호가라면 CH9329 칩에 대한 세부 정보가 특히 흥미로울 것입니다.
+그동안 저희 프로젝트에 대한 자세한 내용은 [작동 방식](https://kr.openterface.com/how-it-works/)에서 확인하실 수 있습니다. 이 리소스는 키보드 및 마우스 제어를 위한 **CH9329** 칩을 갖춘 USB-HDMI 캡처 통합에 대한 통찰력을 제공합니다. 기술 애호가라면 CH9329 칩에 대한 세부 정보가 특히 흥미로울 것입니다.
 
 또한 미니 KVM은 **CH340** 칩을 활용하여 호스트와 대상 측 모두에 대해 2개의 내장 USB 허브를 지원합니다. 우리의 미니 KVM은 현재 시중에 나와 있는 많은 비디오 캡처 카드와 비슷합니다. 자세한 기술 정보는 이 [데이터시트](https://docs.google.com/document/d/1UPw5RwGTp0AjKL3wOvQZUS1hp3IPMxkCujtqy5haeP0/edit?usp=sharing)를 참조하세요.
 
@@ -50,7 +50,7 @@ Openterface Mini-KVM에 대한 광범위한 문서는 당사 웹사이트 [Opent
 ### 소프트웨어
 
 #### 호스트 애플리케이션은 어디에서 다운로드할 수 있나요?
-공식 다운로드를 위해서는 [호스트 애플리케이션 설치 페이지](https://openterface.com/quick-start/#install-host-application)를 방문하세요. 우리 프로젝트는 오픈 소스이므로 커뮤니티에서 개발한 미니 KVM과 호환되는 호스트 응용 프로그램의 대체 버전을 찾을 수 있습니다. 추가 기능을 제공할 수 있지만 보안 및 개인정보 보호 관행을 검토하시기 바랍니다. TechxArtisan Studio는 타사 응용 프로그램의 안전을 보장할 수 없습니다. 감사합니다!
+공식 다운로드를 위해서는 [호스트 애플리케이션 설치 페이지](https://kr.openterface.com/quick-start/#install-host-application)를 방문하세요. 우리 프로젝트는 오픈 소스이므로 커뮤니티에서 개발한 미니 KVM과 호환되는 호스트 응용 프로그램의 대체 버전을 찾을 수 있습니다. 추가 기능을 제공할 수 있지만 보안 및 개인정보 보호 관행을 검토하시기 바랍니다. TechxArtisan Studio는 타사 응용 프로그램의 안전을 보장할 수 없습니다. 감사합니다!
 
 #### Android용 호스트 앱은 언제 출시되나요?
 현재 Android용 호스트 앱을 개발 중이지만 macOS, Windows, Linux와 같은 주류 운영 체제용 버전에 비해 우선순위가 낮습니다. 양해해 주셔서 감사드리며 업데이트를 계속 지켜봐 주시기 바랍니다. 개발 지원에 관심이 있으시면 언제든지 저희 커뮤니티에 가입하시거나 이메일을 통해 문의해 주세요!
@@ -100,7 +100,7 @@ USB 3.0을 사용하면 PCB 설계가 훨씬 더 복잡해지고 생산 비용�
 ### 기술
 
 #### Openterface Mini-KVM은 오픈 소스인가요?
-예! 우리는 [하드웨어](/how-it-works/#explore-hardware-details)와 [소프트웨어](https://openterface.com/quick-start/#install-host-application) 모두 소스를 오픈할 예정입니다. 조금만 더 참아주세요. 개방을 위해서는 꽤 많은 것들을 정리해야 합니다. [기여](/contributing/)에 관심이 있으시면 info@techxartisan.com 이메일을 통해 알려주시기 바랍니다. 계속 지켜봐 주시기 바랍니다!
+예! 우리는 [하드웨어](/how-it-works/#explore-hardware-details)와 [소프트웨어](https://kr.openterface.com/quick-start/#install-host-application) 모두 소스를 오픈할 예정입니다. 조금만 더 참아주세요. 개방을 위해서는 꽤 많은 것들을 정리해야 합니다. [기여](/contributing/)에 관심이 있으시면 info@techxartisan.com 이메일을 통해 알려주시기 바랍니다. 계속 지켜봐 주시기 바랍니다!
 
 #### 장치의 BIOS 설정에 액세스할 수 있나요?
 예, Openterface Mini-KVM을 직접 연결하면 낮은 수준의 BIOS 또는 펌웨어 설정에 액세스할 수 있습니다.
@@ -133,7 +133,7 @@ USB 3.0을 사용하면 PCB 설계가 훨씬 더 복잡해지고 생산 비용�
 하지만 우리는 언제나 피드백에 열려있습니다! 이 기능이 실제로 필요하다고 생각하거나 좋은 KVM-over-IP 솔루션을 찾는 데 어려움을 겪고 계시다면 info@techxartisan.com으로 이메일을 보내주세요. 연결 옵션을 확장하기로 결정하면 [커뮤니티](https://www.reddit.com/r/Openterface_miniKVM/)가 가장 먼저 알게 될 것입니다.
 
 #### 이는 기존 KVM, KVM-over-IP, VNC 등과 같은 다른 KVM 솔루션과 어떻게 다릅니까?
-Openterface Mini-KVM이 다른 솔루션과 어떻게 비교되는지 궁금하십니까? 자세한 [비교](https://openterface.com/comparison) 페이지를 확인하세요.
+Openterface Mini-KVM이 다른 솔루션과 어떻게 비교되는지 궁금하십니까? 자세한 [비교](https://kr.openterface.com/comparison) 페이지를 확인하세요.
 
 #### PS/2가 필요한 대상 컴퓨터에서 작동합니까?
 아니요. 우리는 PS/2 키보드와 마우스가 필요한 오래된 헤드리스 컴퓨터가 여전히 많다는 것을 알고 있습니다. 우리가 아는 한, USB HID 신호를 PS/2 키보드 및 마우스 신호로 분할하기 위한 뛰어난 솔루션은 아직 없습니다. 우리는 여전히 이 문제를 조사하고 있으며 Mini-KVM의 향후 버전에서 PS/2를 지원할 방법을 고려하고 있습니다. Mini-KVM과 원활하게 작동할 수 있는 솔루션을 알고 계시다면 공유해주세요. 감사합니다!
@@ -159,7 +159,7 @@ Openterface Mini-KVM이 다른 솔루션과 어떻게 비교되는지 궁금하�
 Openterface Mini-KVM은 HDMI 및 USB를 사용한 유선 연결을 통해 안정적이고 안정적인 성능을 보장하도록 설계되었습니다. 호스트 애플리케이션을 통해 네트워크를 통해 비디오를 스트리밍하는 것이 기술적으로 가능하지만 향후 호스트 애플리케이션에 VLC 및 VNC 기능을 추가하는 것을 고려하고 있습니다.
 
 #### VGA, DVI, DisplayPort 등과 같은 다양한 비디오 출력에서 작동할 수 있습니까??
-일종의. Openterface Mini-KVM은 HDMI 포트를 통해 비디오를 캡처합니다. 하지만 [VGA-to-HDMI](https://openterface.com/use-cases/#streamlined-server-management), [DVI-to-HDMI](https://openterface)와 같은 다양한 비디오 어댑터를 사용할 수 있습니다. .com/use-cases/#unified-control-for-diverse-devices), [miniHDMI-to-HDMI](https://openterface.com/use-cases/#simplified-setup-for-tech-enthusiasts) , 또는 DP-to-HDMI를 사용하여 다양한 비디오 소스를 연결합니다.
+일종의. Openterface Mini-KVM은 HDMI 포트를 통해 비디오를 캡처합니다. 하지만 [VGA-to-HDMI](https://kr.openterface.com/use-cases/#streamlined-server-management), [DVI-to-HDMI](https://openterface)와 같은 다양한 비디오 어댑터를 사용할 수 있습니다. .com/use-cases/#unified-control-for-diverse-devices), [miniHDMI-to-HDMI](https://kr.openterface.com/use-cases/#simplified-setup-for-tech-enthusiasts) , 또는 DP-to-HDMI를 사용하여 다양한 비디오 소스를 연결합니다.
 
 ### 더
 
@@ -172,7 +172,7 @@ Openterface Mini-KVM은 HDMI 및 USB를 사용한 유선 연결을 통해 안정
 - 디자인이 중요하다면 우리는 항상 그래픽 디자인, 앱 UI에 대한 새로운 해석을 찾고 장치를 더욱 사용자 친화적으로 만듭니다.
 - 커뮤니티를 계속 활기차게 유지하는 데 도움을 주고 싶으십니까? 우리는 거기에서도 당신의 기술을 사용할 수 있습니다.
 
-여러분의 지원과 [기여](https://openterface.com/contributing/)가 Openterface Mini-KVM을 성장시키는 원동력입니다. 우리의 모험에 참여해주셔서 감사합니다! 🚀 도움을 주고 싶은 마음이 들지만 꼭 맞는 옷이 없나요? 이메일을 보내주세요!
+여러분의 지원과 [기여](https://kr.openterface.com/contributing/)가 Openterface Mini-KVM을 성장시키는 원동력입니다. 우리의 모험에 참여해주셔서 감사합니다! 🚀 도움을 주고 싶은 마음이 들지만 꼭 맞는 옷이 없나요? 이메일을 보내주세요!
 
 #### 편리한 도구를 검토하고 싶으십니까?
 안녕하세요, 우리는 Mini-KVM에 대해 떠들고 소문을 퍼뜨리는 것을 좋아합니다! 당신이 언론인이거나 소셜 미디어에 관심을 갖고 있고 우리 제품을 시험해 보고 싶다면 우리 모두 귀를 기울일 것입니다. 자세한 리뷰, 언박싱 동영상을 원하시거나 단순히 저희에게 인사를 드리고 싶으시다면 저희가 도와드리겠습니다. 함께 큰 파도를 만들어 보세요! 🎉 지금 이메일을 보내주세요!
@@ -188,4 +188,4 @@ Openterface Mini-KVM은 HDMI 및 USB를 사용한 유선 연결을 통해 안정
 
 --------
 
-여러분의 호기심과 지원은 우리의 발전에 원동력이 되며, 우리는 여러분의 모든 질문에 대한 답을 찾을 수 있기를 바랍니다. 시간이 지남에 따라 FAQ의 위 내용이 더 이상 유효하지 않게 될 수 있습니다. 귀하의 질문이 이 FAQ에서 다루어지지 않으면 항상 당사 웹사이트 [openterface.com](https://openterface.com/)에서 최신 정보를 확인하세요. 또한 주저하지 마시고 열정적인 커뮤니티에 참여해 주시기 바랍니다. 우리는 [/r/Openterface_miniKVM/](https://www.reddit.com/r/Openterface_miniKVM/)의 Subreddit과 Discord 서버인 [TechxArtisan](https://discord.gg/sFTJD6a3R8)에서 활동하고 있습니다. , 질문을 할 수 있는 곳
+여러분의 호기심과 지원은 우리의 발전에 원동력이 되며, 우리는 여러분의 모든 질문에 대한 답을 찾을 수 있기를 바랍니다. 시간이 지남에 따라 FAQ의 위 내용이 더 이상 유효하지 않게 될 수 있습니다. 귀하의 질문이 이 FAQ에서 다루어지지 않으면 항상 당사 웹사이트 [openterface.com](https://kr.openterface.com/)에서 최신 정보를 확인하세요. 또한 주저하지 마시고 열정적인 커뮤니티에 참여해 주시기 바랍니다. 우리는 [/r/Openterface_miniKVM/](https://www.reddit.com/r/Openterface_miniKVM/)의 Subreddit과 Discord 서버인 [TechxArtisan](https://discord.gg/sFTJD6a3R8)에서 활동하고 있습니다. , 질문을 할 수 있는 곳

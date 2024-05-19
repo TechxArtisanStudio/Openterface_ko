@@ -1,49 +1,32 @@
-# クイックスタート
+# 빠른 시작
 
-## 製品概要
+## 제품 개요
 
-私たちの**Openterface™ Mini-KVM**を使用すると、usbおよびHDMI接続を介して、余分なキーボード、マウス、モニター、またはネットワークを必要とせずに、近くのヘッドレスコンピュータ（**ターゲット**と呼びます）を直接自分のラップトップまたはデスクトップ（**ホスト**と呼びます）から制御できます。
+**Openterface™ Mini-KVM**은 추가적인 키보드, 마우스, 모니터 또는 네트워크 없이 USB 및 HDMI 연결을 통해 사용자의 노트북이나 데스크탑(호스트)에서 가까운 헤드리스 컴퓨터(타겟)를 직접 제어할 수 있게 해줍니다.
 
-## 接続手順
+## 호스트 애플리케이션 설치
 
-Mini-KVMを設定するには、次の手順に従ってください：
+이 미니-KVM을 사용하려면 호스트 컴퓨터에 아래의 호스트 애플리케이션 중 하나를 설치해야 합니다.
 
-- **ホストコンピュータ接続**：Mini-KVMのオレンジ色の端にあるType-Cポートをホストコンピュータに接続します。
-- **ターゲットデバイス接続**：
-    - **ビデオ出力**：黒い端のHDMIポートをターゲットデバイスのビデオ出力に接続します。ターゲットコンピュータの利用可能なビデオ出力ポートによっては、適切なビデオアダプターが必要になる場合があります。
-    - **Type-C接続**：黒い端のType-Cポートをターゲットデバイスに接続します。
+- [Openterface_MacOS](https://github.com/TechxArtisanStudio/Openterface_MacOS) (작업 중): MacOS 지원용; 이 macOS 앱은 Apple의 App Store에서도 "Openterface"로 검색하여 찾을 수 있습니다.
+- [Openterface_QT](https://github.com/TechxArtisanStudio/Openterface_QT) (작업 중): Windows 및 Linux 지원용
+- [Openterface_Android](https://github.com/TechxArtisanStudio/Openterface_Android) (작업 중): Android 지원용
+- [Openterface_WebExtension](https://github.com/TechxArtisanStudio/Openterface_WebExtension) (작업 중): Chrome/Firefox 확장 프로그램을 위한 웹 기반 앱
+
+위의 호스트 애플리케이션은 **현재 개발 중**입니다. 저희는 계속해서 열심히 코딩 🛠️ 하고 개선하고 있습니다! 💪 혁신적인 개발 팀의 일원이 되고 싶다면, [지금 가입하세요!](mailto:info@techxartisan.com) 🚀
+
+## 연결 절차
+
+Mini-KVM을 설정하려면 다음 단계를 따르십시오:
+
+- **호스트 컴퓨터 연결**:
+    - **Type-C 연결**: Type-C USB 케이블을 사용하여 호스트 컴퓨터를 Mini-KVM에 연결하고, 케이블을 Mini-KVM의 주황색 측면에 있는 Type-C 여성 포트에 꽂습니다.
+- **타겟 장치 연결**:
+    - **Type-C 연결**: Type-C USB 케이블을 사용하여 타겟 장치를 Mini-KVM에 연결하고, 케이블을 Mini-KVM의 검정색 측면에 있는 Type-C 여성 포트에 꽂습니다.
+    - **비디오 출력**: 타겟 장치의 비디오 출력 포트를 HDMI 케이블, VGA-TO-HDMI 케이블 또는 다른 적절한 비디오 소스-TO-HDMI 케이블을 사용하여 Mini-KVM의 검정색 측면에 있는 HDMI 여성 포트에 연결합니다.
 
 ![use-case-pc-angled-view](images/product/use-case-pc-angled-view.jpg)
 
-## ホストアプリの設定
+## 타겟 호환성
 
-このミニKVMを使用するには、ホストコンピュータに以下のいずれかのホストアプリケーションをインストールする必要があります。
-
-- [Openterface_MacOS](https://github.com/TechxArtisan/Openterface_MacOS)（進行中）: MacOSサポート用ホストアプリケーション; macOSアプリはAppleのApp Storeで「Openterface」と検索することでも見つけることができます。
-- [Openterface_QT](https://github.com/TechxArtisan/Openterface_QT)（進行中）: WindowsおよびLinuxサポート用ホストアプリケーション
-- [Openterface_Android](https://github.com/TechxArtisan/Openterface_Android)（進行中）: Androidサポート用ホストアプリケーション
-- [Openterface_WebExtension](https://github.com/TechxArtisan/Openterface_WebExtension)（進行中）: Chrome/Firefox拡張機能用ウェブベースアプリ
-
-上記のホストアプリケーションは**現在開発中**です。私たちは積極的にコーディング🛠️し、改善を進めています！💪 革新的な開発チームの一員になりたいと思う方は、[今すぐ参加してください！](mailto:techxartisan@gmail.com) 🚀
-
-## ターゲットデバイスの互換性
-
-**事前のインストールや設定は**ターゲットデバイスでは必要ありません。ターゲットデバイスがビデオ出力（HDMI、VGAなど）をサポートし、エミュレートされたキーボードとマウスの制御信号（HID）を受け取るUSBポートを持っていれば、使用できます。したがって、サポートされているターゲットデバイスのプラットフォームには、Windows、macOS、Linux、Android、iOSが含まれます。
-
-
-<section class="dialogue-section-white" id="dialogues-section">
-    <div class="container">
-        <div class="callout-button-container">
-            <div class="dialogue-bubble" id="op-bubble">
-                <img src="/images/op-avatar.jpg" alt="Avatar" class="avatar" draggable="false">
-                <p>もっと読む 📖</p>
-                <a href="/faq" class="md-button md-button--primary" id="join-waitlist-button">FAQs</a>
-            </div>
-            <div class="dialogue-bubble" id="op-bubble">
-                <img src="/images/op-avatar.jpg" alt="Avatar" class="avatar" draggable="false">
-                <p>質問？🤔</p>
-                <a href="https://www.reddit.com/r/Openterface_miniKVM/" class="md-button md-button--primary" id="join-waitlist-button">Subredditで尋ねる</a>
-            </div>
-        </div>
-    </div>
-</section>
+타겟 장치에는 **사전 설치 또는 구성**이 필요하지 않습니다. 타겟 장치가 비디오 출력(HDMI, VGA 등)과 UI 작업을 지원하고 USB 포트를 통해 에뮬레이트된 키보드 및 마우스 제어(HID) 신호를 받을 수 있는 한 사용할 수 있습니다. 따라서 지원되는 타겟 장치 플랫폼에는 Windows, macOS, Linux, Android, iOS가 포함됩니다.
