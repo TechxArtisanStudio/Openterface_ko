@@ -3,18 +3,18 @@ date: 2024-05-11
 authors:
   - Openterface
 categories:
-  - お知らせ
+  - 공지
 ---
 
-# あなたの印を残そう – ラウンド2ベータテストクルーに参加しよう！ 🎖️
+# Make Your Mark – Join Our Round 2 Beta Testing Crew! 🎖️
 
 ![beta-round-2-poster](https://pbs.twimg.com/media/GNSPO1taQAA4d1-?format=jpg&name=large)
 
 <!-- more -->
 
-詳細は以下をご覧ください：
+자세한 내용을 확인하세요:
 [https://www.reddit.com/r/Openterface_miniKVM/comments/1cpcowl/make_your_mark_join_our_round_2_beta_testing_crew/](https://www.reddit.com/r/Openterface_miniKVM/comments/1cpcowl/make_your_mark_join_our_round_2_beta_testing_crew/)
 
 --------
 
-さらに議論するには、Redditの[r/Openterface_miniKVM](https://www.reddit.com/r/Openterface_miniKVM/)に参加してください。お楽しみに！
+더 많은 논의를 원하시면 Reddit의 [r/Openterface_miniKVM](https://www.reddit.com/r/Openterface_miniKVM/)에 참여하세요. 계속 지켜봐 주세요!

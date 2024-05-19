@@ -194,7 +194,9 @@ nav:
           - 기본 테스트 💬: basic-testing.md
   - 커뮤니티:
       - 환영합니다: community.md
-  - 게시물: https://openterface.com/blog/
+  # - 게시물: https://openterface.com/blog/
+  - 게시물:
+      - blog/index.md
   - 소개:
       - 연락처: contact.md
       - 정책:
