@@ -8,10 +8,10 @@ categories:
 
 # 🚀 Windows Beta App for Openterface Mini-KVM! 🖥️
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/ERzpGtRvP2o?si=kTgl8-iQwSupuIT4" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
-
-Hey there! Check out this video where we're testing out the basic features of the Openterface Mini-KVM for Windows! You can grab the beta app for Windows from Github Repo [Openterface_QT](https://github.com/TechxArtisanStudio/Openterface_QT) Just a heads-up, we're still polishing some features🔧 so you might bump into bugs🐛... Cheers!
+안녕하세요! 이 비디오에서 Windows용 Openterface Mini-KVM의 기본 기능을 테스트하는 모습을 확인해보세요! Github 저장소 [Openterface_QT](https://github.com/TechxArtisanStudio/Openterface_QT)에서 Windows용 베타 앱을 다운로드할 수 있습니다. 아직 몇 가지 기능을 다듬고 있는 중이니🔧 버그🐛를 만날 수도 있다는 점 미리 알려드립니다... 감사합니다!
 <!-- more -->
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/ERzpGtRvP2o?si=kTgl8-iQwSupuIT4" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 
 --------
 

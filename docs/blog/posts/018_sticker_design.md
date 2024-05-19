@@ -6,11 +6,11 @@ categories:
   - 토론
 ---
 
-# Stickermania: Unleashing Tech's Playful Side!
+# 스티커매니아: 기술의 장난기 있는 면을 풀어놓다!
 
-Completely enthralled by these stickers! 💻📱🤓 It's been an absolute delight jazzing up our Openterface mini-KVM device, laptop, and phone with these creative additions. 🤣 Absolutely smitten with the enhanced aesthetic they bring! ❣️
+이 스티커들에 완전히 매료되었습니다! 💻📱🤓 Openterface mini-KVM 장치, 노트북, 그리고 휴대폰에 이 창의적인 추가로 장식하는 것이 정말 즐거웠습니다. 🤣 이들이 가져다주는 향상된 미학에 완전히 반했습니다! ❣️
 
-![cool-sticker](https://pbs.twimg.com/media/GMGBPQvagAAmzCL?format=jpg&name=large)
+![멋진 스티커](https://pbs.twimg.com/media/GMGBPQvagAAmzCL?format=jpg&name=large)
 
 <!-- more -->
 
