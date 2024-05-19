@@ -10,6 +10,8 @@ categories:
 
 이 게시물은 [Jean-Luc Aufranc (CNXSOFT)](https://www.cnx-software.com/2024/05/09/openterface-mini-kvm-affordable-kvm-over-usb-device/)의 2024년 5월 9일 원본 기사 [Openterface Mini-KVM은 저렴한 KVM-over-USB 장치입니다 (크라우드 펀딩)]를 바탕으로 재구성되었습니다.
 
+<!-- more -->
+
 **Openterface Mini-KVM**은 HDMI 및 오디오 입력을 갖춘 컴팩트한 오픈 소스 KVM-over-USB 하드웨어 장치로, USB-C 포트를 통해 호스트 컴퓨터에 연결됩니다.
 
 우리는 몇 년 동안 싱글 보드 컴퓨터를 기반으로 한 여러 저렴한 [KVM-over-IP](https://www.cnx-software.com/2023/04/18/blikvm-open-source-kvm-over-ip-raspberry-pi-cm4-raspberry-pi-hat-pcie-board-allwinner-h616/) 솔루션을 보아왔습니다. 그러나 **Openterface Mini-KVM**은 더 저렴하고 플러그 앤 플레이가 가능한 네트워크 독립적인 KVM-over-USB 장치로, 호스트 컴퓨터와 대상 장치 간의 직접 HDMI 및 USB 연결을 설정합니다. 이 장치는 [PiKVM v4 Plus](https://docs.pikvm.org/v4/)나 확장 보드를 사용하여 호스트 장치에서 대상 장치를 종료할 수 있는 기능을 제공하는 [Pi-Cast KVM](https://www.cnx-software.com/2023/12/24/pi-cast-portable-kvm-switch-raspberry-pi-cm4/)과 같은 기능을 제외하고 KVM-over-IP 솔루션과 많은 동일한 기능을 지원합니다.
