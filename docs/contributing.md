@@ -1,7 +1,3 @@
----
-comments: true
----
-
 # 기여하기
 
 안녕하세요! Openterface mini-KVM의 [커뮤니티](/community)에 참여하고 기여하고 싶으신가요? 멋지네요! 🧡

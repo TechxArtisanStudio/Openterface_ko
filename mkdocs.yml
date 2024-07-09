@@ -186,12 +186,12 @@ nav:
     - 사용 사례: use-cases.md
     - 사양: specifications.md
     - 박스 안의 내용물: whats-in-the-box.md
-    - 작동 원리 💬: how-it-works.md
-    - 비교 💬: comparison.md
-    - 자주 묻는 질문 💬: faq.md
+    - 작동 원리: how-it-works.md
+    - 비교: comparison.md
+    - 자주 묻는 질문: faq.md
     - 개발:
-          - 기여 💬: contributing.md
-          - 기본 테스트 💬: basic-testing.md
+          - 기여: contributing.md
+          - 기본 테스트: basic-testing.md
   - 커뮤니티:
       - 환영합니다: community.md
   # - 게시물: https://openterface.com/blog/
