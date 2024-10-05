@@ -1,21 +1,24 @@
-# 상자 안에는 무엇이 있을까요
+# 박스 내용물
 
-기본 필수 제품부터 완전한 도구 세트까지, 필요에 맞춘 두 가지 구매 옵션을 확인해보세요.
+필요에 맞게 선택할 수 있는 두 가지 구매 옵션을 소개합니다. 기본적인 구성부터 모든 도구가 포함된 완벽한 세트까지 준비되어 있습니다.
 
-## 패키지 1: 기본 패키지
+## 패키지 1: 기본 팩
 
-![basic-pack](/images/product/product-option-1-basic.jpg)
-
-1. 핵심 제품: Openterface Mini-KVM
-2. 빠른 시작 가이드
-
-## 패키지 2: 툴킷 패키지
-
-![toolkit-pack](/images/product/product-option-2-toolkit.jpg)
+![basic-pack](images/product/basic-with-maunal.jpg){:style="width:680px"}
 
 1. 핵심 제품: Openterface Mini-KVM
 2. 빠른 시작 가이드
-3. HDMI Male-to-Male 케이블 (30cm)
-4. Type-C Male to USB-A Male 케이블 (30cm) 및 USB-A Female to USB-C Male 어댑터
-5. Type-C Male-to-Male 케이블 (150cm)
-6. 툴킷 가방 (14cm L x 10cm W x 3.8cm H)
+
+## 패키지 2: 툴킷 팩
+
+![toolkit-open](images/product/toolkit-open.jpg){:style="width:680px"}
+
+1. 핵심 제품: Openterface Mini-KVM
+2. 빠른 시작 가이드
+3. 툴킷 가방 (165 x 110 x 50mm)
+4. 확장 핀 캡
+5. HDMI 남성-남성 케이블 (30cm)
+6. Type-C 남성 to USB-A 남성 케이블 (0.3m) 및 USB-A 여성 to USB-C 남성 어댑터
+7. Type-C 남성-남성 케이블 (1.5m) 및 USB-C 여성 to USB-A 남성 어댑터
+
+![toolkit-parts-layout-2-numbers](images/product/toolkit-parts-layout-2-numbers.jpg){:style="width:680px"}

@@ -1,40 +1,40 @@
-# Privacy Policy
+# 개인정보 처리방침
 
-This Privacy Policy applies to the “Openterface” mini-KVM device and its associated macOS application (collectively, the “Service”), developed and operated by Guangzhou Billio Tech. Co., Ltd. By using our Service, you agree to the collection and use of information in accordance with this policy. If you do not agree with any part of this policy, please refrain from using any products and services offered.
+이 개인정보 처리방침은 "Openterface" 미니-KVM 장치와 그에 연관된 macOS 애플리케이션(이하 "서비스")에 적용됩니다. 이 서비스는 Guangzhou Billio Tech. Co., Ltd.에서 개발 및 운영합니다. 서비스를 이용함으로써, 귀하는 본 방침에 따라 정보 수집 및 사용에 동의하게 됩니다. 본 방침의 일부라도 동의하지 않으시면, 당사의 제품 및 서비스를 이용하지 마시기 바랍니다.
 
-## **Data Collection and Use**
+## **데이터 수집 및 사용**
 
-We are committed to protecting your privacy. Our Service does not collect, store, or transfer any personal data at any stage in using our app. For the effective operation of our Service - controlling your computer remotely through the Openterface device and app, we require access to certain types of non-personal data:
+우리는 귀하의 개인정보 보호에 최선을 다하고 있습니다. 당사의 서비스는 앱 사용 중 어떠한 개인정보도 수집, 저장 또는 전송하지 않습니다. Openterface 장치와 앱을 통해 컴퓨터를 원격으로 제어하기 위해, 특정 비개인 데이터에 대한 접근이 필요합니다:
 
-1. **Camera Access**: We require camera permissions to capture the video feed from your remotely connected computer. This is essential for displaying the feed on your device through the Openterface application.
-2. **Keyboard and Mouse Event Data**: To enable remote control functionalities, we need permissions to listen to local keyboard and mouse events. This data is used solely to convert these events into control signals for the target device connected through our hardware.
+1. **카메라 접근**: 원격으로 연결된 컴퓨터의 비디오 피드를 캡처하기 위해 카메라 권한이 필요합니다. 이는 Openterface 애플리케이션을 통해 피드를 귀하의 장치에 표시하는 데 필수적입니다.
+2. **키보드 및 마우스 이벤트 데이터**: 원격 제어 기능을 활성화하기 위해 로컬 키보드 및 마우스 이벤트를 수신할 수 있는 권한이 필요합니다. 이 데이터는 하드웨어를 통해 연결된 타겟 장치에 제어 신호로 변환하는 데만 사용됩니다.
 
-Please note that the above-mentioned data is considered non-personal as it does not directly identify you as an individual. The permissions we request are necessary solely to enable core functionality. Data is also never stored or transferred outside your device.
+위에 언급된 데이터는 귀하를 개인적으로 식별하지 않으므로 비개인 데이터로 간주됩니다. 요청하는 권한은 핵심 기능을 활성화하기 위해 필요하며, 데이터는 귀하의 장치 외부로 저장되거나 전송되지 않습니다.
 
-## **Security**
+## **보안**
 
-With no collection or retention of user data at any point, protecting user data via security measures is not applicable in our case. Our app presents no privacy risks inherent in its intended functionality.
+사용자 데이터를 수집하거나 보유하지 않기 때문에, 보안 조치를 통한 사용자 데이터 보호는 해당되지 않습니다. 당사의 앱은 의도된 기능 내에서 개인정보 위험을 내포하지 않습니다.
 
-## **Disclaimer**
+## **면책 조항**
 
-The Service may become open source in the future for transparency and community supervision. As a result, various versions of the app and device may be created and modified by third parties.This would enable anyone to inspect the code and build versions themselves, as well as modify for custom use cases. We will not be responsible for what individuals or organizations may build from modified code and hardware.  It is the user's responsibility to verify the source of the application. We strongly recommend downloading the app from our official website openterface.com and well-known, reliable certified app platform platforms for safety and reliability.
+서비스는 투명성과 커뮤니티 감독을 위해 향후 오픈 소스로 전환될 수 있습니다. 결과적으로, 다양한 버전의 앱과 장치가 제3자에 의해 생성 및 수정될 수 있습니다. 이는 누구나 코드를 검사하고 직접 버전을 빌드하며, 맞춤형 사용 사례를 위해 수정할 수 있게 합니다. 수정된 코드와 하드웨어로 인해 발생하는 문제에 대해 당사는 책임을 지지 않습니다. 애플리케이션의 출처를 확인하는 것은 사용자의 책임입니다. 안전성과 신뢰성을 위해 당사의 공식 웹사이트 openterface.com 및 잘 알려진 신뢰할 수 있는 인증된 앱 플랫폼에서 앱을 다운로드할 것을 강력히 권장합니다.
 
-## **Changes to this Policy**
+## **방침 변경**
 
-We may occasionally update this privacy policy to comply with law changes or reflect updates to our application. Any changes will be posted clearly on this page. Continued use of Openterface after changes signifies consent to the revised privacy policy.
+법률 변경에 따라 또는 애플리케이션 업데이트를 반영하기 위해 본 개인정보 처리방침을 가끔 업데이트할 수 있습니다. 변경 사항은 이 페이지에 명확히 게시될 것입니다. Openterface를 계속 사용함으로써 수정된 개인정보 처리방침에 동의하는 것으로 간주됩니다.
 
-## **Agreement to Privacy Policy**
+## **개인정보 처리방침 동의**
 
-By agreeing to our Service Usage Agreement, you also agree to this Privacy Policy. This Privacy Policy is an integral part of our Service Usage Agreement. If you disagree with any part of this policy, please do not use our Service.
+서비스 이용 약관에 동의함으로써, 귀하는 본 개인정보 처리방침에도 동의하게 됩니다. 본 개인정보 처리방침은 서비스 이용 약관의 필수적인 부분입니다. 본 방침의 일부라도 동의하지 않으시면, 당사의 서비스를 이용하지 마시기 바랍니다.
 
-## **Language and Interpretation**
+## **언어 및 해석**
 
-This agreement has been provided in multiple languages for convenience. It is agreed that the working language of the company is both English and Chinese. In the event of any inconsistency between the English and non-English versions of this policy or any related documents, the English version shall prevail. The final interpretation of this policy will be in English.
+이 약관은 편의를 위해 여러 언어로 제공되었습니다. 회사의 작업 언어는 영어와 중국어입니다. 본 방침 또는 관련 문서의 영어 버전과 비영어 버전 간에 불일치가 발생할 경우, 영어 버전이 우선합니다. 본 방침의 최종 해석은 영어로 이루어집니다.
 
-## **Governing Law and Jurisdiction**
+## **준거법 및 관할권**
 
-This Agreement and any disputes arising from it shall be governed by the laws and regulations of the jurisdiction where Openterface is registered, unless otherwise mandated by law. In any civil litigation or other legal proceedings to enforce rights under this Agreement, each party shall bear its own legal costs and expenses.
+본 약관 및 이로부터 발생하는 모든 분쟁은 Openterface가 등록된 관할 지역의 법률 및 규정에 따릅니다. 본 약관에 따른 권리를 집행하기 위한 민사 소송 또는 기타 법적 절차에서 각 당사자는 자신의 법적 비용과 경비를 부담합니다.
 
-## **Contact Information**
+## **연락처 정보**
 
-For any questions or concerns regarding this Privacy Policy, please contact us at [techxartisan@gmail.com](mailto:techxartisan@gmail.com). We encourage feedback and will endeavour to address your concerns promptly.
+본 개인정보 처리방침에 관한 질문이나 우려 사항이 있으시면 [info@techxartisan.com](mailto:info@techxartisan.com)으로 연락해 주십시오. 우리는 피드백을 환영하며 귀하의 우려 사항을 신속히 해결하기 위해 노력할 것입니다.

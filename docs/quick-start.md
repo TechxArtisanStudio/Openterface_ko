@@ -1,32 +1,61 @@
 # 빠른 시작
 
-## 제품 개요
+![basic-two-angled](images/product/basic-two-angled.jpg){:style="max-height:420px"}
 
-**Openterface™ Mini-KVM**은 추가적인 키보드, 마우스, 모니터 또는 네트워크 없이 USB 및 HDMI 연결을 통해 사용자의 노트북이나 데스크탑(호스트)에서 가까운 헤드리스 컴퓨터(타겟)를 직접 제어할 수 있게 해줍니다.
+**Openterface™ Mini-KVM**을 사용하면 USB와 HDMI 연결을 통해 추가 주변 장치나 네트워크 연결 없이도 노트북이나 데스크탑에서 근처의 헤드리스 컴퓨터를 직접 제어할 수 있습니다. 이 문서에서는 제어하는 노트북이나 데스크탑을 **호스트** ( ![host-computer](images/shell-icons/host-computer.svg#only-light){:style="height:18px"} ![Host](images/shell-icons/host.svg#only-light){:style="height:15px"} ![host-computer](images/shell-icons/host-computer_1.svg#only-dark){:style="height:18px"} ![Host](images/shell-icons/host_1.svg#only-dark){:style="height:15px"} )라고 부르고, 제어되는 장치를 **타겟** ( ![target-computer](images/shell-icons/target-computer.svg#only-light){:style="height:18px"} ![Target](images/shell-icons/target.svg#only-light){:style="height:18px"} ![target-computer](images/shell-icons/target-computer_1.svg#only-dark){:style="height:18px"} ![Target](images/shell-icons/target_1.svg#only-dark){:style="height:18px"} )이라고 부릅니다.
 
-## 호스트 애플리케이션 설치
+<div class="grid cards" markdown>
 
-이 미니-KVM을 사용하려면 호스트 컴퓨터에 아래의 호스트 애플리케이션 중 하나를 설치해야 합니다.
+-   :material-feature-search-outline:{ .lg .middle } __기능__
 
-- [Openterface_MacOS](https://github.com/TechxArtisanStudio/Openterface_MacOS) (작업 중): MacOS 지원용; 이 macOS 앱은 Apple의 App Store에서도 "Openterface"로 검색하여 찾을 수 있습니다.
-- [Openterface_QT](https://github.com/TechxArtisanStudio/Openterface_QT) (작업 중): Windows 및 Linux 지원용
-- [Openterface_Android](https://github.com/TechxArtisanStudio/Openterface_Android) (작업 중): Android 지원용
-- [Openterface_WebExtension](https://github.com/TechxArtisanStudio/Openterface_WebExtension) (작업 중): Chrome/Firefox 확장 프로그램을 위한 웹 기반 앱
+    ---
 
-위의 호스트 애플리케이션은 **현재 개발 중**입니다. 저희는 계속해서 열심히 코딩 🛠️ 하고 개선하고 있습니다! 💪 혁신적인 개발 팀의 일원이 되고 싶다면, [지금 가입하세요!](mailto:info@techxartisan.com) 🚀
+    Openterface™ Mini-KVM의 강력한 기능을 탐험해보세요
 
-## 연결 절차
+    [:octicons-arrow-right-24: 기능 보기](/features)
 
-Mini-KVM을 설정하려면 다음 단계를 따르십시오:
+-   :material-power-plug:{ .lg .middle } __연결 방법__
 
-- **호스트 컴퓨터 연결**:
-    - **Type-C 연결**: Type-C USB 케이블을 사용하여 호스트 컴퓨터를 Mini-KVM에 연결하고, 케이블을 Mini-KVM의 주황색 측면에 있는 Type-C 여성 포트에 꽂습니다.
-- **타겟 장치 연결**:
-    - **Type-C 연결**: Type-C USB 케이블을 사용하여 타겟 장치를 Mini-KVM에 연결하고, 케이블을 Mini-KVM의 검정색 측면에 있는 Type-C 여성 포트에 꽂습니다.
-    - **비디오 출력**: 타겟 장치의 비디오 출력 포트를 HDMI 케이블, VGA-TO-HDMI 케이블 또는 다른 적절한 비디오 소스-TO-HDMI 케이블을 사용하여 Mini-KVM의 검정색 측면에 있는 HDMI 여성 포트에 연결합니다.
+    ---
 
-![use-case-pc-angled-view](images/product/use-case-pc-angled-view.jpg)
+    Openterface™ Mini-KVM을 설정하고 타겟 장치를 제어하는 방법을 알아보세요
 
-## 타겟 호환성
+    [:octicons-arrow-right-24: 연결 가이드](/how-to-connect)
 
-타겟 장치에는 **사전 설치 또는 구성**이 필요하지 않습니다. 타겟 장치가 비디오 출력(HDMI, VGA 등)과 UI 작업을 지원하고 USB 포트를 통해 에뮬레이트된 키보드 및 마우스 제어(HID) 신호를 받을 수 있는 한 사용할 수 있습니다. 따라서 지원되는 타겟 장치 플랫폼에는 Windows, macOS, Linux, Android, iOS가 포함됩니다.
+-   :material-open-source-initiative:{ .lg .middle } __호스트 앱__
+
+    ---
+
+    사용자 친화적인 호스트 애플리케이션으로 타겟 장치를 원활하게 제어하세요
+
+    [:octicons-arrow-right-24: 호스트 앱 다운로드](/app)
+
+-   :material-chip:{ .lg .middle } __오픈 하드웨어__
+
+    ---
+
+    오픈 소스 하드웨어와 투명성에 대한 우리의 약속을 확인해보세요
+
+    [:octicons-arrow-right-24: 오픈 하드웨어 세부 정보](/open-hardware)
+
+-   :material-frequently-asked-questions:{ .lg .middle } __사용 사례 및 FAQ__
+
+    ---
+
+    Openterface™ Mini-KVM의 이상적인 사용 시나리오를 탐험하고 자주 묻는 질문에 대한 답변을 찾아보세요
+
+    [:octicons-arrow-right-24: 사용 사례 탐색](/use-cases)
+    
+    [:octicons-arrow-right-24: FAQ 보기](/faq)
+
+-   :material-compare:{ .lg .middle } __비교__
+
+    ---
+
+    Openterface™ Mini-KVM이 다른 KVM 솔루션과 어떻게 비교되는지 확인해보세요
+
+    [:octicons-arrow-right-24: 왜 Openterface인가?](/why-openterface)
+
+    [:octicons-arrow-right-24: 비교 보기](/comparison)
+
+</div>
