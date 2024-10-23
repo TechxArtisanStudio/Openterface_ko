@@ -25,6 +25,7 @@ categories:
 **카테고리:** 최고의 성과를 낸 참가자에게는 기술적 능력과 창의성을 모두 인정받을 수 있는 상이 주어집니다.
 
 **멋진 상품:**
+
 - 투명하고 은색 케이스가 있는 한정판 Openterface Mini-KVM.
 - HackerGadgets의 미래지향적인 Pi-Cast KVM.
 - Clockwork의 레트로 스타일 GameShell.
