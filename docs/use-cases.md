@@ -29,3 +29,10 @@ Raspberry Pi 및 Jetson Nano와 같은 마이크로 컴퓨터를 사용하는 �
 개인용 및 업무용 컴퓨터를 자주 전환하거나 엣지 컴퓨팅 장치를 관리하는 사용자는 Openterface Mini-KVM이 제공하는 간소화된 워크플로우 통합의 혜택을 누릴 수 있습니다.
 
 ![use-case-demo-macbookpro2010](/images/product/use-case-demo-macbookpro2010.jpg)
+
+## ***무결점 제어: Mini-KVM + Android Pencil = 순수한 마법***
+Android 펜슬로 Openterface MiniKVM을 통해 Android 태블릿에서 직접 Windows 또는 macOS 시스템을 제어할 수 있다면 어떨까요? 정밀도로 디자인을 스케치하거나 문서를 마킹하거나 소프트웨어를 탐색하는 것을 상상해보세요—모든 것을 단일 장치에서 처리할 수 있습니다! 그래픽 디자인 툴인 포토샵, 3D 모델링 앱, 또는 프레젠테이션 에디터가든, 경험은 유동적이고 직관적입니다.
+
+Mini-KVM은 이러한 무결점 통합을 해제합니다. 이를 통해 Android 태블릿을 크로스 플랫폼 제어의 허브로 사용할 수 있습니다. 먼저 테스트해보고 싶은 소프트웨어가 있나요? 알려주세요, 그리고 작업 공간을 더 높이는 더 많은 창의적인 방법을 확인하세요!
+
+<blockquote class="twitter-tweet" data-media-max-width="560"><p lang="en" dir="ltr">여기에 uConsole 내부의 Pi에서 실행되는 Qt 호스트 앱의 데모 비디오가 있습니다. <a href="https://t.co/xwrOE9pCcF">pic.twitter.com/xwrOE9pCcF</a></p>&mdash; TechxArtisan (@TechxArtisan) <a href="https://twitter.com/TechxArtisan/status/1872660955768946823?ref_src=twsrc%5Etfw">2024년 7월 1일</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
