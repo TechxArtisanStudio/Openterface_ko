@@ -16,7 +16,7 @@
 
     Windows용 Openterface QT 앱 다운로드
 
-    [:octicons-download-24: v0.0.3 다운로드](https://github.com/TechxArtisanStudio/Openterface_QT/releases/download/v0.0.3/openterfaceQT.windows.amd64.exe)  <br>
+    [:octicons-download-24: {{qt_version}} 다운로드](https://github.com/TechxArtisanStudio/Openterface_QT/releases/download/{{qt_version}}/openterfaceQT.windows.amd64.exe)  <br>
     [:octicons-mark-github-16: Openterface_QT](https://github.com/TechxArtisanStudio/Openterface_QT)  <br>
     [:octicons-play-24: 데모 보기](https://youtu.be/ERzpGtRvP2o?si=e9k402f0nxsD8o2j)
 
@@ -43,9 +43,11 @@
 
     ---
 
-    Android 버전은 현재 개발 중입니다
+    
+    Android 휴대폰 또는 태블릿용 Openterface Android APK 다운로드
 
-    [:octicons-clock-24: 곧 출시 예정](https://github.com/TechxArtisanStudio/Openterface_Android)  <br>
+    [:octicons-download-24: {{android_version}} 다운로드](https://github.com/TechxArtisanStudio/Openterface_Android/releases/download/{{android_version}}/OpenterfaceAndroid.apk)  <br>
+    [:octicons-mark-github-16: Openterface_Android](https://github.com/TechxArtisanStudio/Openterface_Android)  <br>
     [:octicons-play-24: 데모 보기](https://x.com/TechxArtisan/status/1825460088922071398)
 
 </div>
