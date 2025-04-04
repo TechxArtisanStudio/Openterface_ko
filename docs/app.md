@@ -16,8 +16,8 @@
 
     Windows용 Openterface QT 앱 다운로드
 
-    [:octicons-download-24: {{qt_version}} 설치 프로그램](https://github.com/TechxArtisanStudio/Openterface_QT/releases/download/{{qt_version}}/openterfaceQT.windows.amd64.installer.zip)  <br>
-    [:octicons-download-24: {{qt_version}} 휴대용 EXE](https://github.com/TechxArtisanStudio/Openterface_QT/releases/download/{{qt_version}}/openterfaceQT.windows.amd64.portable.zip)  <br>
+    [:octicons-download-24: {{qt_version}} 설치 프로그램](https://github.com/TechxArtisanStudio/Openterface_QT/releases/download/{{qt_version}}/openterfaceQT.windows.amd64.installer.exe)  <br>
+    [:octicons-download-24: {{qt_version}} 휴대용 EXE](https://github.com/TechxArtisanStudio/Openterface_QT/releases/download/{{qt_version}}/openterfaceQT-portable.exe)  <br>
     [:octicons-mark-github-16: Openterface_QT](https://github.com/TechxArtisanStudio/Openterface_QT)  <br>
     [:octicons-play-24: 데모 보기](https://youtu.be/ERzpGtRvP2o?si=e9k402f0nxsD8o2j)
 
