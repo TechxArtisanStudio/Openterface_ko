@@ -50,7 +50,7 @@
     
     Android 휴대폰 또는 태블릿용 Openterface Android APK 다운로드
 
-    [:octicons-download-24: {{android_version}} 다운로드](https://github.com/TechxArtisanStudio/Openterface_Android/releases/download/{{android_version}}/OpenterfaceAndroid.apk)  <br>
+    [:octicons-download-24: {{android_version}} 다운로드](https://github.com/TechxArtisanStudio/Openterface_Android/releases/download/{{android_version}}/OpenterfaceAndroid-release.apk)  <br>
     [:octicons-mark-github-16: Openterface_Android](https://github.com/TechxArtisanStudio/Openterface_Android)  <br>
     [:octicons-play-24: 데모 보기](https://x.com/TechxArtisan/status/1825460088922071398)
 
