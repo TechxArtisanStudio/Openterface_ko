@@ -3,7 +3,7 @@
 ## 호스트 앱
 
 <div class="container">
-    <img src="/images/product/win_qt_app.jpg" alt="포스터 이미지" class="poster-image-shadow">
+    <img src="/images/product/win_qt_app.webp" alt="포스터 이미지" class="poster-image-shadow">
 </div>
 
 이 mini-KVM을 사용하려면 호스트 컴퓨터에 아래 호스트 애플리케이션 중 하나를 설치해야 합니다.
