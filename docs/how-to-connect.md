@@ -10,20 +10,20 @@
 
 ![target-side](https://assets.openterface.com/images/product/target-htc_1.svg#only-dark){:style="width:360px"}
 
-① ![Type-C to Host](images/shell-icons/host.svg#only-light){:style="height:15px"} ![Type-C to Host](images/shell-icons/host_1.svg#only-dark){:style="height:15px"} - **호스트 USB-C 포트** (암): USB 장치 포트로서, 내장된 USB 허브를 통해 호스트 컴퓨터와 데이터 전송을 위해 연결됩니다.
+① ![Type-C to Host](https://assets.openterface.com/images/shell-icons/host.svg#only-light){:style="height:15px"} ![Type-C to Host](https://assets.openterface.com/images/shell-icons/host_1.svg#only-dark){:style="height:15px"} - **호스트 USB-C 포트** (암): USB 장치 포트로서, 내장된 USB 허브를 통해 호스트 컴퓨터와 데이터 전송을 위해 연결됩니다.
 
-② ![Type-C to Target](images/shell-icons/target.svg#only-light){:style="height:18px"} ![Type-C to Target](images/shell-icons/target_1.svg#only-dark){:style="height:18px"} - **타겟 USB-C 포트** (암): USB 장치 포트로서, 내장된 USB 허브를 통해 호스트 컴퓨터에 키보드와 마우스 HID 출력을 에뮬레이션하기 위해 연결됩니다.
+② ![Type-C to Target](https://assets.openterface.com/images/shell-icons/target.svg#only-light){:style="height:18px"} ![Type-C to Target](https://assets.openterface.com/images/shell-icons/target_1.svg#only-dark){:style="height:18px"} - **타겟 USB-C 포트** (암): USB 장치 포트로서, 내장된 USB 허브를 통해 호스트 컴퓨터에 키보드와 마우스 HID 출력을 에뮬레이션하기 위해 연결됩니다.
 
-③ ![HDMI Input](images/shell-icons/input.svg#only-light){:style="height:18px"} ![HDMI Input](images/shell-icons/input_1.svg#only-dark){:style="height:18px"} - **HDMI 입력 포트** (암): 타겟 컴퓨터로부터 HDMI 소스 입력을 받습니다.
+③ ![HDMI Input](https://assets.openterface.com/images/shell-icons/input.svg#only-light){:style="height:18px"} ![HDMI Input](https://assets.openterface.com/images/shell-icons/input_1.svg#only-dark){:style="height:18px"} - **HDMI 입력 포트** (암): 타겟 컴퓨터로부터 HDMI 소스 입력을 받습니다.
 
-④ ![USB-A Port](images/shell-icons/switchable-usb.svg#only-light){:style="height:26px"} ![USB-A Port](images/shell-icons/switchable-usb_1.svg#only-dark){:style="height:26px"} - **전환 가능한 USB-A 2.0 포트** (암): USB 호스트 포트로서, 호스트 컴퓨터나 타겟 컴퓨터 중 하나에만 사용될 수 있습니다.
+④ ![USB-A Port](https://assets.openterface.com/images/shell-icons/switchable-usb.svg#only-light){:style="height:26px"} ![USB-A Port](https://assets.openterface.com/images/shell-icons/switchable-usb_1.svg#only-dark){:style="height:26px"} - **전환 가능한 USB-A 2.0 포트** (암): USB 호스트 포트로서, 호스트 컴퓨터나 타겟 컴퓨터 중 하나에만 사용될 수 있습니다.
 
 !!! warning "꽉 끼는 연결"
     이 USB-A 암 포트는 잠금 메커니즘이 있어 USB 장치를 꽂고 뺄 때 약간의 힘이 필요합니다.
 
-⑤ ![Toggle Switch](images/shell-icons/toggle-h-t.svg#only-light){:style="height:20px"} ![Toggle Switch](images/shell-icons/toggle-h-t_1.svg#only-dark){:style="height:20px"} - **토글 스위치**: USB-A 2.0 포트를 호스트와 타겟 컴퓨터 간에 전환하기 위한 스위치입니다.
+⑤ ![Toggle Switch](https://assets.openterface.com/images/shell-icons/toggle-h-t.svg#only-light){:style="height:20px"} ![Toggle Switch](https://assets.openterface.com/images/shell-icons/toggle-h-t_1.svg#only-dark){:style="height:20px"} - **토글 스위치**: USB-A 2.0 포트를 호스트와 타겟 컴퓨터 간에 전환하기 위한 스위치입니다.
 
-⑥ ![Extension Pins](images/shell-icons/pins.svg#only-light){:style="height:15px"} ![Extension Pins](images/shell-icons/pins_1.svg#only-dark){:style="height:15px"} - **확장 핀**: 개발자용 확장 핀에 대한 자세한 내용은 [확장 핀](/extension-pin)을 참조하세요.
+⑥ ![Extension Pins](https://assets.openterface.com/images/shell-icons/pins.svg#only-light){:style="height:15px"} ![Extension Pins](https://assets.openterface.com/images/shell-icons/pins_1.svg#only-dark){:style="height:15px"} - **확장 핀**: 개발자용 확장 핀에 대한 자세한 내용은 [확장 핀](/extension-pin)을 참조하세요.
 
 ## 연결 단계
 

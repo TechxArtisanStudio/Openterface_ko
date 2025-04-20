@@ -10,7 +10,7 @@ Mini-KVM 장치는 호스트와 타겟 컴퓨터 간에 전환할 수 있는 USB
 - **소프트웨어 스위치**: 호스트 애플리케이션 내의 토글 버튼.
       - USB 포트 연결을 호스트와 타겟 컴퓨터 간에 전환합니다.
 
-- ![Toggle Switch](images/shell-icons/toggle-h-t.svg#only-light){:style="height:20px"} ![Toggle Switch](images/shell-icons/toggle-h-t_1.svg#only-dark){:style="height:20px"} **하드웨어 스위치**: 장치에 있는 물리적 두 위치 토글 스위치.
+- ![Toggle Switch](https://assets.openterface.com/images/shell-icons/toggle-h-t.svg#only-light){:style="height:20px"} ![Toggle Switch](https://assets.openterface.com/images/shell-icons/toggle-h-t_1.svg#only-dark){:style="height:20px"} **하드웨어 스위치**: 장치에 있는 물리적 두 위치 토글 스위치.
       - 안쪽 위치: 호스트 컴퓨터에 연결
       - 바깥쪽 위치: 타겟 컴퓨터에 연결
 
@@ -31,77 +31,77 @@ Mini-KVM이 제대로 연결되고 호스트 앱이 실행되면:
 하드웨어 및 소프트웨어 스위치가 모두 존재하기 때문에 네 가지 가능한 상태가 발생할 수 있습니다:
 
 - **상태 1** (동기화, 호스트에 연결됨):
-      - 하드웨어 스위치: 호스트를 가리킴 ![host-computer](images/shell-icons/host-computer.svg#only-light){:style="height:18px"} ![host-computer](images/shell-icons/host-computer_1.svg#only-dark){:style="height:18px"}
-      - 소프트웨어 스위치: 호스트를 가리킴 ![host-computer](images/shell-icons/host-computer.svg#only-light){:style="height:18px"} ![host-computer](images/shell-icons/host-computer_1.svg#only-dark){:style="height:18px"}
-      - USB 포트 연결: 호스트에 연결됨 ![host-computer](images/shell-icons/host-computer.svg#only-light){:style="height:18px"} ![host-computer](images/shell-icons/host-computer_1.svg#only-dark){:style="height:18px"}
+      - 하드웨어 스위치: 호스트를 가리킴 ![host-computer](https://assets.openterface.com/images/shell-icons/host-computer.svg#only-light){:style="height:18px"} ![host-computer](https://assets.openterface.com/images/shell-icons/host-computer_1.svg#only-dark){:style="height:18px"}
+      - 소프트웨어 스위치: 호스트를 가리킴 ![host-computer](https://assets.openterface.com/images/shell-icons/host-computer.svg#only-light){:style="height:18px"} ![host-computer](https://assets.openterface.com/images/shell-icons/host-computer_1.svg#only-dark){:style="height:18px"}
+      - USB 포트 연결: 호스트에 연결됨 ![host-computer](https://assets.openterface.com/images/shell-icons/host-computer.svg#only-light){:style="height:18px"} ![host-computer](https://assets.openterface.com/images/shell-icons/host-computer_1.svg#only-dark){:style="height:18px"}
 
 - **상태 2** (동기화, 타겟에 연결됨):
-      - 하드웨어 스위치: 타겟을 가리킴 ![target-computer](images/shell-icons/target-computer.svg#only-light){:style="height:18px"} ![target-computer](images/shell-icons/target-computer_1.svg#only-dark){:style="height:18px"}
-      - 소프트웨어 스위치: 타겟을 가리킴 ![target-computer](images/shell-icons/target-computer.svg#only-light){:style="height:18px"} ![target-computer](images/shell-icons/target-computer_1.svg#only-dark){:style="height:18px"}
-      - USB 포트 연결: 타겟에 연결됨 ![target-computer](images/shell-icons/target-computer.svg#only-light){:style="height:18px"} ![target-computer](images/shell-icons/target-computer_1.svg#only-dark){:style="height:18px"}
+      - 하드웨어 스위치: 타겟을 가리킴 ![target-computer](https://assets.openterface.com/images/shell-icons/target-computer.svg#only-light){:style="height:18px"} ![target-computer](https://assets.openterface.com/images/shell-icons/target-computer_1.svg#only-dark){:style="height:18px"}
+      - 소프트웨어 스위치: 타겟을 가리킴 ![target-computer](https://assets.openterface.com/images/shell-icons/target-computer.svg#only-light){:style="height:18px"} ![target-computer](https://assets.openterface.com/images/shell-icons/target-computer_1.svg#only-dark){:style="height:18px"}
+      - USB 포트 연결: 타겟에 연결됨 ![target-computer](https://assets.openterface.com/images/shell-icons/target-computer.svg#only-light){:style="height:18px"} ![target-computer](https://assets.openterface.com/images/shell-icons/target-computer_1.svg#only-dark){:style="height:18px"}
 
 - **상태 3** (비동기화, USB 호스트에 연결됨):
-      - 하드웨어 스위치: 타겟을 가리킴 ![target-computer](images/shell-icons/target-computer.svg#only-light){:style="height:18px"} ![target-computer](images/shell-icons/target-computer_1.svg#only-dark){:style="height:18px"}
-      - 소프트웨어 스위치: 호스트를 가리킴 ![host-computer](images/shell-icons/host-computer.svg#only-light){:style="height:18px"} ![host-computer](images/shell-icons/host-computer_1.svg#only-dark){:style="height:18px"}
-      - USB 포트 연결: 호스트에 연결됨 ![host-computer](images/shell-icons/host-computer.svg#only-light){:style="height:18px"} ![host-computer](images/shell-icons/host-computer_1.svg#only-dark){:style="height:18px"}
+      - 하드웨어 스위치: 타겟을 가리킴 ![target-computer](https://assets.openterface.com/images/shell-icons/target-computer.svg#only-light){:style="height:18px"} ![target-computer](https://assets.openterface.com/images/shell-icons/target-computer_1.svg#only-dark){:style="height:18px"}
+      - 소프트웨어 스위치: 호스트를 가리킴 ![host-computer](https://assets.openterface.com/images/shell-icons/host-computer.svg#only-light){:style="height:18px"} ![host-computer](https://assets.openterface.com/images/shell-icons/host-computer_1.svg#only-dark){:style="height:18px"}
+      - USB 포트 연결: 호스트에 연결됨 ![host-computer](https://assets.openterface.com/images/shell-icons/host-computer.svg#only-light){:style="height:18px"} ![host-computer](https://assets.openterface.com/images/shell-icons/host-computer_1.svg#only-dark){:style="height:18px"}
 
 - **상태 4** (비동기화, USB 타겟에 연결됨):
-      - 하드웨어 스위치: 호스트를 가리킴 ![host-computer](images/shell-icons/host-computer.svg#only-light){:style="height:18px"} ![host-computer](images/shell-icons/host-computer_1.svg#only-dark){:style="height:18px"}
-      - 소프트웨어 스위치: 타겟을 가리킴 ![target-computer](images/shell-icons/target-computer.svg#only-light){:style="height:18px"} ![target-computer](images/shell-icons/target-computer_1.svg#only-dark){:style="height:18px"}
-      - USB 포트 연결: 타겟에 연결됨 ![target-computer](images/shell-icons/target-computer.svg#only-light){:style="height:18px"} ![target-computer](images/shell-icons/target-computer_1.svg#only-dark){:style="height:18px"}
+      - 하드웨어 스위치: 호스트를 가리킴 ![host-computer](https://assets.openterface.com/images/shell-icons/host-computer.svg#only-light){:style="height:18px"} ![host-computer](https://assets.openterface.com/images/shell-icons/host-computer_1.svg#only-dark){:style="height:18px"}
+      - 소프트웨어 스위치: 타겟을 가리킴 ![target-computer](https://assets.openterface.com/images/shell-icons/target-computer.svg#only-light){:style="height:18px"} ![target-computer](https://assets.openterface.com/images/shell-icons/target-computer_1.svg#only-dark){:style="height:18px"}
+      - USB 포트 연결: 타겟에 연결됨 ![target-computer](https://assets.openterface.com/images/shell-icons/target-computer.svg#only-light){:style="height:18px"} ![target-computer](https://assets.openterface.com/images/shell-icons/target-computer_1.svg#only-dark){:style="height:18px"}
 
 ## 상태 전환 및 논리
 
 ### **상태 1**에서 (호스트에 동기화됨)
 
 - ^^***시나리오 1a***^^: 사용자가 하드웨어 스위치를 타겟으로 이동
-      - 내부 상태 변수를 타겟으로 업데이트 ![target-computer](images/shell-icons/target-computer.svg#only-light){:style="height:18px"} ![target-computer](images/shell-icons/target-computer_1.svg#only-dark){:style="height:18px"}
-      - 호스트 애플리케이션 디스플레이를 타겟으로 업데이트 ![target-computer](images/shell-icons/target-computer.svg#only-light){:style="height:18px"} ![target-computer](images/shell-icons/target-computer_1.svg#only-dark){:style="height:18px"}
-      - 실제 회로 연결을 타겟으로 전환 ![target-computer](images/shell-icons/target-computer.svg#only-light){:style="height:18px"} ![target-computer](images/shell-icons/target-computer_1.svg#only-dark){:style="height:18px"}
+      - 내부 상태 변수를 타겟으로 업데이트 ![target-computer](https://assets.openterface.com/images/shell-icons/target-computer.svg#only-light){:style="height:18px"} ![target-computer](https://assets.openterface.com/images/shell-icons/target-computer_1.svg#only-dark){:style="height:18px"}
+      - 호스트 애플리케이션 디스플레이를 타겟으로 업데이트 ![target-computer](https://assets.openterface.com/images/shell-icons/target-computer.svg#only-light){:style="height:18px"} ![target-computer](https://assets.openterface.com/images/shell-icons/target-computer_1.svg#only-dark){:style="height:18px"}
+      - 실제 회로 연결을 타겟으로 전환 ![target-computer](https://assets.openterface.com/images/shell-icons/target-computer.svg#only-light){:style="height:18px"} ![target-computer](https://assets.openterface.com/images/shell-icons/target-computer_1.svg#only-dark){:style="height:18px"}
       - 상태 2로 전환, 동기화됨
 
 - ***시나리오 1b***: 사용자가 소프트웨어 스위치를 타겟으로 클릭
-      - 내부 상태 변수를 타겟으로 업데이트 ![target-computer](images/shell-icons/target-computer.svg#only-light){:style="height:18px"} ![target-computer](images/shell-icons/target-computer_1.svg#only-dark){:style="height:18px"}
-      - 하드웨어 스위치 위치는 변경되지 않음 (호스트를 가리킴 ![host-computer](images/shell-icons/host-computer.svg#only-light){:style="height:18px"} ![host-computer](images/shell-icons/host-computer_1.svg#only-dark){:style="height:18px"})
-      - 실제 회로 연결을 타겟으로 전환 ![target-computer](images/shell-icons/target-computer.svg#only-light){:style="height:18px"} ![target-computer](images/shell-icons/target-computer_1.svg#only-dark){:style="height:18px"}
+      - 내부 상태 변수를 타겟으로 업데이트 ![target-computer](https://assets.openterface.com/images/shell-icons/target-computer.svg#only-light){:style="height:18px"} ![target-computer](https://assets.openterface.com/images/shell-icons/target-computer_1.svg#only-dark){:style="height:18px"}
+      - 하드웨어 스위치 위치는 변경되지 않음 (호스트를 가리킴 ![host-computer](https://assets.openterface.com/images/shell-icons/host-computer.svg#only-light){:style="height:18px"} ![host-computer](https://assets.openterface.com/images/shell-icons/host-computer_1.svg#only-dark){:style="height:18px"})
+      - 실제 회로 연결을 타겟으로 전환 ![target-computer](https://assets.openterface.com/images/shell-icons/target-computer.svg#only-light){:style="height:18px"} ![target-computer](https://assets.openterface.com/images/shell-icons/target-computer_1.svg#only-dark){:style="height:18px"}
       - 상태 3으로 전환, 비동기화됨
 
 ### **상태 2**에서 (타겟에 동기화됨)
 
-- ^^***시나리오 2a***^^: 사용자가 하드웨어 스위치를 호스트로 이동 ![host-computer](images/shell-icons/host-computer.svg#only-light){:style="height:18px"} ![host-computer](images/shell-icons/host-computer_1.svg#only-dark){:style="height:18px"}:
-      - 내부 상태 변수를 호스트로 업데이트 ![host-computer](images/shell-icons/host-computer.svg#only-light){:style="height:18px"} ![host-computer](images/shell-icons/host-computer_1.svg#only-dark){:style="height:18px"}
-      - 소프트웨어 스위치 디스플레이를 호스트로 업데이트 ![host-computer](images/shell-icons/host-computer.svg#only-light){:style="height:18px"} ![host-computer](images/shell-icons/host-computer_1.svg#only-dark){:style="height:18px"}
-      - 실제 회로 연결을 호스트로 전환 ![host-computer](images/shell-icons/host-computer.svg#only-light){:style="height:18px"} ![host-computer](images/shell-icons/host-computer_1.svg#only-dark){:style="height:18px"}
+- ^^***시나리오 2a***^^: 사용자가 하드웨어 스위치를 호스트로 이동 ![host-computer](https://assets.openterface.com/images/shell-icons/host-computer.svg#only-light){:style="height:18px"} ![host-computer](https://assets.openterface.com/images/shell-icons/host-computer_1.svg#only-dark){:style="height:18px"}:
+      - 내부 상태 변수를 호스트로 업데이트 ![host-computer](https://assets.openterface.com/images/shell-icons/host-computer.svg#only-light){:style="height:18px"} ![host-computer](https://assets.openterface.com/images/shell-icons/host-computer_1.svg#only-dark){:style="height:18px"}
+      - 소프트웨어 스위치 디스플레이를 호스트로 업데이트 ![host-computer](https://assets.openterface.com/images/shell-icons/host-computer.svg#only-light){:style="height:18px"} ![host-computer](https://assets.openterface.com/images/shell-icons/host-computer_1.svg#only-dark){:style="height:18px"}
+      - 실제 회로 연결을 호스트로 전환 ![host-computer](https://assets.openterface.com/images/shell-icons/host-computer.svg#only-light){:style="height:18px"} ![host-computer](https://assets.openterface.com/images/shell-icons/host-computer_1.svg#only-dark){:style="height:18px"}
       - 상태 1로 전환, 동기화됨
 
-- ***시나리오 2b***: 사용자가 소프트웨어 스위치를 호스트로 클릭 ![host-computer](images/shell-icons/host-computer.svg#only-light){:style="height:18px"} ![host-computer](images/shell-icons/host-computer_1.svg#only-dark){:style="height:18px"}:
-      - 내부 상태 변수를 호스트로 업데이트 ![host-computer](images/shell-icons/host-computer.svg#only-light){:style="height:18px"} ![host-computer](images/shell-icons/host-computer_1.svg#only-dark){:style="height:18px"}
-      - 하드웨어 스위치 위치는 변경되지 않음 (타겟을 가리킴 ![target-computer](images/shell-icons/target-computer.svg#only-light){:style="height:18px"} ![target-computer](images/shell-icons/target-computer_1.svg#only-dark){:style="height:18px"})
-      - 실제 회로 연결을 호스트로 전환 ![host-computer](images/shell-icons/host-computer.svg#only-light){:style="height:18px"} ![host-computer](images/shell-icons/host-computer_1.svg#only-dark){:style="height:18px"}
+- ***시나리오 2b***: 사용자가 소프트웨어 스위치를 호스트로 클릭 ![host-computer](https://assets.openterface.com/images/shell-icons/host-computer.svg#only-light){:style="height:18px"} ![host-computer](https://assets.openterface.com/images/shell-icons/host-computer_1.svg#only-dark){:style="height:18px"}:
+      - 내부 상태 변수를 호스트로 업데이트 ![host-computer](https://assets.openterface.com/images/shell-icons/host-computer.svg#only-light){:style="height:18px"} ![host-computer](https://assets.openterface.com/images/shell-icons/host-computer_1.svg#only-dark){:style="height:18px"}
+      - 하드웨어 스위치 위치는 변경되지 않음 (타겟을 가리킴 ![target-computer](https://assets.openterface.com/images/shell-icons/target-computer.svg#only-light){:style="height:18px"} ![target-computer](https://assets.openterface.com/images/shell-icons/target-computer_1.svg#only-dark){:style="height:18px"})
+      - 실제 회로 연결을 호스트로 전환 ![host-computer](https://assets.openterface.com/images/shell-icons/host-computer.svg#only-light){:style="height:18px"} ![host-computer](https://assets.openterface.com/images/shell-icons/host-computer_1.svg#only-dark){:style="height:18px"}
       - 상태 4로 전환, 비동기화됨
 
 ### **상태 3**에서 (비동기화, USB 호스트에 연결됨)
 
-- ^^***시나리오 3a***^^: 사용자가 하드웨어 스위치를 타겟으로 이동 ![target-computer](images/shell-icons/target-computer.svg#only-light){:style="height:18px"} ![target-computer](images/shell-icons/target-computer_1.svg#only-dark){:style="height:18px"}:
+- ^^***시나리오 3a***^^: 사용자가 하드웨어 스위치를 타겟으로 이동 ![target-computer](https://assets.openterface.com/images/shell-icons/target-computer.svg#only-light){:style="height:18px"} ![target-computer](https://assets.openterface.com/images/shell-icons/target-computer_1.svg#only-dark){:style="height:18px"}:
       - 변수에 대한 변경 없음
       - 상태 2로 전환, 동기화됨
 
-- ***시나리오 3b***: 사용자가 소프트웨어 스위치를 호스트로 클릭 ![host-computer](images/shell-icons/host-computer.svg#only-light){:style="height:18px"} ![host-computer](images/shell-icons/host-computer_1.svg#only-dark){:style="height:18px"}:
-      - 내부 상태 변수를 호스트로 업데이트 ![host-computer](images/shell-icons/host-computer.svg#only-light){:style="height:18px"} ![host-computer](images/shell-icons/host-computer_1.svg#only-dark){:style="height:18px"}
-      - 하드웨어 스위치 위치는 변경되지 않음 (타겟을 가리킴 ![target-computer](images/shell-icons/target-computer.svg#only-light){:style="height:18px"} ![target-computer](images/shell-icons/target-computer_1.svg#only-dark){:style="height:18px"})
-      - 실제 회로 연결을 호스트로 전환 ![host-computer](images/shell-icons/host-computer.svg#only-light){:style="height:18px"} ![host-computer](images/shell-icons/host-computer_1.svg#only-dark){:style="height:18px"}
+- ***시나리오 3b***: 사용자가 소프트웨어 스위치를 호스트로 클릭 ![host-computer](https://assets.openterface.com/images/shell-icons/host-computer.svg#only-light){:style="height:18px"} ![host-computer](https://assets.openterface.com/images/shell-icons/host-computer_1.svg#only-dark){:style="height:18px"}:
+      - 내부 상태 변수를 호스트로 업데이트 ![host-computer](https://assets.openterface.com/images/shell-icons/host-computer.svg#only-light){:style="height:18px"} ![host-computer](https://assets.openterface.com/images/shell-icons/host-computer_1.svg#only-dark){:style="height:18px"}
+      - 하드웨어 스위치 위치는 변경되지 않음 (타겟을 가리킴 ![target-computer](https://assets.openterface.com/images/shell-icons/target-computer.svg#only-light){:style="height:18px"} ![target-computer](https://assets.openterface.com/images/shell-icons/target-computer_1.svg#only-dark){:style="height:18px"})
+      - 실제 회로 연결을 호스트로 전환 ![host-computer](https://assets.openterface.com/images/shell-icons/host-computer.svg#only-light){:style="height:18px"} ![host-computer](https://assets.openterface.com/images/shell-icons/host-computer_1.svg#only-dark){:style="height:18px"}
       - 상태 1로 전환, 동기화됨
 
 ### **상태 4**에서 (비동기화, USB 타겟에 연결됨)
 
-- ^^***시나리오 4a***^^: 사용자가 하드웨어 스위치를 호스트로 이동 ![host-computer](images/shell-icons/host-computer.svg#only-light){:style="height:18px"} ![host-computer](images/shell-icons/host-computer_1.svg#only-dark){:style="height:18px"}:
+- ^^***시나리오 4a***^^: 사용자가 하드웨어 스위치를 호스트로 이동 ![host-computer](https://assets.openterface.com/images/shell-icons/host-computer.svg#only-light){:style="height:18px"} ![host-computer](https://assets.openterface.com/images/shell-icons/host-computer_1.svg#only-dark){:style="height:18px"}:
       - 변수에 대한 변경 없음
       - 상태 1로 전환, 동기화됨
 
-- ***시나리오 4b***: 사용자가 소프트웨어 스위치를 타겟으로 클릭 ![target-computer](images/shell-icons/target-computer.svg#only-light){:style="height:18px"} ![target-computer](images/shell-icons/target-computer_1.svg#only-dark){:style="height:18px"}:
-      - 내부 상태 변수를 타겟으로 업데이트 ![target-computer](images/shell-icons/target-computer.svg#only-light){:style="height:18px"} ![target-computer](images/shell-icons/target-computer_1.svg#only-dark){:style="height:18px"}
-      - 하드웨어 스위치 위치는 변경되지 않음 (호스트를 가리킴 ![host-computer](images/shell-icons/host-computer.svg#only-light){:style="height:18px"} ![host-computer](images/shell-icons/host-computer_1.svg#only-dark){:style="height:18px"})
-      - 실제 회로 연결을 타겟으로 전환 ![target-computer](images/shell-icons/target-computer.svg#only-light){:style="height:18px"} ![target-computer](images/shell-icons/target-computer_1.svg#only-dark){:style="height:18px"}
+- ***시나리오 4b***: 사용자가 소프트웨어 스위치를 타겟으로 클릭 ![target-computer](https://assets.openterface.com/images/shell-icons/target-computer.svg#only-light){:style="height:18px"} ![target-computer](https://assets.openterface.com/images/shell-icons/target-computer_1.svg#only-dark){:style="height:18px"}:
+      - 내부 상태 변수를 타겟으로 업데이트 ![target-computer](https://assets.openterface.com/images/shell-icons/target-computer.svg#only-light){:style="height:18px"} ![target-computer](https://assets.openterface.com/images/shell-icons/target-computer_1.svg#only-dark){:style="height:18px"}
+      - 하드웨어 스위치 위치는 변경되지 않음 (호스트를 가리킴 ![host-computer](https://assets.openterface.com/images/shell-icons/host-computer.svg#only-light){:style="height:18px"} ![host-computer](https://assets.openterface.com/images/shell-icons/host-computer_1.svg#only-dark){:style="height:18px"})
+      - 실제 회로 연결을 타겟으로 전환 ![target-computer](https://assets.openterface.com/images/shell-icons/target-computer.svg#only-light){:style="height:18px"} ![target-computer](https://assets.openterface.com/images/shell-icons/target-computer_1.svg#only-dark){:style="height:18px"}
       - 상태 2로 전환, 동기화됨
 
 !!! warning "스위치를 전환하기 전에 플래시 드라이브를 꺼내세요"
