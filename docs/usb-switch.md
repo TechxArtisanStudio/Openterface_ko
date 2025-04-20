@@ -1,7 +1,7 @@
 # 전환 가능한 USB 포트 메커니즘
 
-![switch-graphics](images/product/switch-graphics.svg#only-light){:style="width:460px"}
-![switch-graphics](images/product/switch-graphics_1.svg#only-dark){:style="width:460px"}
+![switch-graphics](https://assets.openterface.com/images/product/switch-graphics.svg#only-light){:style="width:460px"}
+![switch-graphics](https://assets.openterface.com/images/product/switch-graphics_1.svg#only-dark){:style="width:460px"}
 
 Mini-KVM 장치는 호스트와 타겟 컴퓨터 간에 전환할 수 있는 USB-A 2.0 포트를 제공합니다. 이 기능은 물리적 토글 스위치와 호스트 애플리케이션의 소프트웨어 스위치로 제어됩니다. 이 문서는 이러한 스위치의 메커니즘과 논리를 설명합니다.
 

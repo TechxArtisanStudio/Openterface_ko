@@ -4,14 +4,14 @@
 
 ## 패키지 1: 기본 팩
 
-![basic-pack](images/product/basic-with-maunal.jpg){:style="width:680px"}
+![basic-pack](https://assets.openterface.com/images/product/basic-with-maunal.jpg){:style="width:680px"}
 
 1. 핵심 제품: Openterface Mini-KVM
 2. 빠른 시작 가이드
 
 ## 패키지 2: 툴킷 팩
 
-![toolkit-open](images/product/toolkit-open.jpg){:style="width:680px"}
+![toolkit-open](https://assets.openterface.com/images/product/toolkit-open.jpg){:style="width:680px"}
 
 1. 핵심 제품: Openterface Mini-KVM
 2. 빠른 시작 가이드
@@ -21,4 +21,4 @@
 6. Type-C 남성 to USB-A 남성 케이블 (0.3m) 및 USB-A 여성 to USB-C 남성 어댑터
 7. Type-C 남성-남성 케이블 (1.5m) 및 USB-C 여성 to USB-A 남성 어댑터
 
-![toolkit-parts-layout-2-numbers](images/product/toolkit-parts-layout-2-numbers.jpg){:style="width:680px"}
+![toolkit-parts-layout-2-numbers](https://assets.openterface.com/images/product/toolkit-parts-layout-2-numbers.jpg){:style="width:680px"}

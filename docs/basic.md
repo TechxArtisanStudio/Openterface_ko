@@ -1,6 +1,6 @@
 # 기본 제어
 
-![use-case-pc-angled-view](images/product/use-case-pc-angled-view.jpg)
+![use-case-pc-angled-view](https://assets.openterface.com/images/product/use-case-pc-angled-view.jpg)
 
 ## 💻 호환성
 

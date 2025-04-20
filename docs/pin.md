@@ -1,7 +1,7 @@
 # 확장 핀 가이드라인
 
-![change-cap](images/product/change-cap.svg#only-light){:style="height:300px"}
-![change-cap](images/product/change-cap_1.svg#only-dark){:style="height:300px"}
+![change-cap](https://assets.openterface.com/images/product/change-cap.svg#only-light){:style="height:300px"}
+![change-cap](https://assets.openterface.com/images/product/change-cap_1.svg#only-dark){:style="height:300px"}
 
 Openterface Mini-KVM은 고급 개발 및 [오픈 소프트웨어](/app) 실험을 위한 확장 핀을 제공합니다. 이 핀들은 기본 케이스 구성에서는 노출되지 않습니다.
 
@@ -21,10 +21,10 @@ Openterface Mini-KVM은 고급 개발 및 [오픈 소프트웨어](/app) 실험�
 
 ### 핀 레이아웃
 
-![target-side](images/product/extension-pins-1.svg#only-light){:style="height:200px"}
-![host-side](images/product/extension-pins-2.svg#only-light){:style="height:200px"}
-![target-side](images/product/extension-pins-1_1.svg#only-dark){:style="height:200px"}
-![host-side](images/product/extension-pins-2_1.svg#only-dark){:style="height:200px"}
+![target-side](https://assets.openterface.com/images/product/extension-pins-1.svg#only-light){:style="height:200px"}
+![host-side](https://assets.openterface.com/images/product/extension-pins-2.svg#only-light){:style="height:200px"}
+![target-side](https://assets.openterface.com/images/product/extension-pins-1_1.svg#only-dark){:style="height:200px"}
+![host-side](https://assets.openterface.com/images/product/extension-pins-2_1.svg#only-dark){:style="height:200px"}
 
 확장 핀은 다음과 같은 연결을 제공합니다:
 

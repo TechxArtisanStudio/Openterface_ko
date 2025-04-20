@@ -23,7 +23,7 @@ Raspberry Pi 및 Jetson Nano와 같은 마이크로 컴퓨터를 사용하는 �
 ## ***민감한 작업을 위한 안전한 운영***
 암호화폐 자산 관리와 같이 네트워크 분리가 필요한 작업을 관리하는 전문가에게 이 제품은 안전하고 로컬에서 운영을 유지하는 데 필수적입니다.
 
-![use-case-demo-industrial-pc](images/product/use-case-demo-industrial-pc.jpg)
+![use-case-demo-industrial-pc](https://assets.openterface.com/images/product/use-case-demo-industrial-pc.jpg)
 
 ## ***혼합 워크플로우의 효율적인 통합***
 개인용 및 업무용 컴퓨터를 자주 전환하거나 엣지 컴퓨팅 장치를 관리하는 사용자는 Openterface Mini-KVM이 제공하는 간소화된 워크플로우 통합의 혜택을 누릴 수 있습니다.

@@ -2,13 +2,13 @@
 
 ## 인터페이스
 
-![host-side](images/product/host-htc.svg#only-light){:style="width:360px"}
+![host-side](https://assets.openterface.com/images/product/host-htc.svg#only-light){:style="width:360px"}
 
-![target-side](images/product/target-htc.svg#only-light){:style="width:360px"}
+![target-side](https://assets.openterface.com/images/product/target-htc.svg#only-light){:style="width:360px"}
 
-![host-side](images/product/host-htc_1.svg#only-dark){:style="width:360px"}
+![host-side](https://assets.openterface.com/images/product/host-htc_1.svg#only-dark){:style="width:360px"}
 
-![target-side](images/product/target-htc_1.svg#only-dark){:style="width:360px"}
+![target-side](https://assets.openterface.com/images/product/target-htc_1.svg#only-dark){:style="width:360px"}
 
 ① ![Type-C to Host](images/shell-icons/host.svg#only-light){:style="height:15px"} ![Type-C to Host](images/shell-icons/host_1.svg#only-dark){:style="height:15px"} - **호스트 USB-C 포트** (암): USB 장치 포트로서, 내장된 USB 허브를 통해 호스트 컴퓨터와 데이터 전송을 위해 연결됩니다.
 
@@ -27,8 +27,8 @@
 
 ## 연결 단계
 
-![to-host](images/product/to-host.svg#only-light){:style="height:260px"} ![to-host](images/product/to-host_1.svg#only-dark){:style="height:260px"}
-![to-target](images/product/to-target.svg#only-light){:style="height:260px"} ![to-target](images/product/to-target_1.svg#only-dark){:style="height:260px"}
+![to-host](https://assets.openterface.com/images/product/to-host.svg#only-light){:style="height:260px"} ![to-host](https://assets.openterface.com/images/product/to-host_1.svg#only-dark){:style="height:260px"}
+![to-target](https://assets.openterface.com/images/product/to-target.svg#only-light){:style="height:260px"} ![to-target](https://assets.openterface.com/images/product/to-target_1.svg#only-dark){:style="height:260px"}
 
 Mini-KVM을 설정하려면 다음 단계를 순서대로 따르세요:
 
