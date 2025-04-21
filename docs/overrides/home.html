@@ -15,13 +15,13 @@
           <div class="image-container">
             <img src="https://assets.openterface.com/images/openterface-mini-kvm-v1-9-s.webp" alt="Openterface Mini-KVM 제품" width="460" draggable="false">
           </div>
-          <a href="{{ 'https://www.crowdsupply.com/techxartisan/openterface-mini-kvm' | url }}" title="예약 주문" class="md-button md-button--primary">
-            지금 주문하세요! <img src="https://assets.openterface.com/images/trademark/crowd-supply.svg" alt="크라우드 서플라이" style="vertical-align: middle; height: 26px;">
+          <a href="{{ 'https://www.crowdsupply.com/techxartisan/openterface-mini-kvm' | url }}" title="사전 주문" class="md-button md-button--primary">
+            지금 주문하기! <img src="https://assets.openterface.com/images/trademark/crowd-supply.svg" alt="Crowd Supply" style="vertical-align: middle; height: 26px;">
           </a>
-          <a href="{{ 'https://www.crowdsupply.com/techxartisan/usb-kvm-diy-challenge-2024' | url }}" title="도전" class="md-button" style="background-color: #ff4500; color: #fff; font-weight: bold; border: 2px solid #ff4500; box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.3); animation: pulse 1.5s infinite;">
-            DIY 도전
+          <a href="{{ 'https://www.crowdsupply.com/techxartisan/usb-kvm-diy-challenge-2024' | url }}" title="챌린지" class="md-button" style="background-color: #ff4500; color: #fff; font-weight: bold; border: 2px solid #ff4500; box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.3); animation: pulse 1.5s infinite;">
+            DIY 챌린지
           </a>
-          <p>자신만의 <strong>USB KVM</strong>을 만들어보세요 & 놀라운 상들을 받으세요! 🏆</p>
+          <p>나만의 <strong>USB KVM</strong>을 만들고 놀라운 상품을 받아보세요! 🏆</p>
         </div>
       </div>
     </div>
@@ -30,146 +30,127 @@
   <section class="dialogue-section-white" id="app">
     <h2>호스트 앱 설치</h2>
     <div class="container">
-        <img src="https://assets.openterface.com/images/product/win_qt_app.webp" alt="포스터 이미지" class="poster-image-shadow" loading="lazy">
+      <img src="https://assets.openterface.com/images/product/win_qt_app.webp" alt="포스터 이미지" class="poster-image-shadow" loading="lazy">
     </div>
     <div class="callout-button-container">
-        <div class="dialogue-bubble" id="op-bubble">
-            <img src="https://assets.openterface.com/images/trademark/win.svg" alt="아바타" class="avatar" draggable="false">
-            <p>Windows</p>
-            <a href="https://github.com/TechxArtisanStudio/Openterface_QT/releases/download/{{ config.extra.qt_version }}/openterfaceQT.windows.amd64.installer.exe" class="md-button md-button--primary" id="join-waitlist-button">설치 프로그램 {{ config.extra.qt_version }}</a>
-            <a href="https://github.com/TechxArtisanStudio/Openterface_QT/releases/download/{{ config.extra.qt_version }}/openterfaceQT-portable.exe" class="md-button md-button--primary" id="join-waitlist-button">휴대용 EXE {{ config.extra.qt_version }}</a>
-        </div>
-        <div class="dialogue-bubble" id="op-bubble">
-            <img src="https://assets.openterface.com/images/trademark/app-store.svg" alt="아바타" class="avatar" draggable="false">
-            <p>macOS</p>
-            <a href="/appstore" class="md-button md-button--primary" id="join-waitlist-button">앱 스토어 v{{ config.extra.macos_version }}</a>
-        </div>
-        <div class="dialogue-bubble" id="op-bubble">
-            <img src="https://assets.openterface.com/images/trademark/linux.svg" alt="아바타" class="avatar" draggable="false">
-            <p>Linux</p>
-            <a href="https://github.com/TechxArtisanStudio/Openterface_QT/releases/download/{{ config.extra.qt_version }}/openterfaceQT.linux.amd64.deb" class="md-button md-button--primary" id="join-waitlist-button">AMD64 DEB {{ config.extra.qt_version }}</a>
-            <a href="https://github.com/TechxArtisanStudio/Openterface_QT/releases/download/{{ config.extra.qt_version }}/openterfaceQT.linux.amd64.rpm" class="md-button md-button--primary" id="join-waitlist-button">AMD64 RPM {{ config.extra.qt_version }}</a>
-            <a href="https://github.com/TechxArtisanStudio/Openterface_QT/releases/download/{{ config.extra.qt_version }}/openterfaceQT.linux.arm64.deb" class="md-button md-button--primary" id="join-waitlist-button">ARM64 DEB {{ config.extra.qt_version }}</a>
-            <a href="https://github.com/TechxArtisanStudio/Openterface_QT/releases/download/{{ config.extra.qt_version }}/openterfaceQT.linux.arm64.rpm" class="md-button md-button--primary" id="join-waitlist-button">ARM64 RPM {{ config.extra.qt_version }}</a>
-            <a href="https://github.com/TechxArtisanStudio/Openterface_QT" class="md-button md-button--primary" id="join-waitlist-button">소스 코드</a>
-        </div>
-        <div class="dialogue-bubble" id="op-bubble">
-            <img src="https://assets.openterface.com/images/trademark/android.svg" alt="아바타" class="avatar" draggable="false">
-            <p>Android</p>
-            <a href="https://github.com/TechxArtisanStudio/Openterface_Android/releases/download/{{ config.extra.android_version }}/OpenterfaceAndroid-release.apk" class="md-button md-button--primary" id="join-waitlist-button">apk {{ config.extra.android_version }}</a>
-        </div>
+      <div class="dialogue-bubble" id="op-bubble">
+        <img src="https://assets.openterface.com/images/trademark/win.svg" alt="아바타" class="avatar" draggable="false">
+        <p>윈도우</p>
+        <a href="https://github.com/TechxArtisanStudio/Openterface_QT/releases/download/{{ config.extra.qt_version }}/openterfaceQT.windows.amd64.installer.exe" class="md-button md-button--primary" id="join-waitlist-button">설치 프로그램 {{ config.extra.qt_version }}</a>
+        <a href="https://github.com/TechxArtisanStudio/Openterface_QT/releases/download/{{ config.extra.qt_version }}/openterfaceQT-portable.exe" class="md-button md-button--primary" id="join-waitlist-button">포터블 EXE {{ config.extra.qt_version }}</a>
+        <a href="https://github.com/TechxArtisanStudio/Openterface_QT" class="md-button md-button--primary" id="join-waitlist-button">소스 코드</a>
+      </div>
+      <div class="dialogue-bubble" id="op-bubble">
+        <img src="https://assets.openterface.com/images/trademark/app-store.svg" alt="아바타" class="avatar" draggable="false">
+        <p>macOS</p>
+        <a href="/appstore" class="md-button md-button--primary" id="join-waitlist-button">앱 스토어 {{ config.extra.macos_version }}</a>
+      </div>
+      <div class="dialogue-bubble" id="op-bubble">
+        <img src="https://assets.openterface.com/images/trademark/linux.svg" alt="아바타" class="avatar" draggable="false">
+        <p>리눅스</p>
+        <a href="https://github.com/TechxArtisanStudio/Openterface_QT/releases/download/{{ config.extra.qt_version }}/openterfaceQT.linux.amd64.deb" class="md-button md-button--primary" id="join-waitlist-button">AMD64 DEB {{ config.extra.qt_version }}</a>
+        <a href="https://github.com/TechxArtisanStudio/Openterface_QT/releases/download/{{ config.extra.qt_version }}/openterfaceQT.linux.amd64.rpm" class="md-button md-button--primary" id="join-waitlist-button">AMD64 RPM {{ config.extra.qt_version }}</a>
+        <a href="https://github.com/TechxArtisanStudio/Openterface_QT/releases/download/{{ config.extra.qt_version }}/openterfaceQT.linux.amd64.AppImage" class="md-button md-button--primary" id="join-waitlist-button">AMD64 AppImage {{ config.extra.qt_version }}</a>
+        <a href="https://github.com/TechxArtisanStudio/Openterface_QT/releases/download/{{ config.extra.qt_version }}/openterfaceQT.linux.arm64.deb" class="md-button md-button--primary" id="join-waitlist-button">ARM64 DEB {{ config.extra.qt_version }}</a>
+        <a href="https://github.com/TechxArtisanStudio/Openterface_QT/releases/download/{{ config.extra.qt_version }}/openterfaceQT.linux.arm64.rpm" class="md-button md-button--primary" id="join-waitlist-button">ARM64 RPM {{ config.extra.qt_version }}</a>
+        <a href="https://github.com/TechxArtisanStudio/Openterface_QT" class="md-button md-button--primary" id="join-waitlist-button">소스 코드</a>
+      </div>
+      <div class="dialogue-bubble" id="op-bubble">
+        <img src="https://assets.openterface.com/images/trademark/android.svg" alt="아바타" class="avatar" draggable="false">
+        <p>안드로이드</p>
+        <a class="btngogoleplay" href="https://play.google.com/store/apps/details?id=com.openterface.AOS"></a>
+        <a href="https://github.com/TechxArtisanStudio/Openterface_Android/releases/download/{{ config.extra.android_version }}/OpenterfaceAndroid-release.apk" class="md-button md-button--primary" id="join-waitlist-button">apk {{ config.extra.android_version }}</a>
+      </div>
     </div>
-    <p>그리고 <a href="/app" style="color: var(--md-primary-fg-color);">더 많은</a> 정보를 확인하세요.</p>
+    <p>및 <a href="/app" style="color: var(--md-primary-fg-color);">더보기</a>.</p>
   </section>
 
   <section class="product-close-up" id="product-close-up">
-    
     <div class="container">
-
       <div class="product-close-up-content">
         <div class="product-image">
-          <img src="https://assets.openterface.com/images/product/use-case-demo-respberry-pi.webp" alt="제품 상세 이미지">
+          <img src="https://assets.openterface.com/images/product/use-case-demo-industrial-pc.webp" alt="제품 클로즈업" loading="lazy">
         </div>
         <div class="product-description">
-          <p>Openterface Mini-KVM으로 기술 도구를 업그레이드하세요: 
-            <strong>소형, 기능이 풍부한, 오픈 소스 KVM-over-USB</strong> 솔루션으로 즉시 IT 작업과 문제 해결을 간소화합니다.
-          </p>
+          <p>Openterface Mini-KVM으로 기술 도구 키트를 강화하세요: 이동 중에도 IT 작업과 문제 해결을 간편하게 해주는 컴팩트하고 다양한 기능을 갖춘 오픈소스 USB KVM 솔루션입니다.</p>
         </div>
       </div>
-  
       <div class="product-close-up-content reverse-layout">
         <div class="product-image">
-          <img src="https://assets.openterface.com/images/product/use-case-demo-industrial-pc.webp" alt="예시 포스터" loading="lazy">
+          <img src="https://assets.openterface.com/images/product/toolkit-open.webp" alt="출시 전 포스터" loading="lazy">
         </div>
         <div class="product-description">
-          <p> <strong>그额外의 모니터, 키보드, 마우스를 작별하세요!</strong>
-            노트북을 스마트 KVM 콘솔로 변환하여 HDMI와 USB를 통해 아무 헤드리스 장치를 제어하세요.
-          </p>
+          <p><strong>여분의 모니터, 키보드, 마우스와 작별하세요!</strong> HDMI와 USB를 통해 헤드리스 디바이스를 제어할 수 있는 스마트 KVM 콘솔로 노트북을 변신시키세요.</p>
         </div>
       </div>
     </div>
-
   </section>
 
   <section class="icon-section" id="icon">
     <div class="icon-container">
-        <h2>기능</h2>
-        <div class="icon-grid">
-            <div class="icon-item">
-              <img src="https://assets.openterface.com/images/feature-icons/icon-plug-and-play.svg#only-light" alt="플러그 앤 플레이 아이콘">
-              <img src="https://assets.openterface.com/images/feature-icons/icon-plug-and-play-d.svg#only-dark" alt="플러그 앤 플레이 아이콘">
-              <p>플러그 앤 플레이</p>
-            </div>
-            <div class="icon-item">
-                <img src="https://assets.openterface.com/images/feature-icons/icon-bios-access.svg#only-light" alt="BIOS 접근 아이콘">
-                <img src="https://assets.openterface.com/images/feature-icons/icon-bios-access-d.svg#only-dark" alt="BIOS 접근 아이콘">
-                <p>BIOS 접근</p>
-            </div>
-            <div class="icon-item">
-                <img src="https://assets.openterface.com/images/feature-icons/icon-network-free.svg#only-light" alt="네트워크 자유 아이콘">
-                <img src="https://assets.openterface.com/images/feature-icons/icon-network-free-d.svg#only-dark" alt="네트워크 자유 아이콘">
-                <p>네트워크 자유</p>
-            </div>
-            <div class="icon-item">
-                <img src="https://assets.openterface.com/images/feature-icons/icon-text-transfer.svg#only-light" alt="텍스트 전송 아이콘">
-                <img src="https://assets.openterface.com/images/feature-icons/icon-text-transfer-d.svg#only-dark" alt="텍스트 전송 아이콘">
-                <p>텍스트 전송</p>
-            </div>
-            <div class="icon-item">
-                <img src="https://assets.openterface.com/images/feature-icons/icon-usb-switch.svg#only-light" alt="USB 스위치 아이콘">
-                <img src="https://assets.openterface.com/images/feature-icons/icon-usb-switch-d.svg#only-dark" alt="USB 스위치 아이콘">
-                <p>USB 스위치</p>
-            </div>
-            <div class="icon-item">
-              <img src="https://assets.openterface.com/images/feature-icons/icon-more.svg#only-light" alt="더 많은 아이콘">
-              <img src="https://assets.openterface.com/images/feature-icons/icon-more-d.svg#only-dark" alt="더 많은 아이콘">
-              <p>그리고 <a href="/features" style="color: var(--md-primary-fg-color);">더 많은</a> 기능을 확인하세요.</p>
-          </div>
+      <h2>기능</h2>
+      <div class="icon-grid">
+        <div class="icon-item">
+          <img src="https://assets.openterface.com/images/feature-icons/icon-plug-and-play.svg#only-light" alt="플러그 앤 플레이 아이콘">
+          <img src="https://assets.openterface.com/images/feature-icons/icon-plug-and-play-d.svg#only-dark" alt="플러그 앤 플레이 아이콘">
+          <p>플러그 앤 플레이</p>
         </div>
+        <div class="icon-item">
+          <img src="https://assets.openterface.com/images/feature-icons/icon-bios-access.svg#only-light" alt="BIOS 액세스 아이콘">
+          <img src="https://assets.openterface.com/images/feature-icons/icon-bios-access-d.svg#only-dark" alt="BIOS 액세스 아이콘">
+          <p>BIOS 액세스</p>
+        </div>
+        <div class="icon-item">
+          <img src="https://assets.openterface.com/images/feature-icons/icon-network-free.svg#only-light" alt="네트워크 프리 아이콘">
+          <img src="https://assets.openterface.com/images/feature-icons/icon-network-free-d.svg#only-dark" alt="네트워크 프리 아이콘">
+          <p>네트워크 프리</p>
+        </div>
+        <div class="icon-item">
+          <img src="https://assets.openterface.com/images/feature-icons/icon-text-transfer.svg#only-light" alt="텍스트 전송 아이콘">
+          <img src="https://assets.openterface.com/images/feature-icons/icon-text-transfer-d.svg#only-dark" alt="텍스트 전송 아이콘">
+          <p>텍스트 전송</p>
+        </div>
+        <div class="icon-item">
+          <img src="https://assets.openterface.com/images/feature-icons/icon-usb-switch.svg#only-light" alt="USB 스위치 아이콘">
+          <img src="https://assets.openterface.com/images/feature-icons/icon-usb-switch-d.svg#only-dark" alt="USB 스위치 아이콘">
+          <p>USB 스위치</p>
+        </div>
+        <div class="icon-item">
+          <img src="https://assets.openterface.com/images/feature-icons/icon-more.svg#only-light" alt="더보기 아이콘">
+          <img src="https://assets.openterface.com/images/feature-icons/icon-more-d.svg#only-dark" alt="더보기 아이콘">
+          <p>및 <a href="/product/minikvm/features" style="color: var(--md-primary-fg-color);">더보기</a>.</p>
+        </div>
+      </div>
     </div>
   </section>
 
   <section class="feature-dev-test" id="feature-dev-test">
     <div class="container">
-      <h2>제품 미리보기</h2>
+      <h2>제품 리뷰</h2>
       <div class="videos-wrapper">
         <div class="video-container">
-          <iframe width="560" height="315" loading="lazy" src="https://www.youtube.com/embed/ZZ5P6MnBcHw?si=Ny7OUeid4Wnu_YqV" title="소개 비디오" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+          <iframe width="560" height="315" loading="lazy" src="https://www.youtube.com/embed/ZZ5P6MnBcHw?si=Ny7OUeid4Wnu_YqV" title="소개 영상" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
         </div>
         <div class="video-container">
-          <iframe width="560" height="315" loading="lazy" src="https://www.youtube.com/embed/K0EuMSQEwKo?si=MEHPtBsCP5pSerD2" title="윈도우용 베타 앱" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+          <iframe width="560" height="315" loading="lazy" src="https://www.youtube.com/embed/sKDYsKBv90A?si=6Zr71Mabpu1688w6" title="윈도우용 베타 앱" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
         </div>
         <div class="video-container">
           <iframe width="560" height="315" loading="lazy" src="https://www.youtube.com/embed/xAEQpWyfY-c?si=7aMQoJ-1bBI5Hicw" title="제품 리뷰" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
         </div>
       </div>
-    </div>
-  </section>
-  
-  <section class="blog" id="blog">
-    <div class="container">
-      <h2>최신 소식</h2>
-      <div class="blog-list">
-        <div class="post">
-          <h3><a href="/blog/diy-챌린지에-도전해-보세요-oshwa의-show--tell에서-만나요/">DIY 챌린지에 도전해 보세요! OSHWA의 Show & Tell에서 만나요!</a></h3>
-          <p class="date">24/10/01</p>
-        </div>
-        <div class="post">
-          <h3><a href="/blog/장애물-극복-진행-상황-업데이트-및-새로운-일정/">장애물 극복: 진행 상황 업데이트 및 새로운 일정</a></h3>
-          <p class="date">24/08/23</p>
-        </div>
-        <div class="post">
-          <h3><a href="/blog/teardown에서-생산까지-앞으로-나아갑니다/">Teardown에서 생산까지: 앞으로 나아갑니다!</a></h3>
-          <p class="date">24/07/16</p>
-        </div>
-      </div>
-      <a href="{{ '/blog' | url }}" title="더 읽어보기" class="md-button md-button--primary read-more-btn">
-        더 읽어보기
-      </a>
+      <p>및 <a href="/product/minikvm/reviews/" style="color: #e0e0e0;">더보기</a>.</p>
     </div>
   </section>
 
-  <a rel="me" href="https://mastodon.social/@youyoubilly" style="display:none;">마스토돈</a>
+  <!-- Gibby Avatar and Dialogue Box -->
+  <div class="gibby-container">
+    <a href="#form_signup" class="gibby-link"><img src="https://assets.openterface.com/images/op-avatar.webp" alt="Gibby 마스코트" class="gibby-avatar" draggable="false" aria-label="Gibby 마스코트"></a>
+    <div class="gibby-dialogue">
+      <p> <a href="#form_signup" class="gibby-link">지금 구독하기!</a> </p>
+    </div>
+  </div>
+
+  <a rel="me" href="https://mastodon.social/@youyoubilly" style="display:none;">Mastodon</a>
 
 {% endblock %}
 
