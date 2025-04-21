@@ -254,7 +254,14 @@ plugins:
         'feedback.md': 'https://forms.gle/YJLrCKwro8tbi6ar7'
         'oshw.md': 'https://certification.oshwa.org/cn000015.html'
         'x.md': 'https://x.com/TechxArtisan'
+<<<<<<< HEAD
         'appstore.md': 'https://apps.apple.com/us/app/openterface-mini-kvm/id6478481082'
+=======
+        'appstore.md': 'https://apps.apple.com/ko/app/openterface-mini-kvm/id6478481082'
+        'playstore.md': 'https://play.google.com/store/apps/details?id=com.openterface.AOS'
+  - tags:
+      tags_file: tags.md
+>>>>>>> 429beb19f2fd5f85c39f7fafc8581577952b8ca5
   - blog:
       authors_file: "{blog}/.authors.yml"
       blog_toc: true
