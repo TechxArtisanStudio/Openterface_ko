@@ -33,75 +33,44 @@
       <img src="https://assets.openterface.com/images/product/win_qt_app.webp" alt="포스터 이미지" class="poster-image-shadow" loading="lazy">
     </div>
     <div class="callout-button-container">
-<<<<<<< HEAD
       <div class="dialogue-bubble" id="op-bubble">
-        <img src="https://assets.openterface.com/images/trademark/win.svg" alt="아바타" class="avatar" draggable="false">
-        <p>윈도우</p>
-        <a href="https://github.com/TechxArtisanStudio/Openterface_QT/releases/download/{{ config.extra.qt_version }}/openterfaceQT.windows.amd64.installer.exe" class="md-button md-button--primary" id="join-waitlist-button">설치 프로그램 {{ config.extra.qt_version }}</a>
-        <a href="https://github.com/TechxArtisanStudio/Openterface_QT/releases/download/{{ config.extra.qt_version }}/openterfaceQT-portable.exe" class="md-button md-button--primary" id="join-waitlist-button">포터블 EXE {{ config.extra.qt_version }}</a>
+        <div>
+          <img src="https://assets.openterface.com/images/trademark/win.svg" alt="아바타" class="avatar" draggable="false">
+          <p>윈도우</p>
+        </div>
+        <h4>{{ config.extra.qt_version }}</h4>
+        <a href="https://github.com/TechxArtisanStudio/Openterface_QT/releases/download/{{ config.extra.qt_version }}/openterfaceQT.windows.amd64.installer.exe" class="md-button md-button--primary" id="join-waitlist-button">설치 프로그램</a>
+        <a href="https://github.com/TechxArtisanStudio/Openterface_QT/releases/download/{{ config.extra.qt_version }}/openterfaceQT-portable.exe" class="md-button md-button--primary" id="join-waitlist-button">휴대용 EXE</a>
+      </div>
+      <div class="dialogue-bubble" id="op-bubble">
+        <div>
+          <img src="https://assets.openterface.com/images/trademark/app-store.svg" alt="아바타" class="avatar" draggable="false">
+          <p>macOS</p>
+        </div>
+        <h4>{{ config.extra.macos_version }}</h4>
+        <a class="btnappstore" href="/appstore"></a>
+      </div>
+      <div class="dialogue-bubble" id="op-bubble">
+        <div>
+          <img src="https://assets.openterface.com/images/trademark/linux.svg" alt="아바타" class="avatar" draggable="false">
+          <p>리눅스</p>
+        </div>
+        <h4>{{ config.extra.qt_version }}</h4>
+        <a href="https://github.com/TechxArtisanStudio/Openterface_QT/releases/download/{{ config.extra.qt_version }}/openterfaceQT.linux.amd64.deb" class="md-button md-button--primary" id="join-waitlist-button">AMD64 DEB</a>
+        <a href="https://github.com/TechxArtisanStudio/Openterface_QT/releases/download/{{ config.extra.qt_version }}/openterfaceQT.linux.amd64.rpm" class="md-button md-button--primary" id="join-waitlist-button">AMD64 RPM</a>
+        <a href="https://github.com/TechxArtisanStudio/Openterface_QT/releases/download/{{ config.extra.qt_version }}/openterfaceQT.linux.arm64.deb" class="md-button md-button--primary" id="join-waitlist-button">ARM64 DEB</a>
+        <a href="https://github.com/TechxArtisanStudio/Openterface_QT/releases/download/{{ config.extra.qt_version }}/openterfaceQT.linux.arm64.rpm" class="md-button md-button--primary" id="join-waitlist-button">ARM64 RPM</a>
         <a href="https://github.com/TechxArtisanStudio/Openterface_QT" class="md-button md-button--primary" id="join-waitlist-button">소스 코드</a>
       </div>
       <div class="dialogue-bubble" id="op-bubble">
-        <img src="https://assets.openterface.com/images/trademark/app-store.svg" alt="아바타" class="avatar" draggable="false">
-        <p>macOS</p>
-        <a href="/appstore" class="md-button md-button--primary" id="join-waitlist-button">앱 스토어 {{ config.extra.macos_version }}</a>
+        <div>
+          <img src="https://assets.openterface.com/images/trademark/android.svg" alt="아바타" class="avatar" draggable="false">
+          <p>안드로이드</p>
+        </div>
+        <h4>{{ config.extra.android_version }}</h4>
+        <a class="btngogoleplay" href="/playstore"></a>
+        <a href="https://github.com/TechxArtisanStudio/Openterface_Android/releases/download/{{ config.extra.android_version }}/OpenterfaceAndroid-release.apk" class="md-button md-button--primary" id="join-waitlist-button">apk</a>
       </div>
-      <div class="dialogue-bubble" id="op-bubble">
-        <img src="https://assets.openterface.com/images/trademark/linux.svg" alt="아바타" class="avatar" draggable="false">
-        <p>리눅스</p>
-        <a href="https://github.com/TechxArtisanStudio/Openterface_QT/releases/download/{{ config.extra.qt_version }}/openterfaceQT.linux.amd64.deb" class="md-button md-button--primary" id="join-waitlist-button">AMD64 DEB {{ config.extra.qt_version }}</a>
-        <a href="https://github.com/TechxArtisanStudio/Openterface_QT/releases/download/{{ config.extra.qt_version }}/openterfaceQT.linux.amd64.rpm" class="md-button md-button--primary" id="join-waitlist-button">AMD64 RPM {{ config.extra.qt_version }}</a>
-        <a href="https://github.com/TechxArtisanStudio/Openterface_QT/releases/download/{{ config.extra.qt_version }}/openterfaceQT.linux.amd64.AppImage" class="md-button md-button--primary" id="join-waitlist-button">AMD64 AppImage {{ config.extra.qt_version }}</a>
-        <a href="https://github.com/TechxArtisanStudio/Openterface_QT/releases/download/{{ config.extra.qt_version }}/openterfaceQT.linux.arm64.deb" class="md-button md-button--primary" id="join-waitlist-button">ARM64 DEB {{ config.extra.qt_version }}</a>
-        <a href="https://github.com/TechxArtisanStudio/Openterface_QT/releases/download/{{ config.extra.qt_version }}/openterfaceQT.linux.arm64.rpm" class="md-button md-button--primary" id="join-waitlist-button">ARM64 RPM {{ config.extra.qt_version }}</a>
-        <a href="https://github.com/TechxArtisanStudio/Openterface_QT" class="md-button md-button--primary" id="join-waitlist-button">소스 코드</a>
-      </div>
-      <div class="dialogue-bubble" id="op-bubble">
-        <img src="https://assets.openterface.com/images/trademark/android.svg" alt="아바타" class="avatar" draggable="false">
-        <p>안드로이드</p>
-        <a class="btngogoleplay" href="https://play.google.com/store/apps/details?id=com.openterface.AOS"></a>
-        <a href="https://github.com/TechxArtisanStudio/Openterface_Android/releases/download/{{ config.extra.android_version }}/OpenterfaceAndroid-release.apk" class="md-button md-button--primary" id="join-waitlist-button">apk {{ config.extra.android_version }}</a>
-      </div>
-=======
-        <div class="dialogue-bubble" id="op-bubble">
-            <div>
-              <img src="https://assets.openterface.com/images/trademark/win.svg" alt="아바타" class="avatar" draggable="false">
-              <p>Windows</p>
-            </div>
-            <h4>{{ config.extra.qt_version }}</h4>
-            <a href="https://github.com/TechxArtisanStudio/Openterface_QT/releases/download/{{ config.extra.qt_version }}/openterfaceQT.windows.amd64.installer.exe" class="md-button md-button--primary" id="join-waitlist-button">설치 프로그램</a>
-            <a href="https://github.com/TechxArtisanStudio/Openterface_QT/releases/download/{{ config.extra.qt_version }}/openterfaceQT-portable.exe" class="md-button md-button--primary" id="join-waitlist-button">휴대용 EXE</a>
-        </div>
-        <div class="dialogue-bubble" id="op-bubble">
-            <div>
-              <img src="https://assets.openterface.com/images/trademark/app-store.svg" alt="아바타" class="avatar" draggable="false">
-              <p>macOS</p>
-            </div>
-            <h4>{{ config.extra.macos_version }}</h4>
-            <a class="btnappstore" href="/appstore"></a>
-        </div>
-        <div class="dialogue-bubble" id="op-bubble">
-            <div>
-              <img src="https://assets.openterface.com/images/trademark/linux.svg" alt="아바타" class="avatar" draggable="false">
-              <p>Linux</p>
-            </div>
-            <h4>{{ config.extra.qt_version }}</h4>
-            <a href="https://github.com/TechxArtisanStudio/Openterface_QT/releases/download/{{ config.extra.qt_version }}/openterfaceQT.linux.amd64.deb" class="md-button md-button--primary" id="join-waitlist-button">AMD64 DEB</a>
-            <a href="https://github.com/TechxArtisanStudio/Openterface_QT/releases/download/{{ config.extra.qt_version }}/openterfaceQT.linux.amd64.rpm" class="md-button md-button--primary" id="join-waitlist-button">AMD64 RPM</a>
-            <a href="https://github.com/TechxArtisanStudio/Openterface_QT/releases/download/{{ config.extra.qt_version }}/openterfaceQT.linux.arm64.deb" class="md-button md-button--primary" id="join-waitlist-button">ARM64 DEB</a>
-            <a href="https://github.com/TechxArtisanStudio/Openterface_QT/releases/download/{{ config.extra.qt_version }}/openterfaceQT.linux.arm64.rpm" class="md-button md-button--primary" id="join-waitlist-button">ARM64 RPM</a>
-            <a href="https://github.com/TechxArtisanStudio/Openterface_QT" class="md-button md-button--primary" id="join-waitlist-button">소스 코드</a>
-        </div>
-        <div class="dialogue-bubble" id="op-bubble">
-            <div>
-              <img src="https://assets.openterface.com/images/trademark/android.svg" alt="아바타" class="avatar" draggable="false">
-              <p>Android</p>
-            </div>
-            <h4>{{ config.extra.android_version }}</h4>
-            <a class="btngogoleplay" href="/playstore"></a>
-            <a href="https://github.com/TechxArtisanStudio/Openterface_Android/releases/download/{{ config.extra.android_version }}/OpenterfaceAndroid-release.apk" class="md-button md-button--primary" id="join-waitlist-button">apk</a>
-        </div>
->>>>>>> 429beb19f2fd5f85c39f7fafc8581577952b8ca5
     </div>
     <p>및 <a href="/app" style="color: var(--md-primary-fg-color);">더보기</a>.</p>
   </section>
@@ -183,7 +152,7 @@
     </div>
   </section>
 
-  <!-- Gibby Avatar and Dialogue Box -->
+  <!-- 깁비 아바타 및 대화 상자 -->
   <div class="gibby-container">
     <a href="#form_signup" class="gibby-link"><img src="https://assets.openterface.com/images/op-avatar.webp" alt="Gibby 마스코트" class="gibby-avatar" draggable="false" aria-label="Gibby 마스코트"></a>
     <div class="gibby-dialogue">
