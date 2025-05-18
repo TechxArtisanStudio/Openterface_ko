@@ -14,6 +14,8 @@ nav:
         - minikvm/extension-pins.md
         - FAQ 및 문제 해결: /faq/minikvm/op-minikvm/
         - Openterface를 선택하는 이유: /faq/usbkvm/openterface/
+    - Mini-KVM Lite (출시 전):
+        - minikvm-lite/pre-launch.md
     - 액세서리:
         - accessories/index.md
         - VGA to HDMI 케이블 1m: accessories/vga-to-hdmi-cable.md
