@@ -1,0 +1,114 @@
+<!-- 바닥글 -->
+<footer class="md-footer">
+
+  <!-- 이전 및 다음 페이지 링크 -->
+  {% if "navigation.footer" in features %}
+    {% if page.previous_page or page.next_page %}
+      {% if page.meta and page.meta.hide %}
+        {% set hidden = "hidden" if "footer" in page.meta.hide %}
+      {% endif %}
+      <nav
+        class="md-footer__inner md-grid"
+        aria-label="{{ lang.t('footer') }}"
+        {{ hidden }}
+      >
+
+        <!-- 이전 페이지 링크 -->
+        {% if page.previous_page %}
+          {% set direction = lang.t("footer.previous") %}
+          <a
+            href="{{ page.previous_page.url | url }}"
+            class="md-footer__link md-footer__link--prev"
+            aria-label="{{ direction }}: {{ page.previous_page.title | e }}"
+          >
+            <div class="md-footer__button md-icon">
+              {% set icon = config.theme.icon.previous or "material/arrow-left" %}
+              {% include ".icons/" ~ icon ~ ".svg" %}
+            </div>
+            <div class="md-footer__title">
+              <span class="md-footer__direction">
+                {{ direction }}
+              </span>
+              <div class="md-ellipsis">
+                {{ page.previous_page.title }}
+              </div>
+            </div>
+          </a>
+        {% endif %}
+
+        <!-- 다음 페이지 링크 -->
+        {% if page.next_page %}
+          {% set direction = lang.t("footer.next") %}
+          <a
+            href="{{ page.next_page.url | url }}"
+            class="md-footer__link md-footer__link--next"
+            aria-label="{{ direction }}: {{ page.next_page.title | e }}"
+          >
+            <div class="md-footer__title">
+              <span class="md-footer__direction">
+                {{ direction }}
+              </span>
+              <div class="md-ellipsis">
+                {{ page.next_page.title }}
+              </div>
+            </div>
+            <div class="md-footer__button md-icon">
+              {% set icon = config.theme.icon.next or "material/arrow-right" %}
+              {% include ".icons/" ~ icon ~ ".svg" %}
+            </div>
+          </a>
+        {% endif %}
+      </nav>
+    {% endif %}
+  {% endif %}
+
+  <!-- 추가 정보 -->
+  <div class="md-footer-meta md-typeset">
+    <div class="md-footer-meta__inner md-grid footer-flex-container">
+
+      <!-- 가입 양식 -->
+      <div class="signup-form-container footer-flex-item">
+        <div id="form_signup">
+          <!-- AJAX로 제출되도록 수정된 폼 -->
+          <form id="subscribe-form" name="subscribe-form" class="js-loading">
+            <div id="form_signup_scroll">
+              <div class="gf-field-group">
+                <input type="text" name="name" class="required" id="form-name" required placeholder="이름">
+              </div>
+              <div class="gf-field-group">
+                <input type="email" name="email" class="required email" id="form-email" required placeholder="이메일 주소 *">
+              </div>
+              <div class="clear">
+                <input type="submit" name="submit" id="form-submit" class="button" value="✉️ 최신 소식을 구독하세요! 🐝" disabled>
+                <p class="footnote">이메일은 한 달에 한 번 이하로 발송됩니다. 언제든지 구독을 취소할 수 있습니다. <br> 문의 사항이 있으시면 <a href="mailto:info@openterface.com">info@openterface.com</a>으로 이메일을 보내주세요.</p>
+              </div>
+            </div>
+          </form>
+        </div>
+      </div>
+
+      <!-- 저작권 정보 -->
+      <div class="footer-flex-item footer-copyright">
+        {% include "partials/copyright.html" %}
+      </div>
+
+      <!-- 소셜 링크 -->
+      {% if config.extra.social %}
+        <div class="footer-flex-item footer-social">
+          {% include "partials/social.html" %}
+        </div>
+      {% endif %}
+    </div>
+  </div>
+
+  <!-- 푸터에서 subscribe.js를 직접 로드 -->
+  <script>
+    // subscribe.js를 로드하고 탐색 기능과 호환되도록 합니다
+    (function() {
+      var script = document.createElement('script');
+      script.src = "{{ 'assets/javascripts/subscribe.js' | url }}";
+      script.async = false; // 사용 가능하도록 동기적으로 로드합니다
+      document.body.appendChild(script);
+    })();
+  </script>
+</footer>
