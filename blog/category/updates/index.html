@@ -1,0 +1,3418 @@
+
+<!doctype html>
+<html lang="ko" class="no-js">
+  <head>
+    
+      <meta charset="utf-8">
+      <meta name="viewport" content="width=device-width,initial-scale=1">
+      
+        <meta name="description" content="기능이 풍부하고, 오픈 소스이며, 커뮤니티 주도의 KVM-over-USB 솔루션">
+      
+      
+        <meta name="author" content="오픈터페이스">
+      
+      
+        <link rel="canonical" href="https://ko.openterface.com/blog/category/updates/">
+      
+      
+        <link rel="prev" href="../../../tags/">
+      
+      
+        <link rel="next" href="../%EC%97%85%EB%8D%B0%EC%9D%B4%ED%8A%B8/">
+      
+      
+      <link rel="icon" href="../../../images/favicon.png">
+      <meta name="generator" content="mkdocs-1.6.1, mkdocs-material-9.6.14">
+    
+    
+      
+        <title>Updates - Openterface | 인터페이스를 연결하여 무한한 가능성 열기</title>
+      
+    
+    
+      <link rel="stylesheet" href="../../../assets/stylesheets/main.342714a4.min.css">
+      
+        
+        <link rel="stylesheet" href="../../../assets/stylesheets/palette.06af60db.min.css">
+      
+      
+  
+  
+    
+    
+  
+    
+    
+  
+    
+    
+  
+    
+    
+  
+    
+    
+  
+    
+    
+  
+    
+    
+  
+    
+    
+  
+    
+    
+  
+    
+    
+  
+    
+    
+  
+    
+    
+  
+  
+  <style>:root{--md-admonition-icon--note:url('data:image/svg+xml;charset=utf-8,%3Csvg%20xmlns%3D%22http%3A//www.w3.org/2000/svg%22%20viewBox%3D%220%200%20448%20512%22%3E%3C%21--%21%20Font%20Awesome%20Free%206.7.2%20by%20%40fontawesome%20-%20https%3A//fontawesome.com%20License%20-%20https%3A//fontawesome.com/license/free%20%28Icons%3A%20CC%20BY%204.0%2C%20Fonts%3A%20SIL%20OFL%201.1%2C%20Code%3A%20MIT%20License%29%20Copyright%202024%20Fonticons%2C%20Inc.--%3E%3Cpath%20d%3D%22M64%2032C28.7%2032%200%2060.7%200%2096v320c0%2035.3%2028.7%2064%2064%2064h224V368c0-26.5%2021.5-48%2048-48h112V96c0-35.3-28.7-64-64-64zm384%20320H336c-8.8%200-16%207.2-16%2016v112l32-32%2064-64z%22/%3E%3C/svg%3E');--md-admonition-icon--abstract:url('data:image/svg+xml;charset=utf-8,%3Csvg%20xmlns%3D%22http%3A//www.w3.org/2000/svg%22%20viewBox%3D%220%200%20448%20512%22%3E%3C%21--%21%20Font%20Awesome%20Free%206.7.2%20by%20%40fontawesome%20-%20https%3A//fontawesome.com%20License%20-%20https%3A//fontawesome.com/license/free%20%28Icons%3A%20CC%20BY%204.0%2C%20Fonts%3A%20SIL%20OFL%201.1%2C%20Code%3A%20MIT%20License%29%20Copyright%202024%20Fonticons%2C%20Inc.--%3E%3Cpath%20d%3D%22M96%200C43%200%200%2043%200%2096v320c0%2053%2043%2096%2096%2096h320c17.7%200%2032-14.3%2032-32s-14.3-32-32-32v-64c17.7%200%2032-14.3%2032-32V32c0-17.7-14.3-32-32-32H96m0%20384h256v64H96c-17.7%200-32-14.3-32-32s14.3-32%2032-32m32-240c0-8.8%207.2-16%2016-16h192c8.8%200%2016%207.2%2016%2016s-7.2%2016-16%2016H144c-8.8%200-16-7.2-16-16m16%2048h192c8.8%200%2016%207.2%2016%2016s-7.2%2016-16%2016H144c-8.8%200-16-7.2-16-16s7.2-16%2016-16%22/%3E%3C/svg%3E');--md-admonition-icon--info:url('data:image/svg+xml;charset=utf-8,%3Csvg%20xmlns%3D%22http%3A//www.w3.org/2000/svg%22%20viewBox%3D%220%200%20512%20512%22%3E%3C%21--%21%20Font%20Awesome%20Free%206.7.2%20by%20%40fontawesome%20-%20https%3A//fontawesome.com%20License%20-%20https%3A//fontawesome.com/license/free%20%28Icons%3A%20CC%20BY%204.0%2C%20Fonts%3A%20SIL%20OFL%201.1%2C%20Code%3A%20MIT%20License%29%20Copyright%202024%20Fonticons%2C%20Inc.--%3E%3Cpath%20d%3D%22M256%20512a256%20256%200%201%200%200-512%20256%20256%200%201%200%200%20512m-40-176h24v-64h-24c-13.3%200-24-10.7-24-24s10.7-24%2024-24h48c13.3%200%2024%2010.7%2024%2024v88h8c13.3%200%2024%2010.7%2024%2024s-10.7%2024-24%2024h-80c-13.3%200-24-10.7-24-24s10.7-24%2024-24m40-208a32%2032%200%201%201%200%2064%2032%2032%200%201%201%200-64%22/%3E%3C/svg%3E');--md-admonition-icon--tip:url('data:image/svg+xml;charset=utf-8,%3Csvg%20xmlns%3D%22http%3A//www.w3.org/2000/svg%22%20viewBox%3D%220%200%20512%20512%22%3E%3C%21--%21%20Font%20Awesome%20Free%206.7.2%20by%20%40fontawesome%20-%20https%3A//fontawesome.com%20License%20-%20https%3A//fontawesome.com/license/free%20%28Icons%3A%20CC%20BY%204.0%2C%20Fonts%3A%20SIL%20OFL%201.1%2C%20Code%3A%20MIT%20License%29%20Copyright%202024%20Fonticons%2C%20Inc.--%3E%3Cpath%20d%3D%22M480%2032c0-12.9-7.8-24.6-19.8-29.6S434.5.2%20425.3%209.3L381.7%2053c-48%2048-113.1%2075-181%2075H64c-35.3%200-64%2028.7-64%2064v96c0%2035.3%2028.7%2064%2064%2064v128c0%2017.7%2014.3%2032%2032%2032h64c17.7%200%2032-14.3%2032-32V352h8.7c67.9%200%20133%2027%20181%2075l43.6%2043.6c9.2%209.2%2022.9%2011.9%2034.9%206.9s19.8-16.6%2019.8-29.6V300.3c18.6-8.8%2032-32.5%2032-60.4s-13.4-51.6-32-60.4zm-64%2076.7v262.6C357.2%20317.8%20280.5%20288%20200.7%20288H192v-96h8.7c79.8%200%20156.5-29.8%20215.3-83.3%22/%3E%3C/svg%3E');--md-admonition-icon--success:url('data:image/svg+xml;charset=utf-8,%3Csvg%20xmlns%3D%22http%3A//www.w3.org/2000/svg%22%20viewBox%3D%220%200%20448%20512%22%3E%3C%21--%21%20Font%20Awesome%20Free%206.7.2%20by%20%40fontawesome%20-%20https%3A//fontawesome.com%20License%20-%20https%3A//fontawesome.com/license/free%20%28Icons%3A%20CC%20BY%204.0%2C%20Fonts%3A%20SIL%20OFL%201.1%2C%20Code%3A%20MIT%20License%29%20Copyright%202024%20Fonticons%2C%20Inc.--%3E%3Cpath%20d%3D%22M438.6%20105.4c12.5%2012.5%2012.5%2032.8%200%2045.3l-256%20256c-12.5%2012.5-32.8%2012.5-45.3%200l-128-128c-12.5-12.5-12.5-32.8%200-45.3s32.8-12.5%2045.3%200L160%20338.7l233.4-233.3c12.5-12.5%2032.8-12.5%2045.3%200z%22/%3E%3C/svg%3E');--md-admonition-icon--question:url('data:image/svg+xml;charset=utf-8,%3Csvg%20xmlns%3D%22http%3A//www.w3.org/2000/svg%22%20viewBox%3D%220%200%20512%20512%22%3E%3C%21--%21%20Font%20Awesome%20Free%206.7.2%20by%20%40fontawesome%20-%20https%3A//fontawesome.com%20License%20-%20https%3A//fontawesome.com/license/free%20%28Icons%3A%20CC%20BY%204.0%2C%20Fonts%3A%20SIL%20OFL%201.1%2C%20Code%3A%20MIT%20License%29%20Copyright%202024%20Fonticons%2C%20Inc.--%3E%3Cpath%20d%3D%22M256%20512a256%20256%200%201%200%200-512%20256%20256%200%201%200%200%20512m-86.2-346.7c7.9-22.3%2029.1-37.3%2052.8-37.3h58.3c34.9%200%2063.1%2028.3%2063.1%2063.1%200%2022.6-12.1%2043.5-31.7%2054.8L280%20264.4c-.2%2013-10.9%2023.6-24%2023.6-13.3%200-24-10.7-24-24v-13.5c0-8.6%204.6-16.5%2012.1-20.8l44.3-25.4c4.7-2.7%207.6-7.7%207.6-13.1%200-8.4-6.8-15.1-15.1-15.1h-58.3c-3.4%200-6.4%202.1-7.5%205.3l-.4%201.2c-4.4%2012.5-18.2%2019-30.6%2014.6s-19-18.2-14.6-30.6l.4-1.2zM224%20352a32%2032%200%201%201%2064%200%2032%2032%200%201%201-64%200%22/%3E%3C/svg%3E');--md-admonition-icon--warning:url('data:image/svg+xml;charset=utf-8,%3Csvg%20xmlns%3D%22http%3A//www.w3.org/2000/svg%22%20viewBox%3D%220%200%20512%20512%22%3E%3C%21--%21%20Font%20Awesome%20Free%206.7.2%20by%20%40fontawesome%20-%20https%3A//fontawesome.com%20License%20-%20https%3A//fontawesome.com/license/free%20%28Icons%3A%20CC%20BY%204.0%2C%20Fonts%3A%20SIL%20OFL%201.1%2C%20Code%3A%20MIT%20License%29%20Copyright%202024%20Fonticons%2C%20Inc.--%3E%3Cpath%20d%3D%22M256%2032c14.2%200%2027.3%207.5%2034.5%2019.8l216%20368c7.3%2012.4%207.3%2027.7.2%2040.1S486.3%20480%20472%20480H40c-14.3%200-27.6-7.7-34.7-20.1s-7-27.8.2-40.1l216-368C228.7%2039.5%20241.8%2032%20256%2032m0%20128c-13.3%200-24%2010.7-24%2024v112c0%2013.3%2010.7%2024%2024%2024s24-10.7%2024-24V184c0-13.3-10.7-24-24-24m32%20224a32%2032%200%201%200-64%200%2032%2032%200%201%200%2064%200%22/%3E%3C/svg%3E');--md-admonition-icon--failure:url('data:image/svg+xml;charset=utf-8,%3Csvg%20xmlns%3D%22http%3A//www.w3.org/2000/svg%22%20viewBox%3D%220%200%20512%20512%22%3E%3C%21--%21%20Font%20Awesome%20Free%206.7.2%20by%20%40fontawesome%20-%20https%3A//fontawesome.com%20License%20-%20https%3A//fontawesome.com/license/free%20%28Icons%3A%20CC%20BY%204.0%2C%20Fonts%3A%20SIL%20OFL%201.1%2C%20Code%3A%20MIT%20License%29%20Copyright%202024%20Fonticons%2C%20Inc.--%3E%3Cpath%20d%3D%22M459.1%2052.4%20442.6%206.5c-1.9-3.9-6.1-6.5-10.5-6.5s-8.5%202.6-10.4%206.5l-16.5%2045.9-46%2016.8c-4.3%201.6-7.3%205.9-7.2%2010.4%200%204.5%203%208.7%207.2%2010.2l45.7%2016.8%2016.8%2045.8c1.5%204.4%205.8%207.5%2010.4%207.5s8.9-3.1%2010.4-7.5l16.5-45.8%2045.7-16.8c4.2-1.5%207.2-5.7%207.2-10.2%200-4.6-3-8.9-7.2-10.4zm-132.4%2053c-12.5-12.5-32.8-12.5-45.3%200l-2.9%202.9c-22-8-45.8-12.3-70.5-12.3C93.1%2096%200%20189.1%200%20304s93.1%20208%20208%20208%20208-93.1%20208-208c0-24.7-4.3-48.5-12.2-70.5l2.9-2.9c12.5-12.5%2012.5-32.8%200-45.3l-80-80zM200%20192c-57.4%200-104%2046.6-104%20104v8c0%208.8-7.2%2016-16%2016s-16-7.2-16-16v-8c0-75.1%2060.9-136%20136-136h8c8.8%200%2016%207.2%2016%2016s-7.2%2016-16%2016z%22/%3E%3C/svg%3E');--md-admonition-icon--danger:url('data:image/svg+xml;charset=utf-8,%3Csvg%20xmlns%3D%22http%3A//www.w3.org/2000/svg%22%20viewBox%3D%220%200%20512%20512%22%3E%3C%21--%21%20Font%20Awesome%20Free%206.7.2%20by%20%40fontawesome%20-%20https%3A//fontawesome.com%20License%20-%20https%3A//fontawesome.com/license/free%20%28Icons%3A%20CC%20BY%204.0%2C%20Fonts%3A%20SIL%20OFL%201.1%2C%20Code%3A%20MIT%20License%29%20Copyright%202024%20Fonticons%2C%20Inc.--%3E%3Cpath%20d%3D%22M416%20398.9c58.5-41.1%2096-104.1%2096-174.9C512%20100.3%20397.4%200%20256%200S0%20100.3%200%20224c0%2070.7%2037.5%20133.8%2096%20174.9V464c0%2026.5%2021.5%2048%2048%2048h48v-48c0-8.8%207.2-16%2016-16s16%207.2%2016%2016v48h64v-48c0-8.8%207.2-16%2016-16s16%207.2%2016%2016v48h48c26.5%200%2048-21.5%2048-48v-65.1M96%20256a64%2064%200%201%201%20128%200%2064%2064%200%201%201-128%200m256-64a64%2064%200%201%201%200%20128%2064%2064%200%201%201%200-128%22/%3E%3C/svg%3E');--md-admonition-icon--bug:url('data:image/svg+xml;charset=utf-8,%3Csvg%20xmlns%3D%22http%3A//www.w3.org/2000/svg%22%20viewBox%3D%220%200%20640%20512%22%3E%3C%21--%21%20Font%20Awesome%20Free%206.7.2%20by%20%40fontawesome%20-%20https%3A//fontawesome.com%20License%20-%20https%3A//fontawesome.com/license/free%20%28Icons%3A%20CC%20BY%204.0%2C%20Fonts%3A%20SIL%20OFL%201.1%2C%20Code%3A%20MIT%20License%29%20Copyright%202024%20Fonticons%2C%20Inc.--%3E%3Cpath%20d%3D%22M320%200c17.7%200%2032%2014.3%2032%2032v64h120c39.8%200%2072%2032.2%2072%2072v272c0%2039.8-32.2%2072-72%2072H168c-39.8%200-72-32.2-72-72V168c0-39.8%2032.2-72%2072-72h120V32c0-17.7%2014.3-32%2032-32M208%20384c-8.8%200-16%207.2-16%2016s7.2%2016%2016%2016h32c8.8%200%2016-7.2%2016-16s-7.2-16-16-16zm96%200c-8.8%200-16%207.2-16%2016s7.2%2016%2016%2016h32c8.8%200%2016-7.2%2016-16s-7.2-16-16-16zm96%200c-8.8%200-16%207.2-16%2016s7.2%2016%2016%2016h32c8.8%200%2016-7.2%2016-16s-7.2-16-16-16zM264%20256a40%2040%200%201%200-80%200%2040%2040%200%201%200%2080%200m152%2040a40%2040%200%201%200%200-80%2040%2040%200%201%200%200%2080M48%20224h16v192H48c-26.5%200-48-21.5-48-48v-96c0-26.5%2021.5-48%2048-48m544%200c26.5%200%2048%2021.5%2048%2048v96c0%2026.5-21.5%2048-48%2048h-16V224z%22/%3E%3C/svg%3E');--md-admonition-icon--example:url('data:image/svg+xml;charset=utf-8,%3Csvg%20xmlns%3D%22http%3A//www.w3.org/2000/svg%22%20viewBox%3D%220%200%20448%20512%22%3E%3C%21--%21%20Font%20Awesome%20Free%206.7.2%20by%20%40fontawesome%20-%20https%3A//fontawesome.com%20License%20-%20https%3A//fontawesome.com/license/free%20%28Icons%3A%20CC%20BY%204.0%2C%20Fonts%3A%20SIL%20OFL%201.1%2C%20Code%3A%20MIT%20License%29%20Copyright%202024%20Fonticons%2C%20Inc.--%3E%3Cpath%20d%3D%22M288%200H128c-17.7%200-32%2014.3-32%2032s14.3%2032%2032%2032v132.8c0%2011.8-3.3%2023.5-9.5%2033.5L10.3%20406.2C3.6%20417.2%200%20429.7%200%20442.6%200%20480.9%2031.1%20512%2069.4%20512h309.2c38.3%200%2069.4-31.1%2069.4-69.4%200-12.8-3.6-25.4-10.3-36.4L329.5%20230.4c-6.2-10.1-9.5-21.7-9.5-33.5V64c17.7%200%2032-14.3%2032-32S337.7%200%20320%200zm-96%20196.8V64h64v132.8c0%2023.7%206.6%2046.9%2019%2067.1l34.5%2056.1h-171l34.5-56.1c12.4-20.2%2019-43.4%2019-67.1%22/%3E%3C/svg%3E');--md-admonition-icon--quote:url('data:image/svg+xml;charset=utf-8,%3Csvg%20xmlns%3D%22http%3A//www.w3.org/2000/svg%22%20viewBox%3D%220%200%20448%20512%22%3E%3C%21--%21%20Font%20Awesome%20Free%206.7.2%20by%20%40fontawesome%20-%20https%3A//fontawesome.com%20License%20-%20https%3A//fontawesome.com/license/free%20%28Icons%3A%20CC%20BY%204.0%2C%20Fonts%3A%20SIL%20OFL%201.1%2C%20Code%3A%20MIT%20License%29%20Copyright%202024%20Fonticons%2C%20Inc.--%3E%3Cpath%20d%3D%22M0%20216C0%20149.7%2053.7%2096%20120%2096h8c17.7%200%2032%2014.3%2032%2032s-14.3%2032-32%2032h-8c-30.9%200-56%2025.1-56%2056v8h64c35.3%200%2064%2028.7%2064%2064v64c0%2035.3-28.7%2064-64%2064H64c-35.3%200-64-28.7-64-64V216m256%200c0-66.3%2053.7-120%20120-120h8c17.7%200%2032%2014.3%2032%2032s-14.3%2032-32%2032h-8c-30.9%200-56%2025.1-56%2056v8h64c35.3%200%2064%2028.7%2064%2064v64c0%2035.3-28.7%2064-64%2064h-64c-35.3%200-64-28.7-64-64V216%22/%3E%3C/svg%3E');}</style>
+
+
+
+    
+    
+      
+    
+    
+      
+        
+        
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:300,300i,400,400i,700,700i%7CRoboto+Mono:400,400i,700,700i&display=fallback">
+        <style>:root{--md-text-font:"Roboto";--md-code-font:"Roboto Mono"}</style>
+      
+    
+    
+      <link rel="stylesheet" href="../../../css/timeago.css">
+    
+      <link rel="stylesheet" href="../../../assets/stylesheets/extra.css">
+    
+      <link rel="stylesheet" href="../../../assets/stylesheets/signup_form.css">
+    
+    <script>__md_scope=new URL("../../..",location),__md_hash=e=>[...e].reduce(((e,_)=>(e<<5)-e+_.charCodeAt(0)),0),__md_get=(e,_=localStorage,t=__md_scope)=>JSON.parse(_.getItem(t.pathname+"."+e)),__md_set=(e,_,t=localStorage,a=__md_scope)=>{try{t.setItem(a.pathname+"."+e,JSON.stringify(_))}catch(e){}}</script>
+    
+      
+  
+
+
+  
+  
+
+<script id="__analytics">function __md_analytics(){function e(){dataLayer.push(arguments)}window.dataLayer=window.dataLayer||[],e("js",new Date),e("config","G-EKZEH6QYWT"),document.addEventListener("DOMContentLoaded",(function(){document.forms.search&&document.forms.search.query.addEventListener("blur",(function(){this.value&&e("event","search",{search_term:this.value})}));document$.subscribe((function(){var t=document.forms.feedback;if(void 0!==t)for(var a of t.querySelectorAll("[type=submit]"))a.addEventListener("click",(function(a){a.preventDefault();var n=document.location.pathname,d=this.getAttribute("data-md-value");e("event","feedback",{page:n,data:d}),t.firstElementChild.disabled=!0;var r=t.querySelector(".md-feedback__note [data-md-value='"+d+"']");r&&(r.hidden=!1)})),t.hidden=!1})),location$.subscribe((function(t){e("config","G-EKZEH6QYWT",{page_path:t.pathname})}))}));var t=document.createElement("script");t.async=!0,t.src="https://www.googletagmanager.com/gtag/js?id=G-EKZEH6QYWT",document.getElementById("__analytics").insertAdjacentElement("afterEnd",t)}</script>
+  
+    <script>if("undefined"!=typeof __md_analytics){var consent=__md_get("__consent");consent&&consent.analytics&&__md_analytics()}</script>
+  
+
+    
+    
+    
+  <link rel="stylesheet" href="../../../assets/stylesheets/custom.css">
+  <link rel="stylesheet" href="../../../assets/stylesheets/signup_form.css">
+  <!-- Gibby Avatar and Dialogue Box -->
+  <div class="gibby-container">
+    <a href="#form_signup" class="gibby-link"><img src="https://assets.openterface.com/images/op-avatar.webp" alt="기비 마스코트" class="gibby-avatar" draggable="false" aria-label="기비 마스코트"></a>
+    <div class="gibby-dialogue">
+      <p>
+        <a href="#form_signup" class="gibby-link" data-i18n="main.subscribenow-link">지금 구독하세요!</a>
+      </p>
+    </div>
+  </div>
+
+   <link href="../../../assets/stylesheets/glightbox.min.css" rel="stylesheet"/><style>
+    html.glightbox-open { overflow: initial; height: 100%; }
+    .gslide-title { margin-top: 0px; user-select: text; }
+    .gslide-desc { color: #666; user-select: text; }
+    .gslide-image img { background: white; }
+    .gscrollbar-fixer { padding-right: 15px; }
+    .gdesc-inner { font-size: 0.75rem; }
+    body[data-md-color-scheme="slate"] .gdesc-inner { background: var(--md-default-bg-color);}
+    body[data-md-color-scheme="slate"] .gslide-title { color: var(--md-default-fg-color);}
+    body[data-md-color-scheme="slate"] .gslide-desc { color: var(--md-default-fg-color);}</style> <script src="../../../assets/javascripts/glightbox.min.js"></script></head>
+  
+  
+    
+    
+      
+    
+    
+    
+    
+    <body dir="ltr" data-md-color-scheme="default" data-md-color-primary="deep-orange" data-md-color-accent="custom">
+  
+    
+    <input class="md-toggle" data-md-toggle="drawer" type="checkbox" id="__drawer" autocomplete="off">
+    <input class="md-toggle" data-md-toggle="search" type="checkbox" id="__search" autocomplete="off">
+    <label class="md-overlay" for="__drawer"></label>
+    <div data-md-component="skip">
+      
+        
+        <a href="#updates" class="md-skip">
+          콘텐츠로 이동
+        </a>
+      
+    </div>
+    <div data-md-component="announce">
+      
+    </div>
+    
+    
+      
+
+  
+
+<header class="md-header md-header--shadow md-header--lifted" data-md-component="header">
+  <nav class="md-header__inner md-grid" aria-label="상단/헤더">
+    <a href="../../.." title="Openterface | 인터페이스를 연결하여 무한한 가능성 열기" class="md-header__button md-logo" aria-label="Openterface | 인터페이스를 연결하여 무한한 가능성 열기" data-md-component="logo">
+      
+  <img src="../../../assets/app-logo.png" alt="logo">
+
+    </a>
+    <label class="md-header__button md-icon" for="__drawer">
+      
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M3 6h18v2H3zm0 5h18v2H3zm0 5h18v2H3z"/></svg>
+    </label>
+    <div class="md-header__title" data-md-component="header-title">
+      <div class="md-header__ellipsis">
+        <div class="md-header__topic">
+          <span class="md-ellipsis">
+            Openterface | 인터페이스를 연결하여 무한한 가능성 열기
+          </span>
+        </div>
+        <div class="md-header__topic" data-md-component="header-topic">
+          <span class="md-ellipsis">
+            
+              Updates
+            
+          </span>
+        </div>
+      </div>
+    </div>
+    
+      
+        <form class="md-header__option" data-md-component="palette">
+  
+    
+    
+    
+    <input class="md-option" data-md-color-media="(prefers-color-scheme: light)" data-md-color-scheme="default" data-md-color-primary="deep-orange" data-md-color-accent="custom"  aria-label="Switch to dark mode"  type="radio" name="__palette" id="__palette_0">
+    
+      <label class="md-header__button md-icon" title="Switch to dark mode" for="__palette_1" hidden>
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 7a5 5 0 0 1 5 5 5 5 0 0 1-5 5 5 5 0 0 1-5-5 5 5 0 0 1 5-5m0 2a3 3 0 0 0-3 3 3 3 0 0 0 3 3 3 3 0 0 0 3-3 3 3 0 0 0-3-3m0-7 2.39 3.42C13.65 5.15 12.84 5 12 5s-1.65.15-2.39.42zM3.34 7l4.16-.35A7.2 7.2 0 0 0 5.94 8.5c-.44.74-.69 1.5-.83 2.29zm.02 10 1.76-3.77a7.131 7.131 0 0 0 2.38 4.14zM20.65 7l-1.77 3.79a7.02 7.02 0 0 0-2.38-4.15zm-.01 10-4.14.36c.59-.51 1.12-1.14 1.54-1.86.42-.73.69-1.5.83-2.29zM12 22l-2.41-3.44c.74.27 1.55.44 2.41.44.82 0 1.63-.17 2.37-.44z"/></svg>
+      </label>
+    
+  
+    
+    
+    
+    <input class="md-option" data-md-color-media="(prefers-color-scheme: dark)" data-md-color-scheme="slate" data-md-color-primary="deep-orange" data-md-color-accent="custom"  aria-label="Switch to light mode"  type="radio" name="__palette" id="__palette_1">
+    
+      <label class="md-header__button md-icon" title="Switch to light mode" for="__palette_0" hidden>
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="m17.75 4.09-2.53 1.94.91 3.06-2.63-1.81-2.63 1.81.91-3.06-2.53-1.94L12.44 4l1.06-3 1.06 3zm3.5 6.91-1.64 1.25.59 1.98-1.7-1.17-1.7 1.17.59-1.98L15.75 11l2.06-.05L18.5 9l.69 1.95zm-2.28 4.95c.83-.08 1.72 1.1 1.19 1.85-.32.45-.66.87-1.08 1.27C15.17 23 8.84 23 4.94 19.07c-3.91-3.9-3.91-10.24 0-14.14.4-.4.82-.76 1.27-1.08.75-.53 1.93.36 1.85 1.19-.27 2.86.69 5.83 2.89 8.02a9.96 9.96 0 0 0 8.02 2.89m-1.64 2.02a12.08 12.08 0 0 1-7.8-3.47c-2.17-2.19-3.33-5-3.49-7.82-2.81 3.14-2.7 7.96.31 10.98 3.02 3.01 7.84 3.12 10.98.31"/></svg>
+      </label>
+    
+  
+</form>
+      
+    
+    
+      <script>var palette=__md_get("__palette");if(palette&&palette.color){if("(prefers-color-scheme)"===palette.color.media){var media=matchMedia("(prefers-color-scheme: light)"),input=document.querySelector(media.matches?"[data-md-color-media='(prefers-color-scheme: light)']":"[data-md-color-media='(prefers-color-scheme: dark)']");palette.color.media=input.getAttribute("data-md-color-media"),palette.color.scheme=input.getAttribute("data-md-color-scheme"),palette.color.primary=input.getAttribute("data-md-color-primary"),palette.color.accent=input.getAttribute("data-md-color-accent")}for(var[key,value]of Object.entries(palette.color))document.body.setAttribute("data-md-color-"+key,value)}</script>
+    
+    
+      <div class="md-header__option">
+  <div class="md-select">
+    
+    <button class="md-header__button md-icon" aria-label="언어설정">
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="m12.87 15.07-2.54-2.51.03-.03A17.5 17.5 0 0 0 14.07 6H17V4h-7V2H8v2H1v2h11.17C11.5 7.92 10.44 9.75 9 11.35 8.07 10.32 7.3 9.19 6.69 8h-2c.73 1.63 1.73 3.17 2.98 4.56l-5.09 5.02L4 19l5-5 3.11 3.11zM18.5 10h-2L12 22h2l1.12-3h4.75L21 22h2zm-2.62 7 1.62-4.33L19.12 17z"/></svg>
+    </button>
+    <div class="md-select__inner">
+      <ul class="md-select__list">
+        
+          <li class="md-select__item">
+            <a href="https://openterface.com/" hreflang="en" class="md-select__link">
+              English
+            </a>
+          </li>
+        
+          <li class="md-select__item">
+            <a href="https://cn.openterface.com/" hreflang="zh" class="md-select__link">
+              简体中文
+            </a>
+          </li>
+        
+          <li class="md-select__item">
+            <a href="https://jp.openterface.com/" hreflang="ja" class="md-select__link">
+              日本語
+            </a>
+          </li>
+        
+          <li class="md-select__item">
+            <a href="https://kr.openterface.com/" hreflang="ko" class="md-select__link">
+              한국어
+            </a>
+          </li>
+        
+          <li class="md-select__item">
+            <a href="https://fr.openterface.com/" hreflang="fr" class="md-select__link">
+              Français
+            </a>
+          </li>
+        
+          <li class="md-select__item">
+            <a href="https://de.openterface.com/" hreflang="de" class="md-select__link">
+              Deutsch
+            </a>
+          </li>
+        
+          <li class="md-select__item">
+            <a href="https://it.openterface.com/" hreflang="it" class="md-select__link">
+              Italiano
+            </a>
+          </li>
+        
+          <li class="md-select__item">
+            <a href="https://es.openterface.com/" hreflang="es" class="md-select__link">
+              Español
+            </a>
+          </li>
+        
+          <li class="md-select__item">
+            <a href="https://pt.openterface.com/" hreflang="pt" class="md-select__link">
+              Português
+            </a>
+          </li>
+        
+          <li class="md-select__item">
+            <a href="https://ro.openterface.com/" hreflang="ro" class="md-select__link">
+              Română
+            </a>
+          </li>
+        
+      </ul>
+    </div>
+  </div>
+</div>
+    
+    
+      
+      
+        <label class="md-header__button md-icon" for="__search">
+          
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.52 6.52 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5"/></svg>
+        </label>
+        <div class="md-search" data-md-component="search" role="dialog">
+  <label class="md-search__overlay" for="__search"></label>
+  <div class="md-search__inner" role="search">
+    <form class="md-search__form" name="search">
+      <input type="text" class="md-search__input" name="query" aria-label="검색" placeholder="검색" autocapitalize="off" autocorrect="off" autocomplete="off" spellcheck="false" data-md-component="search-query" required>
+      <label class="md-search__icon md-icon" for="__search">
+        
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.52 6.52 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5"/></svg>
+        
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20 11v2H8l5.5 5.5-1.42 1.42L4.16 12l7.92-7.92L13.5 5.5 8 11z"/></svg>
+      </label>
+      <nav class="md-search__options" aria-label="검색">
+        
+        <button type="reset" class="md-search__icon md-icon" title="지우기" aria-label="지우기" tabindex="-1">
+          
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M19 6.41 17.59 5 12 10.59 6.41 5 5 6.41 10.59 12 5 17.59 6.41 19 12 13.41 17.59 19 19 17.59 13.41 12z"/></svg>
+        </button>
+      </nav>
+      
+        <div class="md-search__suggest" data-md-component="search-suggest"></div>
+      
+    </form>
+    <div class="md-search__output">
+      <div class="md-search__scrollwrap" tabindex="0" data-md-scrollfix>
+        <div class="md-search-result" data-md-component="search-result">
+          <div class="md-search-result__meta">
+            검색 초기화
+          </div>
+          <ol class="md-search-result__list" role="presentation"></ol>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+      
+    
+    
+      <div class="md-header__source">
+        <a href="https://github.com/TechxArtisanStudio/Openterface_ko" title="저장소로 이동" class="md-source" data-md-component="source">
+  <div class="md-source__icon md-icon">
+    
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><!--! Font Awesome Free 6.7.2 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2024 Fonticons, Inc.--><path d="M439.55 236.05 244 40.45a28.87 28.87 0 0 0-40.81 0l-40.66 40.63 51.52 51.52c27.06-9.14 52.68 16.77 43.39 43.68l49.66 49.66c34.23-11.8 61.18 31 35.47 56.69-26.49 26.49-70.21-2.87-56-37.34L240.22 199v121.85c25.3 12.54 22.26 41.85 9.08 55a34.34 34.34 0 0 1-48.55 0c-17.57-17.6-11.07-46.91 11.25-56v-123c-20.8-8.51-24.6-30.74-18.64-45L142.57 101 8.45 235.14a28.86 28.86 0 0 0 0 40.81l195.61 195.6a28.86 28.86 0 0 0 40.8 0l194.69-194.69a28.86 28.86 0 0 0 0-40.81"/></svg>
+  </div>
+  <div class="md-source__repository">
+    Openterface_ko
+  </div>
+</a>
+      </div>
+    
+  </nav>
+  
+    
+      
+<nav class="md-tabs" aria-label="탭" data-md-component="tabs">
+  <div class="md-grid">
+    <ul class="md-tabs__list">
+      
+        
+  
+  
+  
+  
+    <li class="md-tabs__item">
+      <a href="../../.." class="md-tabs__link">
+        
+  
+  
+    
+  
+  홈
+
+      </a>
+    </li>
+  
+
+      
+        
+  
+  
+  
+  
+    
+    
+      <li class="md-tabs__item">
+        <a href="../../../faq/" class="md-tabs__link">
+          
+  
+  
+    
+  
+  자주 묻는 질문
+
+        </a>
+      </li>
+    
+  
+
+      
+        
+  
+  
+  
+  
+    
+    
+      
+  
+  
+  
+  
+    
+    
+      <li class="md-tabs__item">
+        <a href="../../../product/minikvm/" class="md-tabs__link">
+          
+  
+  
+    
+  
+  제품
+
+        </a>
+      </li>
+    
+  
+
+    
+  
+
+      
+        
+  
+  
+  
+  
+    
+    
+      <li class="md-tabs__item">
+        <a href="../../../app/" class="md-tabs__link">
+          
+  
+  
+    
+  
+  앱
+
+        </a>
+      </li>
+    
+  
+
+      
+        
+  
+  
+  
+  
+    <li class="md-tabs__item">
+      <a href="../../../use-cases/" class="md-tabs__link">
+        
+  
+  
+    
+  
+  사용 사례
+
+      </a>
+    </li>
+  
+
+      
+        
+  
+  
+  
+  
+    <li class="md-tabs__item">
+      <a href="/product/minikvm/reviews/" class="md-tabs__link">
+        
+  
+  
+    
+  
+  리뷰
+
+      </a>
+    </li>
+  
+
+      
+        
+  
+  
+  
+  
+    <li class="md-tabs__item">
+      <a href="../../../compliance/" class="md-tabs__link">
+        
+  
+  
+    
+  
+  규정 준수
+
+      </a>
+    </li>
+  
+
+      
+        
+  
+  
+  
+  
+    <li class="md-tabs__item">
+      <a href="https://shop.techxartisan.com" class="md-tabs__link">
+        
+  
+  
+    
+  
+  스토어
+
+      </a>
+    </li>
+  
+
+      
+        
+  
+  
+  
+  
+    <li class="md-tabs__item">
+      <a href="/discord" class="md-tabs__link">
+        
+  
+  
+    
+  
+  디스코드
+
+      </a>
+    </li>
+  
+
+      
+        
+  
+  
+  
+    
+  
+  
+    
+    
+      <li class="md-tabs__item md-tabs__item--active">
+        <a href="../../" class="md-tabs__link">
+          
+  
+  
+    
+  
+  블로그
+
+        </a>
+      </li>
+    
+  
+
+      
+        
+  
+  
+  
+  
+    <li class="md-tabs__item">
+      <a href="../../../about/" class="md-tabs__link">
+        
+  
+  
+    
+  
+  소개
+
+      </a>
+    </li>
+  
+
+      
+    </ul>
+  </div>
+</nav>
+    
+  
+</header>
+    
+    <div class="md-container" data-md-component="container">
+      
+      
+        
+      
+      <main class="md-main" data-md-component="main">
+        <div class="md-main__inner md-grid">
+          
+            
+              
+              <div class="md-sidebar md-sidebar--primary" data-md-component="sidebar" data-md-type="navigation" >
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+
+
+  
+
+
+  
+
+<nav class="md-nav md-nav--primary md-nav--lifted md-nav--integrated" aria-label="네비게이션" data-md-level="0">
+  <label class="md-nav__title" for="__drawer">
+    <a href="../../.." title="Openterface | 인터페이스를 연결하여 무한한 가능성 열기" class="md-nav__button md-logo" aria-label="Openterface | 인터페이스를 연결하여 무한한 가능성 열기" data-md-component="logo">
+      
+  <img src="../../../assets/app-logo.png" alt="logo">
+
+    </a>
+    Openterface | 인터페이스를 연결하여 무한한 가능성 열기
+  </label>
+  
+    <div class="md-nav__source">
+      <a href="https://github.com/TechxArtisanStudio/Openterface_ko" title="저장소로 이동" class="md-source" data-md-component="source">
+  <div class="md-source__icon md-icon">
+    
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><!--! Font Awesome Free 6.7.2 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2024 Fonticons, Inc.--><path d="M439.55 236.05 244 40.45a28.87 28.87 0 0 0-40.81 0l-40.66 40.63 51.52 51.52c27.06-9.14 52.68 16.77 43.39 43.68l49.66 49.66c34.23-11.8 61.18 31 35.47 56.69-26.49 26.49-70.21-2.87-56-37.34L240.22 199v121.85c25.3 12.54 22.26 41.85 9.08 55a34.34 34.34 0 0 1-48.55 0c-17.57-17.6-11.07-46.91 11.25-56v-123c-20.8-8.51-24.6-30.74-18.64-45L142.57 101 8.45 235.14a28.86 28.86 0 0 0 0 40.81l195.61 195.6a28.86 28.86 0 0 0 40.8 0l194.69-194.69a28.86 28.86 0 0 0 0-40.81"/></svg>
+  </div>
+  <div class="md-source__repository">
+    Openterface_ko
+  </div>
+</a>
+    </div>
+  
+  <ul class="md-nav__list" data-md-scrollfix>
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../.." class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    홈
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    
+    
+      
+        
+          
+        
+      
+        
+      
+        
+      
+        
+      
+    
+    
+    
+      
+      
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+          
+        
+        <input class="md-nav__toggle md-toggle md-toggle--indeterminate" type="checkbox" id="__nav_2" >
+        
+          
+          <div class="md-nav__link md-nav__container">
+            <a href="../../../faq/" class="md-nav__link ">
+              
+  
+  
+  <span class="md-ellipsis">
+    자주 묻는 질문
+    
+  </span>
+  
+
+            </a>
+            
+              
+              <label class="md-nav__link " for="__nav_2" id="__nav_2_label" tabindex="0">
+                <span class="md-nav__icon md-icon"></span>
+              </label>
+            
+          </div>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_2_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_2">
+            <span class="md-nav__icon md-icon"></span>
+            자주 묻는 질문
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+            
+              
+                
+  
+  
+  
+  
+    
+    
+      
+        
+      
+        
+      
+    
+    
+    
+      
+      
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+          
+        
+        <input class="md-nav__toggle md-toggle md-toggle--indeterminate" type="checkbox" id="__nav_2_2" >
+        
+          
+          <label class="md-nav__link" for="__nav_2_2" id="__nav_2_2_label" tabindex="0">
+            
+  
+  
+  <span class="md-ellipsis">
+    KVM-over-USB 기본
+    
+  </span>
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="2" aria-labelledby="__nav_2_2_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_2_2">
+            <span class="md-nav__icon md-icon"></span>
+            KVM-over-USB 기본
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../faq/usbkvm/kvm-over-usb/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    USB KVM이란 무엇인가요?
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../faq/usbkvm/openterface/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    왜 Openterface USB KVM인가요?
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    
+    
+      
+        
+      
+    
+    
+    
+      
+      
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+          
+        
+        <input class="md-nav__toggle md-toggle md-toggle--indeterminate" type="checkbox" id="__nav_2_3" >
+        
+          
+          <label class="md-nav__link" for="__nav_2_3" id="__nav_2_3_label" tabindex="0">
+            
+  
+  
+  <span class="md-ellipsis">
+    Mini-KVM 시리즈
+    
+  </span>
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="2" aria-labelledby="__nav_2_3_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_2_3">
+            <span class="md-nav__icon md-icon"></span>
+            Mini-KVM 시리즈
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../faq/minikvm/op-minikvm/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Openterface Mini-KVM
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../faq/business/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    기업 및 미디어 자주 묻는 질문
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    
+    
+      
+        
+      
+        
+      
+        
+      
+    
+    
+    
+      
+      
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+          
+        
+        <input class="md-nav__toggle md-toggle md-toggle--indeterminate" type="checkbox" id="__nav_3" >
+        
+          
+          <label class="md-nav__link" for="__nav_3" id="__nav_3_label" tabindex="0">
+            
+  
+  
+  <span class="md-ellipsis">
+    제품
+    
+  </span>
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_3_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_3">
+            <span class="md-nav__icon md-icon"></span>
+            제품
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    
+    
+      
+        
+          
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+    
+    
+    
+      
+      
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+          
+        
+        <input class="md-nav__toggle md-toggle md-toggle--indeterminate" type="checkbox" id="__nav_3_1" >
+        
+          
+          <div class="md-nav__link md-nav__container">
+            <a href="../../../product/minikvm/" class="md-nav__link ">
+              
+  
+  
+  <span class="md-ellipsis">
+    Mini-KVM
+    
+  </span>
+  
+
+            </a>
+            
+              
+              <label class="md-nav__link " for="__nav_3_1" id="__nav_3_1_label" tabindex="0">
+                <span class="md-nav__icon md-icon"></span>
+              </label>
+            
+          </div>
+        
+        <nav class="md-nav" data-md-level="2" aria-labelledby="__nav_3_1_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_3_1">
+            <span class="md-nav__icon md-icon"></span>
+            Mini-KVM
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../product/minikvm/whats-in-the-box/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    박스 내용물
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../product/minikvm/features/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    기능 및 특징
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../product/minikvm/how-to-connect/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    연결 방법
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="/faq/usbkvm/kvm-over-usb/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    작동 원리
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../product/minikvm/reviews/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    리뷰 및 언론 보도
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../product/minikvm/specifications/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    사양
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../product/minikvm/usb-switch/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    전환 가능한 USB 포트
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../product/minikvm/extension-pins/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    확장 핀
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="/faq/minikvm/op-minikvm/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    FAQ 및 문제 해결
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="/faq/usbkvm/openterface/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Openterface를 선택하는 이유
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    
+    
+      
+        
+      
+    
+    
+    
+      
+      
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+          
+        
+        <input class="md-nav__toggle md-toggle md-toggle--indeterminate" type="checkbox" id="__nav_3_2" >
+        
+          
+          <label class="md-nav__link" for="__nav_3_2" id="__nav_3_2_label" tabindex="0">
+            
+  
+  
+  <span class="md-ellipsis">
+    Mini-KVM Lite (출시 전)
+    
+  </span>
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="2" aria-labelledby="__nav_3_2_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_3_2">
+            <span class="md-nav__icon md-icon"></span>
+            Mini-KVM Lite (출시 전)
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../product/minikvm-lite/pre-launch/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Lite 시리즈 사전 출시 및 대기자 명단
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    
+    
+      
+        
+          
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+    
+    
+    
+      
+      
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+          
+        
+        <input class="md-nav__toggle md-toggle md-toggle--indeterminate" type="checkbox" id="__nav_3_3" >
+        
+          
+          <div class="md-nav__link md-nav__container">
+            <a href="../../../product/accessories/" class="md-nav__link ">
+              
+  
+  
+  <span class="md-ellipsis">
+    액세서리
+    
+  </span>
+  
+
+            </a>
+            
+              
+              <label class="md-nav__link " for="__nav_3_3" id="__nav_3_3_label" tabindex="0">
+                <span class="md-nav__icon md-icon"></span>
+              </label>
+            
+          </div>
+        
+        <nav class="md-nav" data-md-level="2" aria-labelledby="__nav_3_3_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_3_3">
+            <span class="md-nav__icon md-icon"></span>
+            액세서리
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../product/accessories/vga-to-hdmi-cable/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    VGA to HDMI 케이블 1m
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../product/accessories/nylong-c-to-c-150/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    나일론 Type-C to C 케이블 1.5m
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../product/accessories/type-c-to-c-cable-with-adapter/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    오렌지 Type-C to C 케이블 1.5m
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../product/accessories/black-c-to-a-30/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    검정 Type-C to A 케이블 30cm
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../product/accessories/hdmi-male-to-male-cable/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    HDMI 케이블 30cm
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../product/accessories/openterface-toolkit-bag/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    툴킷 가방
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    
+    
+      
+        
+          
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+    
+    
+    
+      
+      
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+          
+        
+        <input class="md-nav__toggle md-toggle md-toggle--indeterminate" type="checkbox" id="__nav_4" >
+        
+          
+          <div class="md-nav__link md-nav__container">
+            <a href="../../../app/" class="md-nav__link ">
+              
+  
+  
+  <span class="md-ellipsis">
+    앱
+    
+  </span>
+  
+
+            </a>
+            
+              
+              <label class="md-nav__link " for="__nav_4" id="__nav_4_label" tabindex="0">
+                <span class="md-nav__icon md-icon"></span>
+              </label>
+            
+          </div>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_4_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_4">
+            <span class="md-nav__icon md-icon"></span>
+            앱
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../app/basic/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    호스트 애플리케이션용 기본 제어
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../app/qt/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Openterface QT for Win & Linux
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../app/macos/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Openterface MacOS
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../app/android/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Openterface Android
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../use-cases/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    사용 사례
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="/product/minikvm/reviews/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    리뷰
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../compliance/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    규정 준수
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="https://shop.techxartisan.com" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    스토어
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="/discord" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    디스코드
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+    
+  
+  
+  
+    
+    
+      
+        
+          
+        
+      
+        
+      
+        
+      
+    
+    
+    
+      
+        
+        
+      
+      
+    
+    
+    <li class="md-nav__item md-nav__item--active md-nav__item--section md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_10" checked>
+        
+          
+          <div class="md-nav__link md-nav__container">
+            <a href="../../" class="md-nav__link ">
+              
+  
+  
+  <span class="md-ellipsis">
+    블로그
+    
+  </span>
+  
+
+            </a>
+            
+              
+              <label class="md-nav__link " for="__nav_10" id="__nav_10_label" tabindex="">
+                <span class="md-nav__icon md-icon"></span>
+              </label>
+            
+          </div>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_10_label" aria-expanded="true">
+          <label class="md-nav__title" for="__nav_10">
+            <span class="md-nav__icon md-icon"></span>
+            블로그
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../tags/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    태그
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+    
+  
+  
+  
+    
+    
+      
+        
+      
+        
+      
+    
+    
+    
+      
+      
+    
+    
+    <li class="md-nav__item md-nav__item--active md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_10_3" checked>
+        
+          
+          <label class="md-nav__link" for="__nav_10_3" id="__nav_10_3_label" tabindex="0">
+            
+  
+  
+  <span class="md-ellipsis">
+    카테고리
+    
+  </span>
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="2" aria-labelledby="__nav_10_3_label" aria-expanded="true">
+          <label class="md-nav__title" for="__nav_10_3">
+            <span class="md-nav__icon md-icon"></span>
+            카테고리
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+    
+  
+  
+    
+      
+    
+  
+  
+    <li class="md-nav__item md-nav__item--active">
+      
+      <input class="md-nav__toggle md-toggle" type="checkbox" id="__toc">
+      
+      
+        
+      
+      
+        <label class="md-nav__link md-nav__link--active" for="__toc">
+          
+  
+  
+  <span class="md-ellipsis">
+    Updates
+    
+  </span>
+  
+
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <a href="./" class="md-nav__link md-nav__link--active">
+        
+  
+  
+  <span class="md-ellipsis">
+    Updates
+    
+  </span>
+  
+
+      </a>
+      
+        
+
+<nav class="md-nav md-nav--secondary" aria-label="목차">
+  
+  
+  
+    
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      목차
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#usb-kvm-diy" class="md-nav__link">
+    <span class="md-ellipsis">
+      USB KVM를 위한 새로운 장비와 더 많은 DIY 시간!
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#_1" class="md-nav__link">
+    <span class="md-ellipsis">
+      메리 크리스마스 &amp; 해피 뉴 이어 &amp; 오픈터페이스 팀의 작은 선물!
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#50" class="md-nav__link">
+    <span class="md-ellipsis">
+      모든 상품 50% 할인 – 단, 이번 블랙 프라이데이만! 오픈 소스를 응원해주세요!
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#_1" class="md-nav__link">
+    <span class="md-ellipsis">
+      배송이 시작되었습니다! 툴킷에 추가 케이블 포함. 이제 어떻게 될까요?
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#diy" class="md-nav__link">
+    <span class="md-ellipsis">
+      DIY 챌린지, 멋진 상품, 그리고 생산이 마무리 단계에 접어들다!
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#diy-oshwa-show-tell" class="md-nav__link">
+    <span class="md-ellipsis">
+      DIY 챌린지에 도전해 보세요! OSHWA의 Show &amp; Tell에서 만나요!
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#_1" class="md-nav__link">
+    <span class="md-ellipsis">
+      장애물 극복: 진행 상황 업데이트 및 새로운 일정
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#teardown" class="md-nav__link">
+    <span class="md-ellipsis">
+      Teardown에서 생산까지: 앞으로 나아갑니다!
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#mini-kvm" class="md-nav__link">
+    <span class="md-ellipsis">
+      이번 주말 포틀랜드에서 만나요 &amp; 게임 챌린지로 Mini-KVM을 받아가세요!
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#mini-kvm" class="md-nav__link">
+    <span class="md-ellipsis">
+      후원 마감 임박 &amp; Mini-KVM의 기술 현장 소식
+    </span>
+  </a>
+  
+</li>
+      
+    </ul>
+  
+</nav>
+      
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+    
+  
+  
+    <li class="md-nav__item">
+      <a href="../%EC%97%85%EB%8D%B0%EC%9D%B4%ED%8A%B8/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    업데이트
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../about/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    소개
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+    
+  </ul>
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+            
+          
+          
+  <div class="md-content" data-md-component="content">
+    <div class="md-content__inner">
+      <header class="md-typeset">
+        <h1 id="updates">Updates</h1>
+      </header>
+      
+        <article class="md-post md-post--excerpt">
+  <header class="md-post__header">
+    
+      <nav class="md-post__authors md-typeset">
+        
+          <span class="md-author">
+            <img src="/images/op-avatar.jpg" alt="Openterface">
+          </span>
+        
+      </nav>
+    
+    <div class="md-post__meta md-meta">
+      <ul class="md-meta__list">
+        <li class="md-meta__item">
+          <time datetime="2025-02-19 00:00:00+00:00">2025년 2월 19일</time></li>
+        
+          <li class="md-meta__item">
+            카테고리
+            
+              <a href="../%EC%97%85%EB%8D%B0%EC%9D%B4%ED%8A%B8/" class="md-meta__link">업데이트</a>, 
+              <a href="./" class="md-meta__link">Updates</a></li>
+        
+        
+          
+          <li class="md-meta__item">
+            
+              읽는시간 4분
+            
+          </li>
+        
+      </ul>
+      
+    </div>
+  </header>
+  <div class="md-post__content md-typeset">
+    <h2 id="usb-kvm-diy"><a class="toclink" href="../../2025/02/19/usb-kvm%EB%A5%BC-%EC%9C%84%ED%95%9C-%EC%83%88%EB%A1%9C%EC%9A%B4-%EC%9E%A5%EB%B9%84%EC%99%80-%EB%8D%94-%EB%A7%8E%EC%9D%80-diy-%EC%8B%9C%EA%B0%84/">USB KVM를 위한 새로운 장비와 더 많은 DIY 시간!</a></h2>
+<p><strong>여기에, Openterface 가족들!</strong></p>
+<p>오랜만에, 우리는 흥미로운 소식을 공유합니다! 들어가보세요!</p>
+<h4 id="_1"><a class="toclink" href="../../2025/02/19/usb-kvm%EB%A5%BC-%EC%9C%84%ED%95%9C-%EC%83%88%EB%A1%9C%EC%9A%B4-%EC%9E%A5%EB%B9%84%EC%99%80-%EB%8D%94-%EB%A7%8E%EC%9D%80-diy-%EC%8B%9C%EA%B0%84/#_1">당신의 언박싱, 우리의 가장 큰 동기부여</a></h4>
+<p>점점 더 많은 후원자들이 키트를 받고 언박싱, 설정, 창의적인 사용 사례를 공유하고 있습니다. 우리는 Discord, Reddit, Mastodon, Bluesky, Threads, X 등에서 인기를 누리는 언박싱 포스트를 목격했습니다!</p>
+<p><img alt="alt text" src="../../pic/250219-sharing.gif" /></p>
+<p>솔직히, 이전 포스트에서 이미 언급했지만, 우리는 이를 충분히 강조할 수 없습니다—우리에게 당신의 열정과 우리의 장치가 당신에게 기술 최전선에서 어떻게 도움이 되는지 보는 것은 정확히 우리가 이를 위해, 이를 위해 싸우는 것입니다. 당신의 공유와 피드백은 우리의 노력에 대한 가장 큰 확인입니다.</p>
+<p>감사합니다, Openterface 가족! 🚀💙</p>
+<h4 id="_2"><a class="toclink" href="../../2025/02/19/usb-kvm%EB%A5%BC-%EC%9C%84%ED%95%9C-%EC%83%88%EB%A1%9C%EC%9A%B4-%EC%9E%A5%EB%B9%84%EC%99%80-%EB%8D%94-%EB%A7%8E%EC%9D%80-diy-%EC%8B%9C%EA%B0%84/#_2"><strong>백로그 정리 및 완전히 재고</strong></a></h4>
+<p>Crowd Supply에 따르면, 대부분의 주문이 이미 배송되었습니다! 아직 받지 못했으면, 주문 정보를 확인하고 처리 중일 것입니다. 곧 도착할 것입니다. 주문 상태에 대한 업데이트를 확인하려면 <a href="https://www.crowdsupply.com/contact">Crowd Supply에 연락</a>하세요.</p>
+<p>또한, 우리는 최근에 Openterface Mini-KVM 단위의 또 다른 배치를 배송했습니다. Crowd Supply의 텍사스 창고는 이제 완전히 재고가 있습니다! 그러므로, 현재 Mini-KVM이 당신의 무두장치 관리에 얼마나 가치가 있는지 확인하세요. <a href="https://www.crowdsupply.com/techxartisan/openterface-mini-kvm">Crowd Supply에서 다른 하나를 구입</a>하거나, 기술을 사랑하는 친구들에게 소식을 전하세요!</p>
+<h4 id="_3"><a class="toclink" href="../../2025/02/19/usb-kvm%EB%A5%BC-%EC%9C%84%ED%95%9C-%EC%83%88%EB%A1%9C%EC%9A%B4-%EC%9E%A5%EB%B9%84%EC%99%80-%EB%8D%94-%EB%A7%8E%EC%9D%80-diy-%EC%8B%9C%EA%B0%84/#_3"><strong>버그? 문제없습니다! 개발 팀이 활동 중</strong></a></h4>
+<p>우리 Reddit, Discord, GitHub의 분위기가 대단합니다! 당신의 피드백, 질문, 문제 보고서가 계속 들어오고 있습니다—우리는 이를 매우 감사합니다.</p>
+<p>현재 우리 개발 팀이 집중하고 있는 것은 다음과 같습니다:</p>
+<ul>
+<li><strong>버그 수정:</strong> 당신이 보고한 문제를 해결합니다.  </li>
+<li><strong>당신을 지원:</strong> 당신의 경험을 더 원활하게 하기 위해 문서와 FAQ를 업데이트합니다.  </li>
+</ul>
+<p>우리는 모든 문제를 검토하고, 정기적으로 확인을 가졌으며, 버그를 하나씩 해결합니다. 앱을 더 견고하고 신뢰할 수 있게 하는 것이 우리의 최우선 목표입니다—당신의 입력이 이를 실현하는 데 핵심입니다.  </p>
+<p>버그를 보고하거나 Mini-KVM으로 어떻게 구세군이 되었는지 찾았나요? 우리는 <strong>사랑</strong>으로 들어보겠습니다! 그것이 창의적인 설정, 반드시 필요한 기능 아이디어, 또는 그냥 순수한 흥분이라도—우리는 모두 귀를 기울입니다.  </p>
+<p>우리 개발 팀이 버그를 체계적으로 추적하고 (그리고 그들의 정신을 온전하게 유지), 우리는 <strong>강력하게 추천</strong>합니다. GitHub 저장소에서 버그를 먼저 보고하세요:</p>
+<ul>
+<li><a href="https://github.com/TechxArtisanStudio/Openterface_QT">Openterface QT</a> for Windows &amp; Linux</li>
+<li><a href="https://github.com/TechxArtisanStudio/Openterface_MacOS">Openterface MacOS</a></li>
+<li><a href="https://github.com/TechxArtisanStudio/Openterface_Android">Openterface Android</a></li>
+<li><a href="https://github.com/TechxArtisanStudio/Openterface_Mini-KVM_Hardware">Openterface Mini-KVM Hardware</a></li>
+</ul>
+<p>개발 팀과 Openterface 팬들과의 실시간 토론을 선호하세요? 우리의 놀라운 커뮤니티에 가입하세요:</p>
+<ul>
+<li><strong>Reddit:</strong> <a href="https://openterface.com/reddit">r/Openterface_miniKVM</a>  </li>
+<li><strong>Discord:</strong> <a href="https://openterface.com/discord">Openterface</a>  </li>
+</ul>
+<p>오, 그리고 만약 당신이 오래된 방식으로 유지하고 싶다면, 언제든지 <strong>우리를 이메일</strong>로 info@techxartisan.com으로 이메일하거나, <strong>구글 폼</strong>: <a href="https://forms.gle/enVJYFGn6gghEFaJ9">피드백 제출</a>을 통해 메시지를 보내세요.  </p>
+<p>당신의 인내와 지원은 우리가 어떤 장애물도 극복하는 데 있어 세계를 의미합니다. 모든 문제를 보고하고, 아이디어를 공유하고, 심지어 코드를 기여해준 사람들에게 엄청난 감사합니다! Openterface 장치는 아직 완벽하지 않습니다 (아직!), 하지만 이 커뮤니티의 에너지로, 매일 더 나아질 것입니다. 🚀💙  </p>
+<h4 id="diy-kvm"><a class="toclink" href="../../2025/02/19/usb-kvm%EB%A5%BC-%EC%9C%84%ED%95%9C-%EC%83%88%EB%A1%9C%EC%9A%B4-%EC%9E%A5%EB%B9%84%EC%99%80-%EB%8D%94-%EB%A7%8E%EC%9D%80-diy-%EC%8B%9C%EA%B0%84/#diy-kvm"><strong>DIY KVM 챌린지: 연장 및 상금 업그레이드!</strong></a></h4>
+<p>우리 키트가 예상보다 늦게 배송되었습니다. 그래서 우리는 DIY KVM 챌린지를 <strong>두 달</strong> 연장합니다! 또한, 우리는 상금을 업그레이드합니다—상세 정보는 Crowd Supply의 경연 페이지에서 확인하세요. 그것은 더 많은 시간을 실험하고, 프로젝트를 보여주는 데 사용할 수 있습니다. Crowd Supply의 USB DIY 경연 페이지에서 프로젝트를 제출하세요: <a href="https://www.crowdsupply.com/techxartisan/usb-kvm-diy-challenge-2024">USB KVM DIY 챌린지 2024</a></p>
+<p><img alt="USB KVM DIY 챌린지 2024" src="../../pic/250219-usb-kvm-diy-2024.svg" /></p>
+<p><img alt="contest-parties" src="../../pic/250214-contest-parties.png" /></p>
+<h4 id="_4"><a class="toclink" href="../../2025/02/19/usb-kvm%EB%A5%BC-%EC%9C%84%ED%95%9C-%EC%83%88%EB%A1%9C%EC%9A%B4-%EC%9E%A5%EB%B9%84%EC%99%80-%EB%8D%94-%EB%A7%8E%EC%9D%80-diy-%EC%8B%9C%EA%B0%84/#_4"><strong>새로운 밝은 오렌지 나일론 케이블</strong></a></h4>
+<p>우리 최신 Mini-KVM 배치와 함께, 우리는 툴킷 버전의 Type-C 케이블을 새로운 밝은 오렌지 나일론 케이블로 업그레이드했습니다. 이 새로운 케이블은 시각적으로만 인상적이지 않습니다—성능을 위해 설계되었습니다. EMI 저항, 안정적인 데이터 전송, 예외적인 내구성을 제공합니다.</p>
+<p><img alt="새 툴킷" src="../../pic/250214-toolkit-open.jpg" /></p>
+<p>하지만 만약 당신이 원래 실리콘 유사 Type-C 케이블의 더 부드러운, 더 유연한 느낌을 선호한다면, 문제없습니다! <a href="https://shop.techxartisan.com/products/type-c-cable-with-usb-a-adapter-1-5m-4-11ft-240w-fast-charging-data-transfer-usb2-0">TxA Shop</a>에서 여전히 구입할 수 있습니다. 두 케이블 모두 강점이 있으며, 우리는 새로운 나일론 버전이 당신의 기술 툴킷에 솔직한 추가가 될 것임을 확신합니다.</p>
+<h4 id="mini-kvm"><a class="toclink" href="../../2025/02/19/usb-kvm%EB%A5%BC-%EC%9C%84%ED%95%9C-%EC%83%88%EB%A1%9C%EC%9A%B4-%EC%9E%A5%EB%B9%84%EC%99%80-%EB%8D%94-%EB%A7%8E%EC%9D%80-diy-%EC%8B%9C%EA%B0%84/#mini-kvm"><strong>무결한 제어: Mini-KVM + 안드로이드 펜슬 = 순수한 마법</strong></a></h4>
+<p>당신은 Mini-KVM과 <a href="https://www.reddit.com/r/Openterface_miniKVM/comments/1hnh79n/kicad_is_the_fisrt_software_we_tried_first_with/">안드로이드 펜슬을 어떻게 짝지</a>어야 하는지 궁금해하지 않았나요? 순수한 마법! macOS 또는 Window을 설계하는 데부터, 우리 <a href="https://github.com/TechxArtisanStudio/Openterface_Android">Opoenterface 안드로이드 호스트 앱</a>의 경험은 부드럽고, 직관적이고, 만족스럽습니다. 데모 비디오를 확인하세요!</p>
+<h4 id="_5"><a class="toclink" href="../../2025/02/19/usb-kvm%EB%A5%BC-%EC%9C%84%ED%95%9C-%EC%83%88%EB%A1%9C%EC%9A%B4-%EC%9E%A5%EB%B9%84%EC%99%80-%EB%8D%94-%EB%A7%8E%EC%9D%80-diy-%EC%8B%9C%EA%B0%84/#_5"><strong>커뮤니티에서 좋은 사용 사례:</strong></a></h4>
+<p>여기에 Openterface Mini-KVM을 사용할 수 있는 몇 가지 더 많은 아이디어가 있습니다:</p>
+<ul>
+<li><strong>안드로이드 폰으로 무두제어:</strong> <a href="https://www.reddit.com/r/Openterface_miniKVM/comments/1hrx1j5/my_pi_5_setup_ups_aluminium_case_openterface_magic/">My Pi 5 설정: UPS, 알루미늄 케이스, &amp; Openterface 매직</a></li>
+<li><strong>파손된 맥북을 되살리기:</strong> <a href="https://www.reddit.com/r/macbookpro/comments/1hwkh64/uh_a_way_to_save_the_day_of_this_pink_screen/">Uh... 이 분홍 스크린의 날을 구해내는 방법!</a></li>
+<li><strong>우리 웹사이트에서 더 많은 사용 사례를 탐험하세요</strong>.</li>
+</ul>
+<p>당신의 창의성과 열정은 Openterface 커뮤니티의 심장입니다. </p>
+<p>한편, Openterface 장치와 완벽하게 작동하는 Openterface 머치 및 고품질 케이블을 찾으려면 <a href="http://shop.techxartisan.com/">TechxArtisan Shop</a>를 확인하세요. </p>
+<p>그때까지… 행복한 DIY하세요!</p>
+<p>감사,
+빌리 왕<br />
+제품 관리자<br />
+Openterface 팀 | TechxArtisan</p>
+    
+  </div>
+</article>
+      
+        <article class="md-post md-post--excerpt">
+  <header class="md-post__header">
+    
+      <nav class="md-post__authors md-typeset">
+        
+          <span class="md-author">
+            <img src="/images/op-avatar.jpg" alt="Openterface">
+          </span>
+        
+      </nav>
+    
+    <div class="md-post__meta md-meta">
+      <ul class="md-meta__list">
+        <li class="md-meta__item">
+          <time datetime="2024-12-24 00:00:00+00:00">2024년 12월 24일</time></li>
+        
+          <li class="md-meta__item">
+            카테고리
+            
+              <a href="../%EC%97%85%EB%8D%B0%EC%9D%B4%ED%8A%B8/" class="md-meta__link">업데이트</a>, 
+              <a href="./" class="md-meta__link">Updates</a></li>
+        
+        
+          
+          <li class="md-meta__item">
+            
+              읽는시간 1분
+            
+          </li>
+        
+      </ul>
+      
+    </div>
+  </header>
+  <div class="md-post__content md-typeset">
+    <h2 id="_1"><a class="toclink" href="../../2024/12/24/%EB%A9%94%EB%A6%AC-%ED%81%AC%EB%A6%AC%EC%8A%A4%EB%A7%88%EC%8A%A4--%ED%95%B4%ED%94%BC-%EB%89%B4-%EC%9D%B4%EC%96%B4--%EC%98%A4%ED%94%88%ED%84%B0%ED%8E%98%EC%9D%B4%EC%8A%A4-%ED%8C%80%EC%9D%98-%EC%9E%91%EC%9D%80-%EC%84%A0%EB%AC%BC/">메리 크리스마스 &amp; 해피 뉴 이어 &amp; 오픈터페이스 팀의 작은 선물!</a></h2>
+<iframe width="560" height="315" loading="lazy" src="https://www.youtube.com/embed/wEWAhXCXQ1E?si=RU4QVXxP_Fi6WAu_" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+
+<p>여기에,</p>
+<p>올해를 마무리하면서, 우리는 당신에게 작은 선물을 준비했습니다.</p>
+<p>우선, 올해 우리의 여정을 함께한 모든 분들에게 큰 감사를 전합니다. 개발자가 우리의 아이디어를 현실로 만들었거나, 베타 테스터로 초기 피드백을 제공하거나, 지지자로 가이드와 격려를 제공하거나, 초기 지원자로 우리를 믿어준 모든 분들—당신들이 없었다면 올해는 잊을 수 없을 것입니다. 우리는 당신들 없이는 할 수 없었을 것입니다.</p>
+<p>여기에 좋은 거래가 있습니다:
+<strong>2024년 12월 24일</strong>부터 <strong>2025년 1월 10일</strong>까지, Crowd Supply에서 두 개의 Mini-KVM Toolkit을 구입하면, 우리의 TxA 상점에서 <strong>$20의 스토어 크레딧</strong>을 보내드립니다.</p>
+<p>이것은 매우 쉬운 과정입니다—Crowd Supply에서 주문 확인 메일의 스크린샷을 찍어 <a href="mailto:info@techxartisan.com">info@techxartisan.com</a>에 이메일로 보내주세요. 우리는 당신의 구입을 확인하고 $20 스토어 크레딧 코드를 답장으로 보내겠습니다.</p>
+<p>우리는 당신에게 특별한 휴일 선물을 준비했습니다. 잠시 휴식을 취하고, 우리의 코지한 크리스마스 비디오를 즐겨보세요—아름다운 불빛과 <a href="https://www.youtube.com/watch?v=wEWAhXCXQ1E">소리 나는 크리스마스 음악</a>을 확인하세요. 우리는 이것이 당신의 날을 조금 더 즐겁게 해줄 것입니다!</p>
+<p>이것은 우리가 당신에게 작은 선물을 보내는 방법입니다.</p>
+<p>지난 해를 되돌아보면, 우리는 우리의 커뮤니티로부터 받은 놀라운 지원에 대해 진심으로 감사합니다. 당신이 우리의 비전을 믿어준 것은 우리가 하는 모든 일의 원동력이었습니다. 우리의 개발자, 베타 테스터, 초기 지원자, 지지자—당신들이 우리의 여정을 함께해준 것에 대해 감사합니다. 그리고 우리의 초기 지원자, 당신의 신뢰는 우리에게 세계를 의미합니다, 우리는 당신이 모든 것을 가능하게 해준 것에 대해 끝없이 감사합니다.</p>
+<p>질문이 있나요? 그냥 우리에게 연락하세요—우리는 항상 도와드리겠습니다. 2025년을 맞이하면서, 우리는 당신과 당신의 가족이 행복하고 성공적인 새로운 해를 맞이하게 되기를 바랍니다.</p>
+<p>우리 이야기에 참여해준 것에 대해 감사합니다. 앞으로도 더 놀라운 것들을 함께 만들어 나갈 것입니다!</p>
+<p>따뜻한 인사,
+오픈터페이스 팀</p>
+    
+  </div>
+</article>
+      
+        <article class="md-post md-post--excerpt">
+  <header class="md-post__header">
+    
+      <nav class="md-post__authors md-typeset">
+        
+          <span class="md-author">
+            <img src="/images/op-avatar.jpg" alt="Openterface">
+          </span>
+        
+      </nav>
+    
+    <div class="md-post__meta md-meta">
+      <ul class="md-meta__list">
+        <li class="md-meta__item">
+          <time datetime="2024-11-27 00:00:00+00:00">2024년 11월 27일</time></li>
+        
+          <li class="md-meta__item">
+            카테고리
+            
+              <a href="../%EC%97%85%EB%8D%B0%EC%9D%B4%ED%8A%B8/" class="md-meta__link">업데이트</a>, 
+              <a href="./" class="md-meta__link">Updates</a></li>
+        
+        
+          
+          <li class="md-meta__item">
+            
+              읽는시간 2분
+            
+          </li>
+        
+      </ul>
+      
+    </div>
+  </header>
+  <div class="md-post__content md-typeset">
+    <h2 id="50"><a class="toclink" href="../../2024/11/27/%EB%AA%A8%EB%93%A0-%EC%83%81%ED%92%88-50-%ED%95%A0%EC%9D%B8--%EB%8B%A8-%EC%9D%B4%EB%B2%88-%EB%B8%94%EB%9E%99-%ED%94%84%EB%9D%BC%EC%9D%B4%EB%8D%B0%EC%9D%B4%EB%A7%8C-%EC%98%A4%ED%94%88-%EC%86%8C%EC%8A%A4%EB%A5%BC-%EC%9D%91%EC%9B%90%ED%95%B4%EC%A3%BC%EC%84%B8%EC%9A%94/">모든 상품 50% 할인 – 단, 이번 블랙 프라이데이만! 오픈 소스를 응원해주세요!</a></h2>
+<style>
+  .heartbeat-label {
+    display: inline-block;
+    background-color: #000000;
+    color: white;
+    font-size: 1.5em;
+    font-weight: bold;
+    padding: 5px 15px;
+    border-radius: 25px;
+    animation: heartbeat 1.6s infinite;
+    text-align: center;
+  }
+
+  @keyframes heartbeat {
+    0% { transform: scale(1); }
+    30% { transform: scale(1.01); }
+    60% { transform: scale(1); }
+  }
+</style>
+
+<p><img alt="배너" src="../../pic/241120-Black-Firday-poster-50.jpg" /></p>
+<p>안녕하세요, Openterface 가족 여러분,</p>
+<p>신나는 소식입니다—Openterface에서 <strong>새로운 의류 라인</strong>을 출시했습니다! 우리의 컬렉션에는 커뮤니티 정신을 담은 티셔츠와 후드티가 포함되어 있습니다. 단순한 의류가 아니라, 우리의 가치를 기념하는 특별한 아이템입니다.</p>
+<p>이 디자인이 더욱 특별한 이유는 무엇일까요? 티셔츠와 후드티 모두 <strong>Openterface 미니-KVM의 기술적인 선 그림</strong>을 자랑스럽게 담고 있으며, 디자인에는 <strong>"개발자 모드(Developer Mode)"</strong> 텍스트도 포함되어 있습니다. 이 아이디어는 정말 기발하다고 생각합니다. 우리의 티셔츠나 후드티를 입으면 단순히 겨울에 따뜻함을 느끼는 것뿐만 아니라, 모든 코딩과 해킹 세션을 위한 슈퍼 개발자 모드로 진입할 수 있습니다.</p>
+<p><img alt="OP-Hoodie-Zip-Up" src="../../pic/241120-OP-Hoodie-Zip-Up.jpg" /></p>
+<p>이 의류가 실제로 어떻게 보이는지 궁금하신가요? 저희 팀이 착용한 모습을 확인해보세요! <strong>개발자 모드(Developer Mode)</strong>로 따뜻하게 코딩을 하고 (<a href="https://x.com/TechxArtisan/status/1861611266705379346">트윗 보기</a>), 셴젠 메이커 페어에서 <strong>MAKE: Magazine</strong>의 David Groom과 함께 재미있는 사진 촬영을 했습니다 (<a href="https://pbs.twimg.com/media/Gcp8E32agAAEnl-?format=jpg&amp;name=large">사진 보기</a>). 또한 Pebble의 전설적인 Eric Migicovsky의 강연에서 영감을 얻고 (<a href="https://www.linkedin.com/posts/billy-wangrb_had-an-incredible-weekend-at-shenzhen-maker-activity-7264123680803233792-l7Mm?utm_source=share&amp;utm_medium=member_desktop">게시물 보기</a>), Openterface 미니-KVM을 시연하며 기술 친구들과 교류했습니다 (<a href="https://twitter.com/TechxArtisan/status/1858397377196965913">추가 보기</a>, <a href="https://twitter.com/TechxArtisan/status/1858400923325726750">그리고 여기</a>). 이 의류는 단순한 옷이 아니라 대화의 시작점이며, 우리가 가는 곳마다 우리 커뮤니티를 기념할 수 있는 방법입니다!  </p>
+<p><img alt="david-billy-wearing-hoodie" src="../../pic/241120-david-billy-wearing-hoodie.webp" />
+<em>David와 저는 후드티를 너무 좋아해서 거의 매일 입고 다닙니다!😉 이렇게 멋진 사진을 공유해준 David에게 큰 감사를 드립니다—정말 감사해요!🎉</em></p>
+<p>또한, 이번 겨울을 밝게 해줄 생동감 있는 주황색 데이터 케이블은 어떠신가요? 빠르고 안정적인 데이터 전송을 보장하면서 작업 공간을 밝게 만들어줍니다.</p>
+<p>이번 <strong>2024 블랙 프라이데이</strong>를 맞아, 오늘부터 12월 1일까지 5일 동안 모든 제품에 대해 <a href="https://shop.techxartisan.com" style="text-decoration: none;"><span class="heartbeat-label">🔥 특별 50% 할인 🔥</span></a>을 제공합니다. 이 할인은 저희 여정에 함께해주신 여러분께 드리는 감사의 표시입니다.</p>
+<p>스토어를 둘러보세요: <strong><a href="https://shop.techxartisan.com">https://shop.techxartisan.com</a></strong>. 새로운 의류를 확인하고 반값으로 구매할 수 있는 이 한정된 기회를 놓치지 마세요!</p>
+<h4 id="openterface"><a class="toclink" href="../../2024/11/27/%EB%AA%A8%EB%93%A0-%EC%83%81%ED%92%88-50-%ED%95%A0%EC%9D%B8--%EB%8B%A8-%EC%9D%B4%EB%B2%88-%EB%B8%94%EB%9E%99-%ED%94%84%EB%9D%BC%EC%9D%B4%EB%8D%B0%EC%9D%B4%EB%A7%8C-%EC%98%A4%ED%94%88-%EC%86%8C%EC%8A%A4%EB%A5%BC-%EC%9D%91%EC%9B%90%ED%95%B4%EC%A3%BC%EC%84%B8%EC%9A%94/#openterface">Openterface 상품</a></h4>
+<p><img alt="openterface merch" src="../../pic/241120-txa-shop-op-merch.jpg" /></p>
+<h4 id="openterface_1"><a class="toclink" href="../../2024/11/27/%EB%AA%A8%EB%93%A0-%EC%83%81%ED%92%88-50-%ED%95%A0%EC%9D%B8--%EB%8B%A8-%EC%9D%B4%EB%B2%88-%EB%B8%94%EB%9E%99-%ED%94%84%EB%9D%BC%EC%9D%B4%EB%8D%B0%EC%9D%B4%EB%A7%8C-%EC%98%A4%ED%94%88-%EC%86%8C%EC%8A%A4%EB%A5%BC-%EC%9D%91%EC%9B%90%ED%95%B4%EC%A3%BC%EC%84%B8%EC%9A%94/#openterface_1">Openterface 액세서리</a></h4>
+<p><img alt="openterface accessories" src="../../pic/241120-txa-shop-op-accessories.jpg" /></p>
+<p>이번 여정에 함께해주셔서 감사합니다. 여러분의 응원은 우리에게 큰 힘이 되며, 나눈 대화, 아이디어, 그리고 모든 교류에 진심으로 감사드립니다.</p>
+<p>따뜻한 인사를 담아,  </p>
+<p><strong>Billy Wang</strong><br />
+제품 매니저<br />
+Openterface 팀 | TechxArtisan  </p>
+<p><strong>P.S.</strong> 의견이나 피드백이 있으신가요? <a href="https://openterface.com/reddit">Reddit</a> 또는 <a href="https://openterface.com/discord">Discord</a>에서 대화에 참여하거나 <strong>info@techxartisan.com</strong> ✉️으로 이메일을 보내주세요. 언제든 환영합니다!</p>
+    
+  </div>
+</article>
+      
+        <article class="md-post md-post--excerpt">
+  <header class="md-post__header">
+    
+      <nav class="md-post__authors md-typeset">
+        
+          <span class="md-author">
+            <img src="/images/op-avatar.jpg" alt="Openterface">
+          </span>
+        
+      </nav>
+    
+    <div class="md-post__meta md-meta">
+      <ul class="md-meta__list">
+        <li class="md-meta__item">
+          <time datetime="2024-11-13 00:00:00+00:00">2024년 11월 13일</time></li>
+        
+          <li class="md-meta__item">
+            카테고리
+            
+              <a href="../%EC%97%85%EB%8D%B0%EC%9D%B4%ED%8A%B8/" class="md-meta__link">업데이트</a>, 
+              <a href="./" class="md-meta__link">Updates</a></li>
+        
+        
+          
+          <li class="md-meta__item">
+            
+              읽는시간 4분
+            
+          </li>
+        
+      </ul>
+      
+    </div>
+  </header>
+  <div class="md-post__content md-typeset">
+    <h2 id="_1"><a class="toclink" href="../../2024/11/13/%EB%B0%B0%EC%86%A1%EC%9D%B4-%EC%8B%9C%EC%9E%91%EB%90%98%EC%97%88%EC%8A%B5%EB%8B%88%EB%8B%A4-%ED%88%B4%ED%82%B7%EC%97%90-%EC%B6%94%EA%B0%80-%EC%BC%80%EC%9D%B4%EB%B8%94-%ED%8F%AC%ED%95%A8-%EC%9D%B4%EC%A0%9C-%EC%96%B4%EB%96%BB%EA%B2%8C-%EB%90%A0%EA%B9%8C%EC%9A%94/">배송이 시작되었습니다! 툴킷에 추가 케이블 포함. 이제 어떻게 될까요?</a></h2>
+<p>안녕하세요, Openterface 커뮤니티 여러분!</p>
+<p>Openterface 제품이 공식적으로 배송되었음을 기쁜 마음으로 알려드립니다. 현재 제품은 선전 항구에 있으며, 미국으로 향하는 화물선에 실릴 준비가 완료되었습니다!</p>
+<p><img alt="Crowd Supply를 위한 포장 상자" src="../../pic/241107-s.jpeg" /><br />
+<img alt="제품 포장" src="../../pic/241107-p.jpg" /></p>
+<p>다음은 최신 소식입니다:</p>
+<h3 id="_2"><a class="toclink" href="../../2024/11/13/%EB%B0%B0%EC%86%A1%EC%9D%B4-%EC%8B%9C%EC%9E%91%EB%90%98%EC%97%88%EC%8A%B5%EB%8B%88%EB%8B%A4-%ED%88%B4%ED%82%B7%EC%97%90-%EC%B6%94%EA%B0%80-%EC%BC%80%EC%9D%B4%EB%B8%94-%ED%8F%AC%ED%95%A8-%EC%9D%B4%EC%A0%9C-%EC%96%B4%EB%96%BB%EA%B2%8C-%EB%90%A0%EA%B9%8C%EC%9A%94/#_2">배송 준비: 품질 검사와 포장</a></h3>
+<p>포장 및 배송 전, 우리는 모든 제품을 철저히 테스트하여 최고 품질을 보장했습니다. 이전 업데이트에서 언급했듯이: <a href="https://www.crowdsupply.com/techxartisan/openterface-mini-kvm/updates/diy-challenge-cool-prizes-and-production-nears-the-finish-line">DIY 챌린지, 멋진 상품, 그리고 생산 마무리 단계!</a>. 각 케이블은 Mini-KVM을 사용해 신호 전송 안정성을 검증받았습니다.</p>
+<p>이제 나쁜 소식과 좋은 소식을 나누겠습니다.</p>
+<h4 id="_3"><a class="toclink" href="../../2024/11/13/%EB%B0%B0%EC%86%A1%EC%9D%B4-%EC%8B%9C%EC%9E%91%EB%90%98%EC%97%88%EC%8A%B5%EB%8B%88%EB%8B%A4-%ED%88%B4%ED%82%B7%EC%97%90-%EC%B6%94%EA%B0%80-%EC%BC%80%EC%9D%B4%EB%B8%94-%ED%8F%AC%ED%95%A8-%EC%9D%B4%EC%A0%9C-%EC%96%B4%EB%96%BB%EA%B2%8C-%EB%90%A0%EA%B9%8C%EC%9A%94/#_3">나쁜 소식: 일부 주황색 케이블이 까다로운 조건에서 기대에 미치지 못했습니다</a></h4>
+<p>우리의 Mini-KVM은 하나의 Type-C 케이블을 통해 비디오, 오디오, 마우스/키보드 제어 및 USB 데이터를 전송합니다. 케이블의 성능은 특히 복잡한 환경에서 데이터 안정성을 보장하는 데 매우 중요합니다.</p>
+<p>실제 환경의 간섭을 시뮬레이션하기 위해, 주황색 Type-C 케이블을 전기 팬 모터 주변에 감고 여러 컴퓨터를 가까이에 두었습니다. 이는 높은 수준의 전자기 간섭(EMI)을 생성하여 케이블의 데이터 전송 안정성을 평가할 수 있게 했습니다.</p>
+<p><img alt="테스트 설정" src="../../pic/241107-0.jpg" /><br />
+<em>저비용이지만 효과적인 테스트 방법.</em></p>
+<p><a href="https://x.com/TechxArtisan/status/1856559677296816347">우리의 트위터 비디오</a>를 확인해 비교 테스트를 확인하세요.</p>
+<p>이러한 조건에서 일부 주황색 케이블은 신호 손실을 겪었으며, 데이터 센터와 같은 복잡한 환경이나 중요한 IT 작업 중 신뢰성에 대한 우려를 제기했습니다.</p>
+<p>이 문제를 해결하기 위해, 우리의 기술 책임자인 Kevin Peng은 맞춤형 테스트 프로그램을 개발했습니다. 이 도구는 사용자가 자신의 USB 케이블 품질을 테스트할 수 있도록 도와줄 예정이며, 추가 업데이트와 함께 곧 오픈 소스로 공개될 예정입니다.</p>
+<p><img alt="테스트 프로그램 인터페이스" src="../../pic/241107-1.jpg" /><br />
+<em>우리의 프로그램은 케이블 테스트를 쉽게 만듭니다.</em></p>
+<p>주황색 케이블은 부드럽고 실리콘 같은 질감과 세련된 디자인으로 일상적인 사용(예: 빠른 충전, 일반 데이터 전송)에 적합하지만, EMI가 높은 환경에서의 대량 데이터 전송 작업에는 적합하지 않습니다.</p>
+<h4 id="_4"><a class="toclink" href="../../2024/11/13/%EB%B0%B0%EC%86%A1%EC%9D%B4-%EC%8B%9C%EC%9E%91%EB%90%98%EC%97%88%EC%8A%B5%EB%8B%88%EB%8B%A4-%ED%88%B4%ED%82%B7%EC%97%90-%EC%B6%94%EA%B0%80-%EC%BC%80%EC%9D%B4%EB%B8%94-%ED%8F%AC%ED%95%A8-%EC%9D%B4%EC%A0%9C-%EC%96%B4%EB%96%BB%EA%B2%8C-%EB%90%A0%EA%B9%8C%EC%9A%94/#_4">좋은 소식: 해결책이 준비되었습니다!</a></h4>
+<p>우리는 즉시 고품질의 나일론 USB 3.2 케이블을 확보하여 Toolkit 버전에 추가 비용 없이 포함시키기로 했습니다. 이 튼튼한 케이블은 <em>1m (3.2ft)</em>, <em>1.5m (4.9ft)</em>, <em>2m (6.5ft)</em> 길이로 제공되며, Toolkit 버전에서 무작위로 하나가 제공됩니다. 이는 Mini-KVM에 안정적이고 강력한 연결을 보장할 것입니다.</p>
+<p><img alt="새로운 회색 나일론 Type-C 케이블" src="../../pic/241107-2.jpg" /></p>
+<p>미래의 Mini-KVM Toolkit 버전에서는 호스트 측에 연결되는 주황색 케이블이 나일론 Type-C 3.2 케이블로 업그레이드되어 기능성과 안정성, 스타일을 모두 갖추게 됩니다.</p>
+<p><img alt="맞춤형 나일론 Type-C 케이블" src="../../pic/241107-3.jpg" /></p>
+<p>이 결정을 이해해 주시고, 기술의 최전선에서 Openterface를 계속 신뢰해 주시길 바랍니다.</p>
+<h3 id="_5"><a class="toclink" href="../../2024/11/13/%EB%B0%B0%EC%86%A1%EC%9D%B4-%EC%8B%9C%EC%9E%91%EB%90%98%EC%97%88%EC%8A%B5%EB%8B%88%EB%8B%A4-%ED%88%B4%ED%82%B7%EC%97%90-%EC%B6%94%EA%B0%80-%EC%BC%80%EC%9D%B4%EB%B8%94-%ED%8F%AC%ED%95%A8-%EC%9D%B4%EC%A0%9C-%EC%96%B4%EB%96%BB%EA%B2%8C-%EB%90%A0%EA%B9%8C%EC%9A%94/#_5">배송 일정</a></h3>
+<p>Mini-KVM은 언제 받을 수 있나요?<br />
+모든 것이 순조롭게 진행된다면, 우리의 제품은 <strong>12월 중순</strong>까지 Crowd Supply의 Mouser 창고에 도착할 예정입니다. 이후 각 주문에 따라 배송이 진행됩니다.</p>
+<ul>
+<li><strong>미국 내 후원자</strong>: 크리스마스 전에 배송될 가능성이 있지만, 휴일이 다가오면서 모든 것이 느려지기 때문에 보장은 어렵습니다.  </li>
+<li><strong>미국 외 지역 후원자</strong>: 배송 시간은 지역에 따라 다릅니다. 우리의 최상의 예상은 1월 중순입니다.</li>
+</ul>
+<p>Openterface 제품이 순조롭게 항해하길 바랍니다—멀미, 차멀미, 또는 시차 없이! 😃</p>
+<h3 id="openterface"><a class="toclink" href="../../2024/11/13/%EB%B0%B0%EC%86%A1%EC%9D%B4-%EC%8B%9C%EC%9E%91%EB%90%98%EC%97%88%EC%8A%B5%EB%8B%88%EB%8B%A4-%ED%88%B4%ED%82%B7%EC%97%90-%EC%B6%94%EA%B0%80-%EC%BC%80%EC%9D%B4%EB%B8%94-%ED%8F%AC%ED%95%A8-%EC%9D%B4%EC%A0%9C-%EC%96%B4%EB%96%BB%EA%B2%8C-%EB%90%A0%EA%B9%8C%EC%9A%94/#openterface">멋진 Openterface 티셔츠와 후드티</a></h3>
+<p>이번 주말(11월 16–17일) 선전 메이커 페어에 참석합니다. 이를 준비하며 팀을 위한 의류(T셔츠, 집업 후드티, 일반 후드티)를 디자인했습니다.</p>
+<p>살펴보시고 의견을 들려주세요:<br />
+<img alt="Openterface 티셔츠와 후드티" src="../../pic/241107-c.jpg" /></p>
+<h3 id="_6"><a class="toclink" href="../../2024/11/13/%EB%B0%B0%EC%86%A1%EC%9D%B4-%EC%8B%9C%EC%9E%91%EB%90%98%EC%97%88%EC%8A%B5%EB%8B%88%EB%8B%A4-%ED%88%B4%ED%82%B7%EC%97%90-%EC%B6%94%EA%B0%80-%EC%BC%80%EC%9D%B4%EB%B8%94-%ED%8F%AC%ED%95%A8-%EC%9D%B4%EC%A0%9C-%EC%96%B4%EB%96%BB%EA%B2%8C-%EB%90%A0%EA%B9%8C%EC%9A%94/#_6">우리의 개발 지원하기</a></h3>
+<p>우리의 오픈소스 개발을 더 지원하고 싶다면, <a href="https://shop.techxartisan.com/">TechxArtisan Shop</a>을 방문해 보세요. 케이블, 티셔츠, 후드티를 구매하면 우리의 혁신을 지원하고 오픈소스 커뮤니티 정신을 살리는 데 기여할 수 있습니다. 모든 구매는 큰 힘이 됩니다.</p>
+<h3 id="_7"><a class="toclink" href="../../2024/11/13/%EB%B0%B0%EC%86%A1%EC%9D%B4-%EC%8B%9C%EC%9E%91%EB%90%98%EC%97%88%EC%8A%B5%EB%8B%88%EB%8B%A4-%ED%88%B4%ED%82%B7%EC%97%90-%EC%B6%94%EA%B0%80-%EC%BC%80%EC%9D%B4%EB%B8%94-%ED%8F%AC%ED%95%A8-%EC%9D%B4%EC%A0%9C-%EC%96%B4%EB%96%BB%EA%B2%8C-%EB%90%A0%EA%B9%8C%EC%9A%94/#_7">다음 단계: 호스트 앱 업데이트</a></h3>
+<p>이제 배송이 진행 중이므로, 우리는 호스트 앱을 개선하는 데 다시 집중할 것입니다. 다양한 앱 스토어에서 인증받아 Openterface를 사용하는 동안 매끄러운 경험을 제공할 수 있도록 작업 중입니다.</p>
+<p><img alt="앱 스토어" src="../../pic/241107-4.png" /></p>
+<h3 id="usb-diy"><a class="toclink" href="../../2024/11/13/%EB%B0%B0%EC%86%A1%EC%9D%B4-%EC%8B%9C%EC%9E%91%EB%90%98%EC%97%88%EC%8A%B5%EB%8B%88%EB%8B%A4-%ED%88%B4%ED%82%B7%EC%97%90-%EC%B6%94%EA%B0%80-%EC%BC%80%EC%9D%B4%EB%B8%94-%ED%8F%AC%ED%95%A8-%EC%9D%B4%EC%A0%9C-%EC%96%B4%EB%96%BB%EA%B2%8C-%EB%90%A0%EA%B9%8C%EC%9A%94/#usb-diy">다음 단계: 우리의 USB DIY 대회에 참여하세요</a></h3>
+<p>Openterface Mini-KVM을 받은 후, <strong>USB KVM DIY Challenge 2024</strong>에 참여해 보세요! 오픈소스 개발에 기여하고 특별판 Mini-KVM 2대를 포함한 멋진 상품을 받을 기회를 잡으세요. 자세한 내용은 <a href="https://www.crowdsupply.com/techxartisan/usb-kvm-diy-challenge-2024">Crowd Supply의 대회 페이지</a>를 확인하세요.</p>
+<p><img alt="USB KVM DIY Challenge 로고" src="../../pic/usb-kvm-diy-2024-logo.svg" /><br />
+<img alt="Openterface 작동 모습" src="../../pic/openterface-241017-03_jpg_md-xl.jpg" /></p>
+<h3 id="_8"><a class="toclink" href="../../2024/11/13/%EB%B0%B0%EC%86%A1%EC%9D%B4-%EC%8B%9C%EC%9E%91%EB%90%98%EC%97%88%EC%8A%B5%EB%8B%88%EB%8B%A4-%ED%88%B4%ED%82%B7%EC%97%90-%EC%B6%94%EA%B0%80-%EC%BC%80%EC%9D%B4%EB%B8%94-%ED%8F%AC%ED%95%A8-%EC%9D%B4%EC%A0%9C-%EC%96%B4%EB%96%BB%EA%B2%8C-%EB%90%A0%EA%B9%8C%EC%9A%94/#_8">마무리</a></h3>
+<p>우리 여정의 중요한 일부가 되어 주셔서 감사합니다. 여러분의 지원과 피드백이 우리를 앞으로 나아가게 합니다. 질문이나 아이디어가 있다면 언제든지 말씀해주세요! <a href="https://openterface.com/reddit">Reddit</a>과 <a href="https://openterface.com/discord">Discord</a> 커뮤니티에서 함께 대화에 참여해 주세요.</p>
+<p>감사와 함께,<br />
+<strong>Billy Wang</strong><br />
+제품 관리자<br />
+Openterface 팀 | TechxArtisan</p>
+    
+  </div>
+</article>
+      
+        <article class="md-post md-post--excerpt">
+  <header class="md-post__header">
+    
+      <nav class="md-post__authors md-typeset">
+        
+          <span class="md-author">
+            <img src="/images/op-avatar.jpg" alt="Openterface">
+          </span>
+        
+      </nav>
+    
+    <div class="md-post__meta md-meta">
+      <ul class="md-meta__list">
+        <li class="md-meta__item">
+          <time datetime="2024-10-22 00:00:00+00:00">2024년 10월 22일</time></li>
+        
+          <li class="md-meta__item">
+            카테고리
+            
+              <a href="../%EC%97%85%EB%8D%B0%EC%9D%B4%ED%8A%B8/" class="md-meta__link">업데이트</a>, 
+              <a href="./" class="md-meta__link">Updates</a></li>
+        
+        
+          
+          <li class="md-meta__item">
+            
+              읽는시간 3분
+            
+          </li>
+        
+      </ul>
+      
+    </div>
+  </header>
+  <div class="md-post__content md-typeset">
+    <h2 id="diy"><a class="toclink" href="../../2024/10/22/diy-%EC%B1%8C%EB%A6%B0%EC%A7%80-%EB%A9%8B%EC%A7%84-%EC%83%81%ED%92%88-%EA%B7%B8%EB%A6%AC%EA%B3%A0-%EC%83%9D%EC%82%B0%EC%9D%B4-%EB%A7%88%EB%AC%B4%EB%A6%AC-%EB%8B%A8%EA%B3%84%EC%97%90-%EC%A0%91%EC%96%B4%EB%93%A4%EB%8B%A4/">DIY 챌린지, 멋진 상품, 그리고 생산이 마무리 단계에 접어들다!</a></h2>
+<p>안녕하세요, Openterface 팬 여러분!</p>
+<p>흥미로운 소식을 전해드립니다! 새로운 DIY 챌린지부터 생산 마일스톤과 멋진 소프트웨어 업데이트까지—Openterface에서 많은 일이 벌어지고 있습니다. 음료를 준비하고 편안하게 앉아 이 업데이트를 함께 즐겨보세요!</p>
+<h3 id="usb-kvm-diy-2024"><a class="toclink" href="../../2024/10/22/diy-%EC%B1%8C%EB%A6%B0%EC%A7%80-%EB%A9%8B%EC%A7%84-%EC%83%81%ED%92%88-%EA%B7%B8%EB%A6%AC%EA%B3%A0-%EC%83%9D%EC%82%B0%EC%9D%B4-%EB%A7%88%EB%AC%B4%EB%A6%AC-%EB%8B%A8%EA%B3%84%EC%97%90-%EC%A0%91%EC%96%B4%EB%93%A4%EB%8B%A4/#usb-kvm-diy-2024">USB KVM DIY 챌린지 2024: 당신의 내면의 기술 마법사를 해방할 시간!</a></h3>
+<p>모든 조립자, 제작자, 꿈꾸는 이들에게 알립니다! 우리는 TechxArtisan, Make: Magazine, Open Source Hardware Association (OSHWA), Crowd Supply와 협력하여 USB KVM DIY 챌린지 2024를 발표하게 되어 기쁩니다. Openterface Mini-KVM을 사용하여 맞춤형 KVM 솔루션을 만들 기회입니다—당신의 마법을 보여주세요!</p>
+<p><img alt="techxartisan,make magazine,oshwa,crowdsouce logos" src="../../pic/241022-1.webp" /></p>
+<h4 id="_1"><a class="toclink" href="../../2024/10/22/diy-%EC%B1%8C%EB%A6%B0%EC%A7%80-%EB%A9%8B%EC%A7%84-%EC%83%81%ED%92%88-%EA%B7%B8%EB%A6%AC%EA%B3%A0-%EC%83%9D%EC%82%B0%EC%9D%B4-%EB%A7%88%EB%AC%B4%EB%A6%AC-%EB%8B%A8%EA%B3%84%EC%97%90-%EC%A0%91%EC%96%B4%EB%93%A4%EB%8B%A4/#_1">개요:</a></h4>
+<p><strong>미션:</strong> Openterface Mini-KVM을 사용하여 자신만의 오픈 KVM 솔루션을 만들고, 개인적인 필요에 맞게 변형하세요.</p>
+<p><strong>카테고리:</strong> 최고의 성과를 낸 참가자에게는 기술적 능력과 창의성을 모두 인정받을 수 있는 상이 주어집니다.</p>
+<p><strong>멋진 상품:</strong></p>
+<ul>
+<li>투명하고 은색 케이스가 있는 한정판 Openterface Mini-KVM.</li>
+<li>HackerGadgets의 미래지향적인 Pi-Cast KVM.</li>
+<li>Clockwork의 레트로 스타일 GameShell.</li>
+</ul>
+<p><strong>타임라인:</strong> 챌린지는 2024년 10월 1일에 시작하여 2025년 2월 28일에 마감됩니다.</p>
+<p><strong>심사위원:</strong> TechxArtisan, Make: Magazine, OSHWA, Crowd Supply의 전문가들이 프로젝트를 평가합니다.</p>
+<p>경험이 많은 기술 마법사든 하드웨어 해킹의 세계에 처음 발을 들인 사람이든, 이 대회는 당신의 놀이터입니다. 누가 알겠습니까? 당신이 기술의 다음 큰 혁신을 만들지도 모릅니다!</p>
+<p><a href="https://www.crowdsupply.com/techxartisan/usb-kvm-diy-challenge-2024">Crowd Supply의 공식 대회 페이지</a>에서 참가하고 <a href="https://discord.com/invite/YhKVzDujkT">대회 Discord 채널</a>에서 우리와 대화하세요. <strong>혁신 게임이 시작됩니다!</strong></p>
+<p><img alt="Openterface Mini-KVM available in three cool enclosures—transparent, silver, and black" src="../../pic/241022-2.webp" /></p>
+<p style="text-align: center;"><small><em>투명, 은색, 검정색의 세 가지 멋진 케이스로 제공되는 Openterface Mini-KVM</em></small></p>
+
+<p><img alt="Some of the awesome prizes: Pi-Cast KVM by HackerGadgets and GameShell by Clockwork" src="../../pic/241022-3.webp" /></p>
+<p style="text-align: center;"><small><em>멋진 상품들: HackerGadgets의 Pi-Cast KVM과 Clockwork의 GameShell</em></small></p>
+
+<h3 id="_2"><a class="toclink" href="../../2024/10/22/diy-%EC%B1%8C%EB%A6%B0%EC%A7%80-%EB%A9%8B%EC%A7%84-%EC%83%81%ED%92%88-%EA%B7%B8%EB%A6%AC%EA%B3%A0-%EC%83%9D%EC%82%B0%EC%9D%B4-%EB%A7%88%EB%AC%B4%EB%A6%AC-%EB%8B%A8%EA%B3%84%EC%97%90-%EC%A0%91%EC%96%B4%EB%93%A4%EB%8B%A4/#_2">생산 업데이트: 거의 다 왔습니다!</a></h3>
+<p>여기 무대 뒤에서 벌어지고 있는 열심히 일하는 모습을 살짝 보여드립니다—우리 스튜디오는 벌집처럼 바쁘게 움직이고 있습니다! 지금까지 Openterface Mini-KVM 800대를 조립했습니다.</p>
+<p><img alt="assembled units" src="../../pic/241022-4.webp" /></p>
+<p><img alt="Production progress image" src="../../pic/241022-5.webp" /></p>
+<p>우리의 품질 관리는 최고 수준입니다. 모든 유닛은 팀에 의해 철저히 검사되고 재검사되며 세심하게 관리됩니다. 여러분의 손에 도착했을 때, 그것은 단지 좋은 것이 아니라 훌륭한 것입니다! 우리는 다른 장치들이 부러워할 만한 품질을 목표로 하고 있습니다.</p>
+<p>기다리는 것이 힘들다는 것을 알고 있지만, 우리는 최고의 경험을 제공하기 위해 최선을 다하고 있습니다. 마지막 손질을 하는 동안 인내해 주셔서 감사합니다!</p>
+<h3 id="_3"><a class="toclink" href="../../2024/10/22/diy-%EC%B1%8C%EB%A6%B0%EC%A7%80-%EB%A9%8B%EC%A7%84-%EC%83%81%ED%92%88-%EA%B7%B8%EB%A6%AC%EA%B3%A0-%EC%83%9D%EC%82%B0%EC%9D%B4-%EB%A7%88%EB%AC%B4%EB%A6%AC-%EB%8B%A8%EA%B3%84%EC%97%90-%EC%A0%91%EC%96%B4%EB%93%A4%EB%8B%A4/#_3">소프트웨어 업데이트: 안드로이드 앱이 멋지게 업그레이드되었습니다</a></h3>
+<p>우리의 안드로이드 앱이 대대적인 업그레이드를 받았습니다. 이제 휴대폰이나 태블릿을 통해 타겟 장치를 제어하는 것이 그 어느 때보다 쉽고 재미있어졌습니다!</p>
+<p>여기 데모 비디오를 확인하세요: <a href="https://x.com/TechxArtisan/status/1840587612148699398">Android App Demo Video</a></p>
+<p><a href="https://x.com/TechxArtisan/status/1840587612148699398"><img alt="finger tapping on the Android app" src="../../pic/241022-6.webp" /></a></p>
+<h4 id="_4"><a class="toclink" href="../../2024/10/22/diy-%EC%B1%8C%EB%A6%B0%EC%A7%80-%EB%A9%8B%EC%A7%84-%EC%83%81%ED%92%88-%EA%B7%B8%EB%A6%AC%EA%B3%A0-%EC%83%9D%EC%82%B0%EC%9D%B4-%EB%A7%88%EB%AC%B4%EB%A6%AC-%EB%8B%A8%EA%B3%84%EC%97%90-%EC%A0%91%EC%96%B4%EB%93%A4%EB%8B%A4/#_4">새로운 기능:</a></h4>
+<ul>
+<li>부드럽고 반응이 빠른 터치 컨트롤</li>
+<li>쉬운 드래그 앤 드롭 기능</li>
+<li>직관적인 경험을 위한 정밀한 탭핑</li>
+<li>편리함을 더한 새로운 기능 키 바</li>
+<li>다가오는 기능: 사용자 정의 가능한 키보드 단축키</li>
+<li>안드로이드 태블릿과 휴대폰 모두와 호환 가능</li>
+</ul>
+<p>이 앱은 이동 중인 기술 전문가들에게 Openterface Mini-KVM을 더욱 유용하게 만듭니다. 최신 APK와 소스 코드를 GitHub 저장소에 업로드했으니 더 탐색하거나 기여하고 싶다면 확인해보세요!</p>
+<h3 id="_5"><a class="toclink" href="../../2024/10/22/diy-%EC%B1%8C%EB%A6%B0%EC%A7%80-%EB%A9%8B%EC%A7%84-%EC%83%81%ED%92%88-%EA%B7%B8%EB%A6%AC%EA%B3%A0-%EC%83%9D%EC%82%B0%EC%9D%B4-%EB%A7%88%EB%AC%B4%EB%A6%AC-%EB%8B%A8%EA%B3%84%EC%97%90-%EC%A0%91%EC%96%B4%EB%93%A4%EB%8B%A4/#_5">마무리</a></h3>
+<p>후! 꽤 많은 업데이트였죠?</p>
+<p>아이디어, 피드백 또는 대담한 KVM 꿈이 있다면, 저희에게 알려주세요! DM을 보내거나, 비둘기를 보내거나 🕊️, 커뮤니티 채널 중 하나에 참여하세요. 여러분과 소통하는 것을 좋아합니다!</p>
+<p>기다려 주셔서 다시 한 번 감사드리며, 최고의 기술 커뮤니티가 되어 주셔서 감사합니다. 더 흥미로운 소식과 업데이트가 곧 다가올 예정이니, 계속 지켜봐 주세요!</p>
+<p>감사합니다,<br />
+Billy Wang<br />
+제품 관리자<br />
+Openterface 팀 | TechxArtisan</p>
+    
+  </div>
+</article>
+      
+        <article class="md-post md-post--excerpt">
+  <header class="md-post__header">
+    
+      <nav class="md-post__authors md-typeset">
+        
+          <span class="md-author">
+            <img src="/images/op-avatar.jpg" alt="Openterface">
+          </span>
+        
+      </nav>
+    
+    <div class="md-post__meta md-meta">
+      <ul class="md-meta__list">
+        <li class="md-meta__item">
+          <time datetime="2024-10-01 00:00:00+00:00">2024년 10월 1일</time></li>
+        
+          <li class="md-meta__item">
+            카테고리
+            
+              <a href="../%EC%97%85%EB%8D%B0%EC%9D%B4%ED%8A%B8/" class="md-meta__link">업데이트</a>, 
+              <a href="./" class="md-meta__link">Updates</a></li>
+        
+        
+          
+          <li class="md-meta__item">
+            
+              읽는시간 1분
+            
+          </li>
+        
+      </ul>
+      
+    </div>
+  </header>
+  <div class="md-post__content md-typeset">
+    <h2 id="diy-oshwa-show-tell"><a class="toclink" href="../../2024/10/01/diy-%EC%B1%8C%EB%A6%B0%EC%A7%80%EC%97%90-%EB%8F%84%EC%A0%84%ED%95%B4-%EB%B3%B4%EC%84%B8%EC%9A%94-oshwa%EC%9D%98-show--tell%EC%97%90%EC%84%9C-%EB%A7%8C%EB%82%98%EC%9A%94/">DIY 챌린지에 도전해 보세요! OSHWA의 Show &amp; Tell에서 만나요!</a></h2>
+<p><img alt="poster-1" src="../../pic/241001-1.jpeg" style="width:380px" />
+<img alt="poster-2" src="../../pic/241001-2.jpg" style="width:380px" /></p>
+<p>안녕하세요, 여러분! 10월 2일 오후 10시 40분(EST)에 열리는 OSHWA의 Show &amp; Tell에서 USB KVM DIY 챌린지 2024를 소개할 예정입니다. 관심 있으신 분들은 꼭 참여해 주세요! 감사합니다!</p>
+    
+  </div>
+</article>
+      
+        <article class="md-post md-post--excerpt">
+  <header class="md-post__header">
+    
+      <nav class="md-post__authors md-typeset">
+        
+          <span class="md-author">
+            <img src="/images/op-avatar.jpg" alt="Openterface">
+          </span>
+        
+      </nav>
+    
+    <div class="md-post__meta md-meta">
+      <ul class="md-meta__list">
+        <li class="md-meta__item">
+          <time datetime="2024-08-22 00:00:00+00:00">2024년 8월 22일</time></li>
+        
+          <li class="md-meta__item">
+            카테고리
+            
+              <a href="../%EC%97%85%EB%8D%B0%EC%9D%B4%ED%8A%B8/" class="md-meta__link">업데이트</a>, 
+              <a href="./" class="md-meta__link">Updates</a></li>
+        
+        
+          
+          <li class="md-meta__item">
+            
+              읽는시간 5분
+            
+          </li>
+        
+      </ul>
+      
+    </div>
+  </header>
+  <div class="md-post__content md-typeset">
+    <h2 id="_1"><a class="toclink" href="../../2024/08/22/%EC%9E%A5%EC%95%A0%EB%AC%BC-%EA%B7%B9%EB%B3%B5-%EC%A7%84%ED%96%89-%EC%83%81%ED%99%A9-%EC%97%85%EB%8D%B0%EC%9D%B4%ED%8A%B8-%EB%B0%8F-%EC%83%88%EB%A1%9C%EC%9A%B4-%EC%9D%BC%EC%A0%95/">장애물 극복: 진행 상황 업데이트 및 새로운 일정</a></h2>
+<p>안녕하세요, 여러분.</p>
+<p>잘 지내고 계신가요? 마지막 업데이트 이후로 시간이 꽤 흘렀네요. Openterface의 모든 것이 순조롭게 진행되었다고 말씀드리고 싶지만, 몇 가지 문제로 인해 배송 일정이 지연될 예정입니다. 예상치 못한 일이었지만, 우리는 이러한 도전에 정면으로 맞서고 있으며, 좋은 소식도 많이 있습니다. 이 글은 약 7분 정도 소요되니, 현재 상황과 앞으로의 계획에 대해 자세히 알아보도록 하겠습니다.</p>
+<h3 id="_2"><a class="toclink" href="../../2024/08/22/%EC%9E%A5%EC%95%A0%EB%AC%BC-%EA%B7%B9%EB%B3%B5-%EC%A7%84%ED%96%89-%EC%83%81%ED%99%A9-%EC%97%85%EB%8D%B0%EC%9D%B4%ED%8A%B8-%EB%B0%8F-%EC%83%88%EB%A1%9C%EC%9A%B4-%EC%9D%BC%EC%A0%95/#_2">규제, 생산 및 품질</a></h3>
+<p>생산을 시작하기 전에, CE 인증을 포함한 필요한 품질 테스트를 통과해야 했습니다. Mini-KVM뿐만 아니라 여러 액세서리가 포함된 툴킷 버전이기 때문에 각 부품마다 CE 테스트를 거쳐야 했습니다. 예상보다 시간이 더 걸렸지만, <strong>Mini-KVM과 모든 부품이 CE 인증을 통과했습니다!</strong> 아래는 모든 부품에 대한 인증 개요입니다: Mini-KVM, HDMI 케이블, 주황색 Type-C 케이블, 짧은 검은색 Type-C 케이블, VGA2HDMI 케이블. 인증을 받은 덕분에 생산 일정이 확정되었고, 현재 제조업체에서 <strong>모든 부품을 생산 중</strong>입니다.</p>
+<p><img alt="240823-0" src="../../pic/240823-0.jpg" />
+<em>우리 전자 제품의 경우 UKCA와 CE 요구 사항이 동일하며, CE는 RoHS 준수도 포함합니다.</em></p>
+<p>2주 전, 우리는 제조업체 중 한 곳을 방문하여 주황색 케이블의 품질 관리를 위해 라인 매니저들을 교육했습니다. 이제 모든 주황색 케이블이 생산되어 스튜디오 한쪽에 쌓여 있습니다.
+<img alt="240823-1" src="../../pic/240823-1.jpg" />
+<em>Kevin과 Shawn이 Openterface Mini-KVM과 주황색 케이블의 올바른 작동을 보장하기 위한 테스트 방법을 설명하고 있습니다.</em></p>
+<p>이번 주에는 다른 부품에 대해서도 동일한 작업을 수행하여 생산 전선에서 품질 관리를 교육할 예정입니다. 추가 케이블 샘플은 다음과 같습니다.
+<img alt="240823-2" src="../../pic/240823-2.jpg" />
+<em>TechxArtisan 로고가 자랑스럽게 새겨진 HDMI 케이블, 짧은 Type-C 케이블, VGA-to-HDMI 케이블 샘플입니다.</em></p>
+<p>제조업체로부터 다른 부품과 Mini-KVM이 곧 도착할 예정이며, 도착하면 모든 부품의 품질을 다시 확인하고 스튜디오에서 적절히 포장할 것입니다. 즉, <strong>우리 팀이 직접 품질을 보장</strong>하여 여러분의 손에 도달할 것입니다.</p>
+<h3 id="_3"><a class="toclink" href="../../2024/08/22/%EC%9E%A5%EC%95%A0%EB%AC%BC-%EA%B7%B9%EB%B3%B5-%EC%A7%84%ED%96%89-%EC%83%81%ED%99%A9-%EC%97%85%EB%8D%B0%EC%9D%B4%ED%8A%B8-%EB%B0%8F-%EC%83%88%EB%A1%9C%EC%9A%B4-%EC%9D%BC%EC%A0%95/#_3">배송, 잠재적 지연 및 새로운 예상 도착일</a></h3>
+<p><strong>현재 불확실한 부분은 배송 과정</strong>입니다. 여러 배송 회사를 조사한 결과, 창고를 통해 Crowd Supply의 창고로 배송하기 위해 시간이 더 걸릴 것으로 보입니다. 해상 운송과 항공 운송 중 어느 것을 선택할지 아직 논의 중이니 조금만 더 기다려 주세요.</p>
+<p>통관 절차도 예상치 못한 지연을 초래할 수 있는 또 다른 장애물입니다. 제품이 미국의 Crowd Supply 창고에 도착하면 각 주문에 따라 전 세계로 배송하는 데 1~2주가 소요될 것입니다. 미국 외 지역의 후원자들은 개별 소포가 도착국의 글로벌 배송 및 통관 절차를 거쳐야 합니다.</p>
+<p>현재 상황을 감안하고 여유 시간을 추가하여, 올해 말까지 배송을 완료할 수 있을 것으로 조심스럽게 낙관하고 있으며, <strong>새로운 예상 도착일은 1월 중순</strong>입니다. 불편을 드려 정말 죄송하며, 이 변화 동안 여러분의 지원과 인내에 감사드립니다.</p>
+<h3 id="v19"><a class="toclink" href="../../2024/08/22/%EC%9E%A5%EC%95%A0%EB%AC%BC-%EA%B7%B9%EB%B3%B5-%EC%A7%84%ED%96%89-%EC%83%81%ED%99%A9-%EC%97%85%EB%8D%B0%EC%9D%B4%ED%8A%B8-%EB%B0%8F-%EC%83%88%EB%A1%9C%EC%9A%B4-%EC%9D%BC%EC%A0%95/#v19">최종 하드웨어 V1.9</a></h3>
+<p>이전 <a href="https://www.reddit.com/r/Openterface_miniKVM/comments/1e25pco/openterface_minikvm_v19_with_pins_for_more/">Reddit 게시물</a>에서 알 수 있듯이, 우리는 <strong>확장 핀이 포함된 V1.9 하드웨어로 업그레이드</strong>하기로 결정했습니다. 이는 크라우드펀딩 캠페인의 원래 계획에는 없었지만, 하드웨어의 <strong>더 넓은 사용 가능성</strong>을 크게 향상시킬 것이라고 믿습니다.</p>
+<p><img alt="240823-3" src="../../pic/240823-3.jpg" />
+<em>VCC, GND, Target D+, Target D-, Host D+, Host D- 핀—여기서 'D'는 USB 데이터를 의미합니다.</em></p>
+<p>주요 동기 중 하나는 <strong>소프트웨어 수준에서 USB 스위치를 전환할 수 있도록 하는 것</strong>이었습니다. 왜 이것이 중요한가요? 우리의 로드맵에는 <strong>KVM-over-IP 솔루션</strong>(예: VNC)을 지원하는 것이 목표입니다. 로컬 KVM 제어를 VNC 프로토콜과 일치시켜 사용자가 호스트 컴퓨터를 통해 원격으로 타겟 컴퓨터를 제어할 수 있도록 하는 것입니다. 이러한 원격 시나리오에서는 특히 호스트와 타겟 간의 파일 전송이 필요한 경우 사용자가 USB 포트를 전환할 수 있는 기능이 필수적입니다.</p>
+<p><strong>확장 핀은 또한 iPadOS 통합, ATX 제어, 네트워크 브리징 및 오디오 바이패스와 같은 더 많은 가능성을 열어줍니다</strong>. 여기서 모든 세부 사항을 다루지는 않겠지만, Openterface 커뮤니티에 가입하여 더 많은 논의를 나누시길 권장합니다.</p>
+<p>이 하드웨어 업그레이드는 Openterface 솔루션이 IP를 통해 작동하고 더 고급 기능을 포함할 수 있도록 확장할 수 있으며, 여전히 플러그 앤 플레이 KVM-over-USB 도구로서의 핵심 강점을 유지할 수 있습니다. 이는 낯선 데이터 센터와 같은 불확실한 IT 환경을 탐색하는 IT 전문가에게 완벽합니다.</p>
+<p>V1.9가 내부 기본 테스트를 통과했으며 모든 후원자에게 공식 버전으로 최종 확정될 것임을 기쁘게 보고합니다. 그러나 이 하드웨어 업그레이드는 추가 테스트가 필요하며, 이러한 확장 핀을 기반으로 한 모든 개발은 실험적이며 버그가 있을 가능성이 큽니다. 여기서 여러분의 도움이 필요합니다. 우리는 Openterface를 함께 개선하기 위해 오픈 소스 커뮤니티에 의존하고 있습니다.</p>
+<h3 id="_4"><a class="toclink" href="../../2024/08/22/%EC%9E%A5%EC%95%A0%EB%AC%BC-%EA%B7%B9%EB%B3%B5-%EC%A7%84%ED%96%89-%EC%83%81%ED%99%A9-%EC%97%85%EB%8D%B0%EC%9D%B4%ED%8A%B8-%EB%B0%8F-%EC%83%88%EB%A1%9C%EC%9A%B4-%EC%9D%BC%EC%A0%95/#_4">소프트웨어 업데이트</a></h3>
+<p>소프트웨어 측면에서도 흥미로운 진전을 이루고 있습니다. <strong>Openterface Android 앱</strong> 개발에 착수했습니다! 부드러운 KVM 제어, 마우스 이동 및 클릭을 보여주는 초기 데모를 <a href="https://x.com/TechxArtisan/status/1825460088922071398">이 트윗</a>에서 확인하세요. 더 많은 기능이 추가될 예정이며, 코드를 조금 더 다듬으면 <strong>이 앱도 GitHub 저장소 <a href="https://github.com/TechxArtisanStudio/Openterface_Android">Openterface_Android</a>에 오픈 소스로 공개</strong>할 것입니다.
+<img alt="240823-4" src="../../pic/240823-4.jpg" />
+<em>Android 태블릿에서 Linux 컴퓨터를 KVM 제어하는 모습. 멋지죠!</em></p>
+<p>QT 버전도 유용한 업데이트를 받았습니다—이제 <a href="https://x.com/TechxArtisan/status/1825919721960780131">호스트에서 타겟으로 텍스트를 전송</a>할 수 있습니다! 이제 이 기능은 macOS, Windows 및 Linux 호스트 앱에서 지원됩니다.</p>
+<p>또한 재미있는 기능을 추가할 계획입니다—<a href="https://x.com/TechxArtisan/status/1825471186668847241">타겟 컴퓨터가 잠들지 않도록 자동 마우스 이동</a> 기능입니다. 화면을 돌아다니는 핑퐁 공이나 클래식 DVD 스크린세이버 효과 중 어느 것을 선택할까요? <a href="https://x.com/TechxArtisan/status/1825470086800691459">트윗</a>에 투표하고 댓글을 남겨주세요 😃</p>
+<h3 id="_5"><a class="toclink" href="../../2024/08/22/%EC%9E%A5%EC%95%A0%EB%AC%BC-%EA%B7%B9%EB%B3%B5-%EC%A7%84%ED%96%89-%EC%83%81%ED%99%A9-%EC%97%85%EB%8D%B0%EC%9D%B4%ED%8A%B8-%EB%B0%8F-%EC%83%88%EB%A1%9C%EC%9A%B4-%EC%9D%BC%EC%A0%95/#_5">패키지 디자인, 라벨링 및 매뉴얼</a></h3>
+<p>여러 가지 모형과 패키지 디자인을 <a href="https://www.reddit.com/r/Openterface_miniKVM/comments/1elm4vq/almost_ready_to_finalize_our_package_design/">실험</a>하여 여러 주요 요소 간의 완벽한 균형을 찾고 있습니다:</p>
+<ul>
+<li>배송 중 제품과 부품을 보호할 수 있을 만큼 견고한 재료 선택,</li>
+<li>제품을 한눈에 이해할 수 있도록 돕는 정보성 라벨링,</li>
+<li>규정 준수 보장,</li>
+<li>시각적으로 매력적인 디자인,</li>
+<li>가능한 한 플라스틱 사용을 최소화하여 친환경적이도록 하는 것.</li>
+</ul>
+<p>또한, 기존 툴킷 가방에 몇 가지 개선 사항을 추가했습니다:</p>
+<ul>
+<li>더 큰 저장 공간,</li>
+<li>스타일리시한 주황색 지퍼,</li>
+<li>업그레이드된 외부 및 내부 재료,</li>
+<li>매우 신축성 있는 메쉬 포켓.</li>
+</ul>
+<p>이 재료는 예산 친화적이고, 촉감이 좋으며, 내부 물품을 보호할 만큼 내구성이 뛰어나기 때문에 선택했습니다. <strong>여러분도 마음에 드실 거라 확신합니다</strong>.</p>
+<p><img alt="240823-5" src="../../pic/240823-5.jpg" /></p>
+<p>알루미늄 케이스의 라벨도 정보성 있고 시각적으로 매력적으로 만들기 위해 업데이트하고 있습니다. 이러한 개선 사항이 사용자 경험을 향상시키고 Openterface를 더 쉽게 시작할 수 있도록 도와주기를 바랍니다.</p>
+<p><img alt="240823-6" src="../../pic/240823-6.jpg" /></p>
+<p>Openterface 매뉴얼도 영어, 독일어, 프랑스어, 일본어, 중국어로 제공될 예정입니다. 여러분의 언어가 포함되지 않았다면 죄송합니다—우리 상자는 Doctor Who의 경찰 박스처럼 TARDIS 크기가 아닙니다! 하지만 웹사이트에 더 많은 번역을 추가하기 위해 최선을 다하겠습니다.</p>
+<p><img alt="240823-7" src="../../pic/240823-7.jpg" /></p>
+<h3 id="_6"><a class="toclink" href="../../2024/08/22/%EC%9E%A5%EC%95%A0%EB%AC%BC-%EA%B7%B9%EB%B3%B5-%EC%A7%84%ED%96%89-%EC%83%81%ED%99%A9-%EC%97%85%EB%8D%B0%EC%9D%B4%ED%8A%B8-%EB%B0%8F-%EC%83%88%EB%A1%9C%EC%9A%B4-%EC%9D%BC%EC%A0%95/#_6">커뮤니티 언어 검토</a></h3>
+<p>번역을 돕기 위해 ChatGPT를 사용하고 있지만, 때때로 문구와 표현이 부자연스러울 수 있습니다. 다른 언어로 된 인쇄물의 내용을 검토하는 데 도움을 주시면 대단히 감사하겠습니다. 포장에 대한 모든 텍스트 내용을 GitHub 폴더 <a href="https://github.com/TechxArtisanStudio/Openterface/tree/main/product-printed-materials">product-printed-materials</a>에 업데이트했으니, 검토하고 개선 사항을 제출해 주세요. 직접 메시지를 보내주셔도 됩니다. 감사합니다!</p>
+<h3 id="_7"><a class="toclink" href="../../2024/08/22/%EC%9E%A5%EC%95%A0%EB%AC%BC-%EA%B7%B9%EB%B3%B5-%EC%A7%84%ED%96%89-%EC%83%81%ED%99%A9-%EC%97%85%EB%8D%B0%EC%9D%B4%ED%8A%B8-%EB%B0%8F-%EC%83%88%EB%A1%9C%EC%9A%B4-%EC%9D%BC%EC%A0%95/#_7">마지막 소감 및 진행 상황</a></h3>
+<p>지연과 제품의 예상 도착일 변경에 대해 다시 한 번 사과드립니다. 여러분의 인내와 지지에 감사드리며, 가능한 한 빨리 제품을 전달하기 위해 열심히 노력하고 있습니다! 배송이 준비되면 즉시 업데이트하겠습니다. 더 많은 업데이트가 예정되어 있으니, Openterface 커뮤니티에 가입하고 계속 지켜봐 주세요!</p>
+<p>감사합니다,</p>
+<p>Billy Wang<br />
+프로젝트 매니저<br />
+Openterface 팀 | TechxArtisan</p>
+    
+  </div>
+</article>
+      
+        <article class="md-post md-post--excerpt">
+  <header class="md-post__header">
+    
+      <nav class="md-post__authors md-typeset">
+        
+          <span class="md-author">
+            <img src="/images/op-avatar.jpg" alt="Openterface">
+          </span>
+        
+      </nav>
+    
+    <div class="md-post__meta md-meta">
+      <ul class="md-meta__list">
+        <li class="md-meta__item">
+          <time datetime="2024-07-16 00:00:00+00:00">2024년 7월 16일</time></li>
+        
+          <li class="md-meta__item">
+            카테고리
+            
+              <a href="../%EC%97%85%EB%8D%B0%EC%9D%B4%ED%8A%B8/" class="md-meta__link">업데이트</a>, 
+              <a href="./" class="md-meta__link">Updates</a></li>
+        
+        
+          
+          <li class="md-meta__item">
+            
+              읽는시간 3분
+            
+          </li>
+        
+      </ul>
+      
+    </div>
+  </header>
+  <div class="md-post__content md-typeset">
+    <h2 id="teardown"><a class="toclink" href="../../2024/07/16/teardown%EC%97%90%EC%84%9C-%EC%83%9D%EC%82%B0%EA%B9%8C%EC%A7%80-%EC%95%9E%EC%9C%BC%EB%A1%9C-%EB%82%98%EC%95%84%EA%B0%91%EB%8B%88%EB%8B%A4/">Teardown에서 생산까지: 앞으로 나아갑니다!</a></h2>
+<p>안녕하세요, 여러분!</p>
+<p>크라우드펀딩 캠페인이 끝난 지 꽤 되었는데요, 오늘은 여러분께 멋진 소식을 전해드리려고 합니다. Openterface Mini-KVM의 생산 단계에 본격적으로 돌입했으며, 진행 상황을 계속 공유할 예정입니다.</p>
+<h3 id="teardown-2024"><a class="toclink" href="../../2024/07/16/teardown%EC%97%90%EC%84%9C-%EC%83%9D%EC%82%B0%EA%B9%8C%EC%A7%80-%EC%95%9E%EC%9C%BC%EB%A1%9C-%EB%82%98%EC%95%84%EA%B0%91%EB%8B%88%EB%8B%A4/#teardown-2024">Teardown 2024 하이라이트</a></h3>
+<p>먼저, 지난달 포틀랜드에서 열린 <a href="https://x.com/TechxArtisan/status/1810619822948090092">Teardown 2024</a> 행사에 대해 이야기해볼까요? <a href="https://www.crowdsupply.com/teardown/portland-2024"><strong>Crowd Supply</strong></a>가 주최한 이 행사는 정말 놀라웠습니다. 데모 테이블에서 많은 기술 친구들과 후원자들을 직접 만날 수 있어 기뻤습니다! 여러분의 따뜻한 격려와 응원에 큰 힘을 얻었습니다. 행사에서 찍은 사진 몇 장을 공유합니다:</p>
+<p><img alt="openterface-billy-at-teardown2024-2" src="https://www.crowdsupply.com/img/f0a2/16c34150-c59a-40d0-ab77-7c5dada8f0a2/openterface-billy-at-teardown2024-2_jpg_gallery-lg.jpg" /></p>
+<p>Electromaker가 행사 중에 저희 제품을 소개해 주셔서 큰 감사의 인사를 전합니다! 이 영상에서 저희의 대화를 확인해 보세요:</p>
+<iframe width="800" height="450" src="https://www.youtube.com/embed/K0EuMSQEwKo" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+
+<h3 id="_1"><a class="toclink" href="../../2024/07/16/teardown%EC%97%90%EC%84%9C-%EC%83%9D%EC%82%B0%EA%B9%8C%EC%A7%80-%EC%95%9E%EC%9C%BC%EB%A1%9C-%EB%82%98%EC%95%84%EA%B0%91%EB%8B%88%EB%8B%A4/#_1">본격적인 생산 돌입</a></h3>
+<p>현재 저희는 <strong>CH9329와 CH340 같은 부품과 칩을 주문</strong>하며 생산 준비에 한창입니다. 또한 Mini-KVM과 케이블을 CE, RoHS, UKCA 인증 테스트에 제출하고 있습니다. 모든 것이 순조롭게 진행된다면 곧 공장에서 생산을 시작할 수 있을 것입니다. 저희 팀은 생산 라인의 모든 단계가 원활하게 진행되어 재미있고 신뢰할 수 있는 최고 품질의 제품을 제공하기 위해 최선을 다하고 있습니다! 여기 RoHS와 CE 인증 테스트 보고서 사진을 공유합니다:</p>
+<p><img alt="openterface-test-report-typec" src="https://www.crowdsupply.com/img/8d57/cd1d5f8e-820b-40c2-b758-1f075e2e8d57/openterface-test-report-typec_jpg_gallery-lg.jpg" /></p>
+<p>Mini-KVM과 다른 케이블들도 필요한 인증 기준을 충족하는지 확인하기 위해 비슷한 보고서를 계속 공유할 예정이니 기대해 주세요.</p>
+<h3 id="oshwa"><a class="toclink" href="../../2024/07/16/teardown%EC%97%90%EC%84%9C-%EC%83%9D%EC%82%B0%EA%B9%8C%EC%A7%80-%EC%95%9E%EC%9C%BC%EB%A1%9C-%EB%82%98%EC%95%84%EA%B0%91%EB%8B%88%EB%8B%A4/#oshwa">OSHWA 인증</a></h3>
+<p>Openterface Mini-KVM이 공식적으로 <strong>OSHWA</strong> 인증을 받았다는 소식을 전하게 되어 기쁩니다! 🥳 인증 내용을 여기에서 확인할 수 있습니다: <a href="https://certification.oshwa.org/cn000015.html">OSHWA UID CN000015</a>. 저희는 소프트웨어와 하드웨어 모두를 오픈 소스로 유지하며, 기술 애호가들이 USB KVM의 잠재력을 탐구하고 개발에 기여하며 활기찬 커뮤니티를 함께 만들어 나가기를 바랍니다.</p>
+<p><img alt="openterface-oshw-cn000015" src="https://www.crowdsupply.com/img/925a/fbf33f8d-0c0d-405e-bb34-6e0038c9925a/openterface-oshw-cn000015_jpg_md-xl.jpg" /></p>
+<h3 id="v19"><a class="toclink" href="../../2024/07/16/teardown%EC%97%90%EC%84%9C-%EC%83%9D%EC%82%B0%EA%B9%8C%EC%A7%80-%EC%95%9E%EC%9C%BC%EB%A1%9C-%EB%82%98%EC%95%84%EA%B0%91%EB%8B%88%EB%8B%A4/#v19">하드웨어 업데이트 V1.9</a></h3>
+<p>저희는 <strong>VCC, GND, Target D+, Target D-, Host D+, Host D-</strong>와 같은 추가 핀이 포함된 <strong>하드웨어 V1.9</strong>를 출시했습니다! 이 데이터 핀들은 타겟과 호스트의 USB 허브에 연결되어 있어 더욱 다양한 해킹이 가능합니다. Openterface를 이용해 ATX, 네트워크 브리징, 오디오 바이패스 등 다양한 확장을 DIY로 만들어 보세요. 이 핀들을 이용해 Mini-KVM을 어떻게 해킹할지 창의적인 아이디어가 있다면 <a href="/reddit">Reddit</a>이나 <a href="/discord">Discord</a>에 공유하고 함께 코딩을 즐겨보세요!</p>
+<p><img alt="openterface-v1-9-hackable" src="https://www.crowdsupply.com/img/caf8/7b5bb696-2342-487a-b0e8-aa137e6dcaf8/openterface-v1-9-hackable_jpg_md-xl.jpg" /></p>
+<h3 id="pi-openterface-uconsole"><a class="toclink" href="../../2024/07/16/teardown%EC%97%90%EC%84%9C-%EC%83%9D%EC%82%B0%EA%B9%8C%EC%A7%80-%EC%95%9E%EC%9C%BC%EB%A1%9C-%EB%82%98%EC%95%84%EA%B0%91%EB%8B%88%EB%8B%A4/#pi-openterface-uconsole">Pi에서 Openterface 실행 &amp; uConsole과 협력</a></h3>
+<p>저희는 <strong>Pi 환경에서 QT 호스트 앱을 성공적으로 실행</strong>했습니다! 더 흥미로운 것은 Mini-KVM이 Clockwork의 <strong>uConsole</strong>과 협력하여 휴대용 KVM 도구로 변신할 수 있다는 점입니다. 이는 플러그 앤 플레이와 주변의 헤드리스 장치 문제를 빠르게 해결하는 데 매우 유용합니다.</p>
+<iframe width="800" height="450" src="https://www.youtube.com/embed/n7k_FwgM9kA" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+
+<h3 id="_2"><a class="toclink" href="../../2024/07/16/teardown%EC%97%90%EC%84%9C-%EC%83%9D%EC%82%B0%EA%B9%8C%EC%A7%80-%EC%95%9E%EC%9C%BC%EB%A1%9C-%EB%82%98%EC%95%84%EA%B0%91%EB%8B%88%EB%8B%A4/#_2">개발 및 최종 마무리</a></h3>
+<p>Kevin이 이끄는 개발팀은 코드를 테스트하고 정제하는 데 열심히 일하고 있습니다. <a href="/discord">Techxartisan의 Discord</a>에 가입하여 개발팀과 베타팀과 함께 소식을 나누고 진행 상황을 확인하세요. 한편, Billy는 모든 서류 작업을 처리하고 제품, 포장 및 제품 설명서를 최종 디자인하고 있습니다.</p>
+<p>Billy가 도쿄에서 Kazubu에게 공유한 알루미늄 케이스의 업데이트된 프린트와 라벨을 <a href="https://x.com/_kazubu/status/1803442407800971612">Kazubu의 트윗</a>에서 확인해 보세요:</p>
+<p><img alt="openterface-kazubu-tweet-new-look" src="https://www.crowdsupply.com/img/a680/71cdf2d7-27a3-4b93-8271-b3e82229a680/openterface-kazubu-tweet-new-look_jpg_md-xl.jpg" /></p>
+<h3 id="9"><a class="toclink" href="../../2024/07/16/teardown%EC%97%90%EC%84%9C-%EC%83%9D%EC%82%B0%EA%B9%8C%EC%A7%80-%EC%95%9E%EC%9C%BC%EB%A1%9C-%EB%82%98%EC%95%84%EA%B0%91%EB%8B%88%EB%8B%A4/#9">9월 목표</a></h3>
+<p>현재 저희는 일정에 맞춰 진행 중이며, 9월 말까지 Mini-KVM을 여러분의 손에 전달하기 위해 열심히 노력하고 있습니다.</p>
+<p>Mini-KVM에 대해 더 많은 사람들에게 알릴 수 있도록 도와주시면 감사하겠습니다. 이 제품이 더 많은 기술 애호가들에게 도움이 되고, 헤드리스 장치를 관리하는 모든 사람의 기술 생활을 더 쉽게 만들어주기를 바랍니다.</p>
+<p>여러분의 지원과 열정에 진심으로 감사드립니다. 여러분 없이는 이 모든 것이 불가능했을 것입니다!</p>
+<p>감사합니다,<br />
+Billy Wang<br />
+Openterface 팀</p>
+    
+  </div>
+</article>
+      
+        <article class="md-post md-post--excerpt">
+  <header class="md-post__header">
+    
+      <nav class="md-post__authors md-typeset">
+        
+          <span class="md-author">
+            <img src="/images/op-avatar.jpg" alt="Openterface">
+          </span>
+        
+      </nav>
+    
+    <div class="md-post__meta md-meta">
+      <ul class="md-meta__list">
+        <li class="md-meta__item">
+          <time datetime="2024-06-18 00:00:00+00:00">2024년 6월 18일</time></li>
+        
+          <li class="md-meta__item">
+            카테고리
+            
+              <a href="../%EC%97%85%EB%8D%B0%EC%9D%B4%ED%8A%B8/" class="md-meta__link">업데이트</a>, 
+              <a href="./" class="md-meta__link">Updates</a></li>
+        
+        
+          
+          <li class="md-meta__item">
+            
+              읽는시간 2분
+            
+          </li>
+        
+      </ul>
+      
+    </div>
+  </header>
+  <div class="md-post__content md-typeset">
+    <h2 id="mini-kvm"><a class="toclink" href="../../2024/06/18/%EC%9D%B4%EB%B2%88-%EC%A3%BC%EB%A7%90-%ED%8F%AC%ED%8B%80%EB%9E%9C%EB%93%9C%EC%97%90%EC%84%9C-%EB%A7%8C%EB%82%98%EC%9A%94--%EA%B2%8C%EC%9E%84-%EC%B1%8C%EB%A6%B0%EC%A7%80%EB%A1%9C-mini-kvm%EC%9D%84-%EB%B0%9B%EC%95%84%EA%B0%80%EC%84%B8%EC%9A%94/">이번 주말 포틀랜드에서 만나요 &amp; 게임 챌린지로 Mini-KVM을 받아가세요!</a></h2>
+<p>안녕하세요, 여러분! 멋진 소식을 전해드리게 되어 기쁩니다!</p>
+<h4 id="_1"><a class="toclink" href="../../2024/06/18/%EC%9D%B4%EB%B2%88-%EC%A3%BC%EB%A7%90-%ED%8F%AC%ED%8B%80%EB%9E%9C%EB%93%9C%EC%97%90%EC%84%9C-%EB%A7%8C%EB%82%98%EC%9A%94--%EA%B2%8C%EC%9E%84-%EC%B1%8C%EB%A6%B0%EC%A7%80%EB%A1%9C-mini-kvm%EC%9D%84-%EB%B0%9B%EC%95%84%EA%B0%80%EC%84%B8%EC%9A%94/#_1">큰 감사의 인사!</a></h4>
+<p>먼저, 여러분의 엄청난 지원에 대해 <a href="https://x.com/TechxArtisan/status/1801850068263178300">진심으로 감사드립니다</a>. 우리의 크라우드펀딩 캠페인은 6월 14일에 <strong>$248k</strong>를 달성하며 <strong>1110명 이상의 후원자</strong>와 <strong>Crowd Supply</strong>의 놀라운 지원 덕분에 목표를 초과 달성했습니다.</p>
+<p><img alt="crowdfunding_end_240614" src="https://www.crowdsupply.com/img/b812/9768a2ad-1b78-45dd-966c-942c170fb812/crowdfunding-end-240614_jpg_md-xl.jpg" /></p>
+<p>이 성공 덕분에 Mini-KVM을 더욱 개선할 수 있는 기회를 얻게 되었습니다! 여러분 없이는 불가능했을 것입니다—진심으로 감사드립니다! 🧡 우리는 여러분께 빠르게 제품을 전달하기 위해 생산에 전력을 다할 것입니다!</p>
+<h4 id="_2"><a class="toclink" href="../../2024/06/18/%EC%9D%B4%EB%B2%88-%EC%A3%BC%EB%A7%90-%ED%8F%AC%ED%8B%80%EB%9E%9C%EB%93%9C%EC%97%90%EC%84%9C-%EB%A7%8C%EB%82%98%EC%9A%94--%EA%B2%8C%EC%9E%84-%EC%B1%8C%EB%A6%B0%EC%A7%80%EB%A1%9C-mini-kvm%EC%9D%84-%EB%B0%9B%EC%95%84%EA%B0%80%EC%84%B8%EC%9A%94/#_2">재미있는 내기 &amp; 포틀랜드로의 비행!</a></h4>
+<p>여기 재미있는 이야기가 있습니다: <a href="https://www.crowdsupply.com/techxartisan/openterface-mini-kvm/updates/last-hours-to-back-and-mini-kvms-at-tech-frontlines">이 게시물</a>에서 언급했듯이, Kevin과 저는 내기를 했습니다. 마지막 36시간 동안 100명의 새로운 후원자를 얻으면, 제가 <a href="https://www.crowdsupply.com/teardown/portland-2024">Crowd Supply의 Teardown 2024</a>에 참석하기 위해 <strong>미국으로 비행</strong>하기로 했습니다. 놀랍게도, 우리는 100명을 넘어서 165명의 새로운 후원자를 얻었습니다! 그래서 이번 금요일(6월 21일)과 주말에 Teardown 2024에 직접 참석하게 되었다는 소식을 전하게 되어 매우 기쁩니다.</p>
+<h4 id="_3"><a class="toclink" href="../../2024/06/18/%EC%9D%B4%EB%B2%88-%EC%A3%BC%EB%A7%90-%ED%8F%AC%ED%8B%80%EB%9E%9C%EB%93%9C%EC%97%90%EC%84%9C-%EB%A7%8C%EB%82%98%EC%9A%94--%EA%B2%8C%EC%9E%84-%EC%B1%8C%EB%A6%B0%EC%A7%80%EB%A1%9C-mini-kvm%EC%9D%84-%EB%B0%9B%EC%95%84%EA%B0%80%EC%84%B8%EC%9A%94/#_3">데모 테이블 &amp; 라이브 스트림</a></h4>
+<p>Teardown은 Crowd Supply의 연례 주요 행사로, 하드웨어와 관련된 모든 것을 중심으로 한 강연, 데모, 워크숍 등이 열립니다.</p>
+<p>Teardown 2024 Lloyd Center Mall Portland, Oregon 2024년 6월 21-23일</p>
+<p><img alt="teardown-poster" src="https://www.crowdsupply.com/img/25ea/1d486985-1024-45ca-8b7d-0bdc388e25ea/twitter-1600-1900-td2024-wires_jpg_md-xl.jpg" /></p>
+<p>저는 Teardown 행사에서 데모 테이블을 운영할 예정입니다: <a href="https://www.crowdsupply.com/teardown/portland-2024/demo/openterface-mini-kvm-turn-your-laptop-as-a-kvm-console">여기에서 확인하세요!</a></p>
+<p>혹시 포틀랜드 근처에 계신가요? 행사에서 여러분을 만날 수 있다면 정말 좋겠습니다! <a href="https://www.crowdsupply.com/teardown/portland-2024">Teardown 티켓</a>을 지금 구매하시고, 꼭 와서 인사해 주세요!</p>
+<p>행사에 참석하지 못하더라도 걱정하지 마세요. 컨퍼런스 동안 Discord와 Subreddit에서 저를 만날 수 있습니다. 실시간으로 저와 대화하거나 텍스트를 주고받을 수 있으며, 데모 테이블에서 3일 동안 라이브 스트리밍을 할 예정이니, 지금 커뮤니티에 가입하시면 놓치지 않으실 겁니다.</p>
+<h4 id="teardown"><a class="toclink" href="../../2024/06/18/%EC%9D%B4%EB%B2%88-%EC%A3%BC%EB%A7%90-%ED%8F%AC%ED%8B%80%EB%9E%9C%EB%93%9C%EC%97%90%EC%84%9C-%EB%A7%8C%EB%82%98%EC%9A%94--%EA%B2%8C%EC%9E%84-%EC%B1%8C%EB%A6%B0%EC%A7%80%EB%A1%9C-mini-kvm%EC%9D%84-%EB%B0%9B%EC%95%84%EA%B0%80%EC%84%B8%EC%9A%94/#teardown">Teardown에서의 게임 챌린지</a></h4>
+<p>이제 재미있는 소식입니다: Teardown 2024에서 <strong>비디오 게임 대회</strong>를 열 예정입니다. Mini-KVM이 휴대용 컴퓨터인 uConsole과 어떻게 작동하는지 시연할 것입니다. 이는 기본적으로 라즈베리 파이입니다. Mini-KVM과 함께 설정하는 방법을 보려면 제 X 트윗을 <a href="https://x.com/TechxArtisan/status/1802675690015424962">여기</a>에서 확인하세요.</p>
+<p><img alt="play-game-uconsole" src="https://www.crowdsupply.com/img/c4d2/d5fe66f3-4f3e-4398-bd11-494ae317c4d2/play-game-uconsole_png_md-xl.jpg" /></p>
+<p>Pac-Man, The King of Fighters '97, Tetris와 같은 게임을 사용할 생각입니다. 그리고 여기서 중요한 점은—우승자에게는 Mini-KVM을 바로 드립니다! 그러니 저와 함께 게임을 즐기고 Mini-KVM을 받아가세요!</p>
+<h4 id="_4"><a class="toclink" href="../../2024/06/18/%EC%9D%B4%EB%B2%88-%EC%A3%BC%EB%A7%90-%ED%8F%AC%ED%8B%80%EB%9E%9C%EB%93%9C%EC%97%90%EC%84%9C-%EB%A7%8C%EB%82%98%EC%9A%94--%EA%B2%8C%EC%9E%84-%EC%B1%8C%EB%A6%B0%EC%A7%80%EB%A1%9C-mini-kvm%EC%9D%84-%EB%B0%9B%EC%95%84%EA%B0%80%EC%84%B8%EC%9A%94/#_4">더 많은 소식</a></h4>
+<p>항상 흥미로운 것들을 준비하고 있으며, Teardown에서 매우 흥미로운 발표를 할 예정입니다! 더 많은 업데이트를 기대해 주세요. Teardown 2024에서 여러분을 만나기를 기대합니다!</p>
+<p>감사합니다,<br />
+Billy Wang<br />
+Openterface 팀 | TechxArtisan Studio</p>
+    
+  </div>
+</article>
+      
+        <article class="md-post md-post--excerpt">
+  <header class="md-post__header">
+    
+      <nav class="md-post__authors md-typeset">
+        
+          <span class="md-author">
+            <img src="/images/op-avatar.jpg" alt="Openterface">
+          </span>
+        
+      </nav>
+    
+    <div class="md-post__meta md-meta">
+      <ul class="md-meta__list">
+        <li class="md-meta__item">
+          <time datetime="2024-06-12 00:00:00+00:00">2024년 6월 12일</time></li>
+        
+          <li class="md-meta__item">
+            카테고리
+            
+              <a href="../%EC%97%85%EB%8D%B0%EC%9D%B4%ED%8A%B8/" class="md-meta__link">업데이트</a>, 
+              <a href="./" class="md-meta__link">Updates</a></li>
+        
+        
+          
+          <li class="md-meta__item">
+            
+              읽는시간 3분
+            
+          </li>
+        
+      </ul>
+      
+    </div>
+  </header>
+  <div class="md-post__content md-typeset">
+    <h2 id="mini-kvm"><a class="toclink" href="../../2024/06/12/%ED%9B%84%EC%9B%90-%EB%A7%88%EA%B0%90-%EC%9E%84%EB%B0%95--mini-kvm%EC%9D%98-%EA%B8%B0%EC%88%A0-%ED%98%84%EC%9E%A5-%EC%86%8C%EC%8B%9D/">후원 마감 임박 &amp; Mini-KVM의 기술 현장 소식</a></h2>
+<p>안녕하세요, 여러분!</p>
+<p>저희 <a href="/discord">Discord 채널</a>에서 베타 팀의 흥미로운 업데이트를 공유하고 싶습니다! Openterface Mini-KVM이 기술 현장에서 멋지게 작동하고 있으며, 이를 보여주는 멋진 사진들이 있습니다. 확인해 보시고 왜 이렇게 화제가 되는지 직접 보세요!</p>
+<p><img alt="cam-share" src="https://www.crowdsupply.com/img/bed9/41ac90fd-1074-49e0-a081-f9798610bed9/cam-share_jpg_md-xl.jpg" style="width:420px" /></p>
+<p><img alt="catenane-share" src="https://www.crowdsupply.com/img/b9ed/4144b488-9442-44e2-9bad-f07daa56b9ed/catenane-share_jpg_gallery-lg.jpg" style="width:420px" /></p>
+<p><img alt="kashall-share" src="https://www.crowdsupply.com/img/17f2/d5f31dbb-f51e-4813-ab79-29194ea717f2/kashall-share_jpg_gallery-lg.jpg" style="width:420px" /></p>
+<p><img alt="kazubu-share" src="https://www.crowdsupply.com/img/23e5/6aadfd66-756d-4f42-944d-dc2e95dd23e5/kazubu-share_jpg_gallery-lg.jpg" style="width:420px" /></p>
+<p><img alt="nkahoang-share" src="https://www.crowdsupply.com/img/50bc/6318ed70-11f6-4640-b73b-f435267950bc/nkahoang-share_jpg_gallery-lg.jpg" style="width:420px" /></p>
+<h3 id="_1"><a class="toclink" href="../../2024/06/12/%ED%9B%84%EC%9B%90-%EB%A7%88%EA%B0%90-%EC%9E%84%EB%B0%95--mini-kvm%EC%9D%98-%EA%B8%B0%EC%88%A0-%ED%98%84%EC%9E%A5-%EC%86%8C%EC%8B%9D/#_1">🚨 마지막 기회 알림! 🚨</a></h3>
+<p><strong>시간이 얼마 남지 않았습니다!</strong> <a href="https://www.crowdsupply.com/techxartisan/openterface-mini-kvm">Crowd Supply</a>에서 Openterface Mini-KVM을 $79 - $99의 저렴한 가격에 후원할 수 있는 마지막 기회를 놓치지 마세요. 캠페인은 <strong>2024년 6월 13일 오후 4시 59분 PDT</strong>에 종료되며, 이후 제품이 성숙해짐에 따라 가격이 인상될 예정입니다. 지금 바로 이 기회를 잡으세요!</p>
+<h3 id="teardown-2024"><a class="toclink" href="../../2024/06/12/%ED%9B%84%EC%9B%90-%EB%A7%88%EA%B0%90-%EC%9E%84%EB%B0%95--mini-kvm%EC%9D%98-%EA%B8%B0%EC%88%A0-%ED%98%84%EC%9E%A5-%EC%86%8C%EC%8B%9D/#teardown-2024">다가오는 Teardown 2024 &amp; 재미있는 내기</a></h3>
+<p>많은 분들이 Crowd Supply 메인 페이지에서 보셨듯이, 다가오는 <strong>Teardown 2024 이벤트</strong>가 많은 기대를 모으고 있습니다. 저는 직접 참석하여 멋진 후원자 여러분을 만날 수 있기를 고대하고 있습니다!</p>
+<p>여기 저희 팀에서 진행 중인 <strong>재미있는 내기</strong>가 있습니다:</p>
+<p>현재 저희 프로젝트에는 약 950명의 후원자가 있습니다. 저희 기술 이사인 Kevin Peng과 저는 내기를 했습니다. 만약 마지막 시간에 <strong>100명의 추가 후원자</strong>를 얻는다면, 포틀랜드로 가는 제 여행 경비는 스튜디오에서 부담하게 됩니다. 그렇지 않으면, 제 개인 비용으로 부담해야 하며, 이는 몇 천 달러가 될 것입니다!</p>
+<p>그래서 Openterface Mini-KVM의 모든 구독자와 새로운 친구들에게 이 마지막 시간을 함께 해주실 것을 부탁드립니다. 1050명 이상의 후원자를 달성하고 이 여행을 성사시킵시다!</p>
+<p>가장 중요한 것은, 저희 캠페인이 곧 종료된다는 소식을 널리 알려주시는 것입니다. 저희는 이 유용한 장치를 만들고 최고 품질로 여러분께 전달하기 위해 최선을 다하고 있습니다.</p>
+<p>지난 8개월 동안 이 프로젝트에 온 마음을 쏟았습니다. 아래 업데이트에서 저희의 모든 노력을 확인하고, 저희 서브레딧 <a href="/reddit">r/Openterface_miniKVM</a>에서 저희의 역사적인 게시물을 확인해 보세요:</p>
+<ul>
+<li>
+<p><a href="https://www.crowdsupply.com/techxartisan/openterface-mini-kvm/updates/openterface-mini-kvm-crowdfunding-campaign-goes-live-now">Openterface Mini-KVM 크라우드펀딩 캠페인 시작!</a> 2024년 4월 30일</p>
+</li>
+<li>
+<p><a href="https://www.crowdsupply.com/techxartisan/openterface-mini-kvm/updates/frequently-asked-questions">자주 묻는 질문</a>  2024년 5월 11일</p>
+</li>
+<li>
+<p><a href="https://www.crowdsupply.com/techxartisan/openterface-mini-kvm/updates/our-vga-to-hdmi-cable-is-now-available-to-european-backers-and-its-a-full-meter-long">VGA-to-HDMI 케이블이 이제 유럽 후원자들에게 제공됩니다 (그리고 길이는 1미터입니다!)</a> 2024년 5월 16일</p>
+</li>
+<li>
+<p><a href="https://www.crowdsupply.com/techxartisan/openterface-mini-kvm/updates/from-development-to-your-hands-behind-the-scenes">개발에서 여러분의 손으로: 비하인드 스토리</a> 2024년 5월 28일</p>
+</li>
+<li>
+<p><a href="https://www.crowdsupply.com/techxartisan/openterface-mini-kvm/updates/casual-chat-with-david-groom-from-make-magazine-the-story-of-openterface-mini-kvm">MAKE: 매거진의 David Groom과의 캐주얼 채팅: Openterface Mini-KVM의 이야기 🎙️</a> 2024년 5월 31일</p>
+</li>
+<li>
+<p><a href="https://www.crowdsupply.com/techxartisan/openterface-mini-kvm/updates/epic-updates-and-final-week-last-chance-to-back-mini-kvm">에픽 업데이트 &amp; 마지막 주 - Mini-KVM 후원의 마지막 기회!</a> 2024년 6월 8일</p>
+</li>
+</ul>
+<p>이 마지막 몇 시간 동안 저희를 후원해 주세요! 감사합니다!</p>
+<p>Billy Wang<br />
+프로젝트 매니저<br />
+Openterface 팀</p>
+    
+  </div>
+</article>
+      
+      
+        
+          
+
+
+
+<nav class="md-pagination">
+  <span class="md-pagination__current">1</span> <a class="md-pagination__link" href="page/2/">2</a>
+</nav>
+        
+      
+    </div>
+  </div>
+
+          
+  <script>var tabs=__md_get("__tabs");if(Array.isArray(tabs))e:for(var set of document.querySelectorAll(".tabbed-set")){var labels=set.querySelector(".tabbed-labels");for(var tab of tabs)for(var label of labels.getElementsByTagName("label"))if(label.innerText.trim()===tab){var input=document.getElementById(label.htmlFor);input.checked=!0;continue e}}</script>
+
+<script>var target=document.getElementById(location.hash.slice(1));target&&target.name&&(target.checked=target.name.startsWith("__tabbed_"))</script>
+        </div>
+        
+          <button type="button" class="md-top md-icon" data-md-component="top" hidden>
+  
+  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M13 20h-2V8l-5.5 5.5-1.42-1.42L12 4.16l7.92 7.92-1.42 1.42L13 8z"/></svg>
+  맨위로
+</button>
+        
+      </main>
+      
+        <!-- Footer -->
+<footer class="md-footer">
+
+  <!-- Link to previous and/or next page -->
+  
+    
+      
+        <nav class="md-footer__inner md-grid" aria-label="하단/푸터">
+      
+
+        <!-- Link to previous page -->
+        
+          
+          <a href="../../../tags/" class="md-footer__link md-footer__link--prev" aria-label="이전: 태그">
+            <div class="md-footer__button md-icon">
+              
+              <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20 11v2H8l5.5 5.5-1.42 1.42L4.16 12l7.92-7.92L13.5 5.5 8 11z"/></svg>
+            </div>
+            <div class="md-footer__title">
+              <span class="md-footer__direction">이전</span>
+              <div class="md-ellipsis">
+                태그
+              </div>
+            </div>
+          </a>
+        
+
+        <!-- Link to next page -->
+        
+          
+          <a
+            href="../%EC%97%85%EB%8D%B0%EC%9D%B4%ED%8A%B8/"
+            class="md-footer__link md-footer__link--next"
+            aria-label="다음: 업데이트"
+          >
+            <div class="md-footer__title">
+              <span class="md-footer__direction">
+                다음
+              </span>
+              <div class="md-ellipsis">
+                업데이트
+              </div>
+            </div>
+            <div class="md-footer__button md-icon">
+              
+              <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M4 11v2h12l-5.5 5.5 1.42 1.42L19.84 12l-7.92-7.92L10.5 5.5 16 11z"/></svg>
+            </div>
+          </a>
+        
+      </nav>
+    
+  
+
+  <!-- Further information -->
+  <div class="md-footer-meta md-typeset">
+    <div class="md-footer-meta__inner md-grid footer-flex-container">
+
+      <!-- Signup form -->
+      <div class="signup-form-container footer-flex-item">
+        <div id="form_signup">
+          <!-- Modified form to submit via AJAX -->
+          <form id="subscribe-form" name="subscribe-form" class="js-loading">
+            <div id="form_signup_scroll">
+              <div class="gf-field-group">
+                <input type="text" name="name" class="required" id="form-name" required placeholder="이름">
+              </div>
+              <div class="gf-field-group">
+                <input type="email" name="email" class="required email" id="form-email" required placeholder="이메일 주소 *">
+              </div>
+              <div class="clear">
+                <input type="submit" name="submit" id="form-submit" class="button" value="✉️ 최신 소식 구독하기! 🐝" disabled>
+                <p class="footnote">월 1회 이하로 이메일을 보내드립니다. 언제든지 구독 취소가 가능합니다. <br> 문의사항은 <a href="mailto:info@openterface.com">info@openterface.com</a>으로 이메일 주세요.</p>
+              </div>
+            </div>
+          </form>
+        </div>
+      </div>
+
+      <!-- Copyright info -->
+      <div class="footer-flex-item footer-copyright">
+        <div class="md-copyright">
+  
+    <div class="md-copyright__highlight">
+      저작권 &copy; 모든 권리 보유. 2023 <a href="https://www.openterface.com">Openterface</a> | <a href="https://www.techxartisan.com">TechxArtisan</a><br> <a href="/">홈</a> | <a href="/policy/terms-of-service">서비스 약관</a> | <a href="/policy/privacy">개인정보 보호정책</a> |  <a href="#__consent">쿠키 설정</a> |  <a href="/about">소개</a>
+    </div>
+  
+  
+    Made with
+    <a href="https://squidfunk.github.io/mkdocs-material/" target="_blank" rel="noopener">
+      Material for MkDocs
+    </a>
+  
+</div>
+      </div>
+
+      <!-- Social links -->
+      
+        <div class="footer-flex-item footer-social">
+          <div class="md-social">
+  
+    
+    
+    
+    
+      
+      
+    
+    <a href="https://www.crowdsupply.com/techxartisan/openterface-mini-kvm" target="_blank" rel="noopener" title="www.crowdsupply.com" class="md-social__link">
+      <?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg xmlns="http://www.w3.org/2000/svg" version="1.1" viewBox="0 0 140 140"><path d="M 68.3,9.7 8,70 68.3,130.3 Z" fill="#555" /><path d="M 71.7,9.7 V 130.3 L 132,70 Z" fill="#099" /><path d="m 90.7,91 c -6.6,0 -11.8,-3.6 -14,-12 l 8,-1.7 c 0.9,5.1 3.9,7 6.3,7 2.8,0 5,-1.9 5,-5.1 0,-8 -18.2,-8.2 -18.2,-20.1 0,-7.3 4.4,-12 12.8,-12 7.3,0 11.7,4.3 13.1,10.4 l -7.3,2.1 c -1.4,-4 -3.1,-5.7 -6,-5.7 -2.9,0 -4.5,1.8 -4.5,4.7 0,6.4 18.2,6.9 18.2,20.3 0.2,7.2 -4.9,12.1 -13.4,12.1 z" fill="#FFF" /><path d="m 60.7,63.9 h -8.2 v -3.6 c 0,-4.7 -2.1,-6 -5.3,-6 -3.2,0 -5.3,1.3 -5.3,6 v 17.4 c 0,4.7 2.1,6 5.3,6 3.2,0 5.3,-1.3 5.3,-6 v -3.8 h 8.2 v 2.7 c 0,10.5 -5.6,14.3 -13.5,14.3 -7.9,0 -13.5,-3.8 -13.5,-14.3 V 61.4 c 0,-10.5 5.6,-14.3 13.5,-14.3 7.9,0 13.5,3.8 13.5,14.3 z" fill="#FFF" /></svg>
+    </a>
+  
+    
+    
+    
+    
+    <a href="/reddit" target="_blank" rel="noopener" title="" class="md-social__link">
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><!--! Font Awesome Free 6.7.2 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2024 Fonticons, Inc.--><path d="M373 138.6c-25.2 0-46.3-17.5-51.9-41-30.6 4.3-54.2 30.7-54.2 62.4v.2c47.4 1.8 90.6 15.1 124.9 36.3 12.6-9.7 28.4-15.5 45.5-15.5 41.3 0 74.7 33.4 74.7 74.7 0 29.8-17.4 55.5-42.7 67.5-2.4 86.8-97 156.6-213.2 156.6S45.5 410.1 43 323.4c-25.4-11.9-43-37.7-43-67.7C0 214.4 33.4 181 74.7 181c17.2 0 33 5.8 45.7 15.6 34-21.1 76.8-34.4 123.7-36.4v-.3c0-44.3 33.7-80.9 76.8-85.5C325.8 50.2 347.2 32 373 32c29.4 0 53.3 23.9 53.3 53.3s-23.9 53.3-53.3 53.3M157.5 255.3c-20.9 0-38.9 20.8-40.2 47.9s17.1 38.1 38 38.1 36.6-9.8 37.8-36.9-14.7-49.1-35.7-49.1zM395 303.1c-1.2-27.1-19.2-47.9-40.2-47.9s-36.9 22-35.7 49.1 16.9 36.9 37.8 36.9 39.3-11 38-38.1zm-60.1 70.8c1.5-3.6-1-7.7-4.9-8.1-23-2.3-47.9-3.6-73.8-3.6s-50.8 1.3-73.8 3.6c-3.9.4-6.4 4.5-4.9 8.1 12.9 30.8 43.3 52.4 78.7 52.4s65.8-21.6 78.7-52.4"/></svg>
+    </a>
+  
+    
+    
+    
+    
+    <a href="/discord" target="_blank" rel="noopener" title="" class="md-social__link">
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 512"><!--! Font Awesome Free 6.7.2 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2024 Fonticons, Inc.--><path d="M524.531 69.836a1.5 1.5 0 0 0-.764-.7A485 485 0 0 0 404.081 32.03a1.82 1.82 0 0 0-1.923.91 338 338 0 0 0-14.9 30.6 447.9 447.9 0 0 0-134.426 0 310 310 0 0 0-15.135-30.6 1.89 1.89 0 0 0-1.924-.91 483.7 483.7 0 0 0-119.688 37.107 1.7 1.7 0 0 0-.788.676C39.068 183.651 18.186 294.69 28.43 404.354a2.02 2.02 0 0 0 .765 1.375 487.7 487.7 0 0 0 146.825 74.189 1.9 1.9 0 0 0 2.063-.676A348 348 0 0 0 208.12 430.4a1.86 1.86 0 0 0-1.019-2.588 321 321 0 0 1-45.868-21.853 1.885 1.885 0 0 1-.185-3.126 251 251 0 0 0 9.109-7.137 1.82 1.82 0 0 1 1.9-.256c96.229 43.917 200.41 43.917 295.5 0a1.81 1.81 0 0 1 1.924.233 235 235 0 0 0 9.132 7.16 1.884 1.884 0 0 1-.162 3.126 301.4 301.4 0 0 1-45.89 21.83 1.875 1.875 0 0 0-1 2.611 391 391 0 0 0 30.014 48.815 1.86 1.86 0 0 0 2.063.7A486 486 0 0 0 610.7 405.729a1.88 1.88 0 0 0 .765-1.352c12.264-126.783-20.532-236.912-86.934-334.541M222.491 337.58c-28.972 0-52.844-26.587-52.844-59.239s23.409-59.241 52.844-59.241c29.665 0 53.306 26.82 52.843 59.239 0 32.654-23.41 59.241-52.843 59.241m195.38 0c-28.971 0-52.843-26.587-52.843-59.239s23.409-59.241 52.843-59.241c29.667 0 53.307 26.82 52.844 59.239 0 32.654-23.177 59.241-52.844 59.241"/></svg>
+    </a>
+  
+    
+    
+    
+    
+      
+      
+    
+    <a href="https://youtube.com/@TechxArtisan" target="_blank" rel="noopener" title="youtube.com" class="md-social__link">
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 576 512"><!--! Font Awesome Free 6.7.2 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2024 Fonticons, Inc.--><path d="M549.655 124.083c-6.281-23.65-24.787-42.276-48.284-48.597C458.781 64 288 64 288 64S117.22 64 74.629 75.486c-23.497 6.322-42.003 24.947-48.284 48.597-11.412 42.867-11.412 132.305-11.412 132.305s0 89.438 11.412 132.305c6.281 23.65 24.787 41.5 48.284 47.821C117.22 448 288 448 288 448s170.78 0 213.371-11.486c23.497-6.321 42.003-24.171 48.284-47.821 11.412-42.867 11.412-132.305 11.412-132.305s0-89.438-11.412-132.305m-317.51 213.508V175.185l142.739 81.205z"/></svg>
+    </a>
+  
+    
+    
+    
+    
+      
+      
+    
+    <a href="https://twitter.com/TechxArtisan" target="_blank" rel="noopener" title="twitter.com" class="md-social__link">
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><!--! Font Awesome Free 6.7.2 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2024 Fonticons, Inc.--><path d="M389.2 48h70.6L305.6 224.2 487 464H345L233.7 318.6 106.5 464H35.8l164.9-188.5L26.8 48h145.6l100.5 132.9zm-24.8 373.8h39.1L151.1 88h-42z"/></svg>
+    </a>
+  
+    
+    
+    
+    
+      
+      
+    
+    <a href="https://www.facebook.com/TechxArtisan" target="_blank" rel="noopener" title="www.facebook.com" class="md-social__link">
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 320 512"><!--! Font Awesome Free 6.7.2 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2024 Fonticons, Inc.--><path d="M80 299.3V512h116V299.3h86.5l18-97.8H196v-34.6c0-51.7 20.3-71.5 72.7-71.5 16.3 0 29.4.4 37 1.2V7.9C291.4 4 256.4 0 236.2 0 129.3 0 80 50.5 80 159.4v42.1H14v97.8z"/></svg>
+    </a>
+  
+    
+    
+    
+    
+      
+      
+    
+    <a href="https://www.linkedin.com/company/techxartisan/" target="_blank" rel="noopener" title="www.linkedin.com" class="md-social__link">
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><!--! Font Awesome Free 6.7.2 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2024 Fonticons, Inc.--><path d="M100.28 448H7.4V148.9h92.88zM53.79 108.1C24.09 108.1 0 83.5 0 53.8a53.79 53.79 0 0 1 107.58 0c0 29.7-24.1 54.3-53.79 54.3M447.9 448h-92.68V302.4c0-34.7-.7-79.2-48.29-79.2-48.29 0-55.69 37.7-55.69 76.7V448h-92.78V148.9h89.08v40.8h1.3c12.4-23.5 42.69-48.3 87.88-48.3 94 0 111.28 61.9 111.28 142.3V448z"/></svg>
+    </a>
+  
+</div>
+        </div>
+      
+    </div>
+  </div>
+
+  <!-- Load subscribe.js directly in footer -->
+  <script>
+    // Load subscribe.js and ensure it works with navigation
+    (function() {
+      var script = document.createElement('script');
+      script.src = "../../../assets/javascripts/subscribe.js";
+      script.async = false; // Load synchronously to ensure it's available
+      document.body.appendChild(script);
+
+      var langselect = document.createElement('script');
+      langselect.src = "../../../assets/javascripts/language-select.js";
+      langselect.async = false; // Load synchronously to ensure it's available
+      document.body.appendChild(langselect);
+    })();
+
+  </script>
+</footer>
+      
+    </div>
+    <div class="md-dialog" data-md-component="dialog">
+      <div class="md-dialog__inner md-typeset"></div>
+    </div>
+    
+      <div class="md-progress" data-md-component="progress" role="progressbar"></div>
+    
+    
+      <div class="md-consent" data-md-component="consent" id="__consent" hidden>
+        <div class="md-consent__overlay"></div>
+        <aside class="md-consent__inner">
+          <form class="md-consent__form md-grid md-typeset" name="consent">
+            <!--
+  Copyright (c) 2016-2024 Martin Donath <martin.donath@squidfunk.com>
+
+  Permission is hereby granted, free of charge, to any person obtaining a copy
+  of this software and associated documentation files (the "Software"), to
+  deal in the Software without restriction, including without limitation the
+  rights to use, copy, modify, merge, publish, distribute, sublicense, and/or
+  sell copies of the Software, and to permit persons to whom the Software is
+  furnished to do so, subject to the following conditions:
+
+  The above copyright notice and this permission notice shall be included in
+  all copies or substantial portions of the Software.
+
+  THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+  IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+  FITNESS FOR A PARTICULAR PURPOSE AND NON-INFRINGEMENT. IN NO EVENT SHALL THE
+  AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+  LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING
+  FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS
+  IN THE SOFTWARE.
+-->
+
+<!-- Determine cookies -->
+
+
+  
+    
+  
+
+
+  
+    
+  
+
+
+<!-- Determine actions -->
+
+
+
+<!-- Determine initial settings state -->
+
+  
+
+
+<!-- Consent title -->
+<h4>Cookie Consent</h4>
+<p>우리는 문서 콘텐츠의 품질을 향상시키고, 사이트의 효과성과 요구 사항을 분석하기 위해 쿠키를 사용합니다. 동의해 주시면 저희 웹사이트를 개선하는 데 도움이 됩니다. 감사합니다!</p>
+
+<!-- Consent settings -->
+<input
+  class="md-toggle"
+  type="checkbox"
+  id="__settings"
+  checked
+/>
+<div class="md-consent__settings">
+  <ul class="task-list">
+    
+      
+      
+        
+        
+      
+      <li class="task-list-item">
+        <label class="task-list-control">
+          <input type="checkbox" name="analytics" checked>
+          <span class="task-list-indicator"></span>
+          Google Analytics
+        </label>
+      </li>
+    
+      
+      
+        
+        
+      
+      <li class="task-list-item">
+        <label class="task-list-control">
+          <input type="checkbox" name="github" checked>
+          <span class="task-list-indicator"></span>
+          GitHub
+        </label>
+      </li>
+    
+  </ul>
+</div>
+
+<!-- Consent controls -->
+<div class="md-consent__controls">
+  
+
+    <!-- Button to accept cookies -->
+    
+      <button class="md-button md-button--primary">동의 허락</button>
+    
+
+    <!-- Button to reject cookies -->
+    
+
+    <!-- Button to manage settings -->
+    
+  
+
+    <!-- Button to accept cookies -->
+    
+
+    <!-- Button to reject cookies -->
+    
+      <button type="reset" class="md-button">동의 거부</button>
+    
+
+    <!-- Button to manage settings -->
+    
+  
+</div>
+          </form>
+        </aside>
+      </div>
+      <script>var consent=__md_get("__consent");if(consent)for(var input of document.forms.consent.elements)input.name&&(input.checked=consent[input.name]||!1);else"file:"!==location.protocol&&setTimeout((function(){document.querySelector("[data-md-component=consent]").hidden=!1}),250);var form=document.forms.consent;for(var action of["submit","reset"])form.addEventListener(action,(function(e){if(e.preventDefault(),"reset"===e.type)for(var n of document.forms.consent.elements)n.name&&(n.checked=!1);__md_set("__consent",Object.fromEntries(Array.from(new FormData(form).keys()).map((function(e){return[e,!0]})))),location.hash="",location.reload()}))</script>
+    
+    
+      
+      <script id="__config" type="application/json">{"base": "../../..", "features": ["toc.integrate", "toc.follow", "navigation.instant", "navigation.instant.progress", "navigation.tabs", "navigation.tabs.sticky", "navigation.top", "navigation.footer", "navigation.indexes", "navigation.tracking", "navigation.expand", "search.suggest", "search.highlight", "content.tabs", "content.code.annotation", "content.code.copy", "content.tabs.link", "last_updated"], "search": "../../../assets/javascripts/workers/search.d50fe291.min.js", "tags": null, "translations": {"clipboard.copied": "\ud074\ub9bd\ubcf4\ub4dc\uc5d0 \ubcf5\uc0ac\ub428", "clipboard.copy": "\ud074\ub9bd\ubcf4\ub4dc\ub85c \ubcf5\uc0ac", "search.result.more.one": "\uc774 \ubb38\uc11c\uc5d0\uc11c 1\uac1c\uc758 \uac80\uc0c9 \uacb0\uacfc \ub354 \ubcf4\uae30", "search.result.more.other": "\uc774 \ubb38\uc11c\uc5d0\uc11c #\uac1c\uc758 \uac80\uc0c9 \uacb0\uacfc \ub354 \ubcf4\uae30", "search.result.none": "\uac80\uc0c9\uc5b4\uc640 \uc77c\uce58\ud558\ub294 \ubb38\uc11c\uac00 \uc5c6\uc2b5\ub2c8\ub2e4", "search.result.one": "1\uac1c\uc758 \uc77c\uce58\ud558\ub294 \ubb38\uc11c", "search.result.other": "#\uac1c\uc758 \uc77c\uce58\ud558\ub294 \ubb38\uc11c", "search.result.placeholder": "\uac80\uc0c9\uc5b4\ub97c \uc785\ub825\ud558\uc138\uc694", "search.result.term.missing": "\ud3ec\ud568\ub418\uc9c0 \uc54a\uc740 \uac80\uc0c9\uc5b4", "select.version": "\ubc84\uc804 \uc120\ud0dd"}, "version": null}</script>
+    
+    
+  
+      <script src="../../../assets/javascripts/bundle.13a4f30d.min.js"></script>
+      
+        <script src="../../../js/timeago.min.js"></script>
+      
+        <script src="../../../js/timeago_mkdocs_material.js"></script>
+      
+    
+  <script src="https://assets.openterface.com/js/custom.min.js"></script>
+
+  <script id="init-glightbox">const lightbox = GLightbox({"touchNavigation": true, "loop": false, "zoomable": true, "draggable": true, "openEffect": "zoom", "closeEffect": "zoom", "slideEffect": "slide"});
+document$.subscribe(() => { lightbox.reload() });
+</script></body>
+</html>
