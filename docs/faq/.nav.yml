@@ -1,9 +1,0 @@
-title: 자주 묻는 질문
-nav:
-    - index.md
-    - KVM-over-USB 기본:
-        - USB KVM이란 무엇인가요?: usbkvm/kvm-over-usb.md
-        - 왜 Openterface USB KVM인가요?: usbkvm/openterface.md
-    - Mini-KVM 시리즈:
-        - Openterface Mini-KVM: minikvm/op-minikvm.md
-    - 기업 및 미디어 자주 묻는 질문: business.md
