@@ -29,7 +29,7 @@ const { product } = Astro.props;
             {product.buyLabel}
           </a>
           <a href={siteConfig.links.appOverview} class="btn btn-secondary" target="_blank" rel="noopener">
-            Download App
+            앱 다운로드
           </a>
         </div>
         {
@@ -39,7 +39,7 @@ const { product } = Astro.props;
               <span>{product.funding.date}</span>
               <span>|</span>
               <span>
-                <strong>{product.funding.backers}</strong> Backers
+                <strong>{product.funding.backers}</strong>명의 후원자
               </span>
             </div>
           )
@@ -48,7 +48,7 @@ const { product } = Astro.props;
     </div>
   </section>
 
-  <DocLinkBanner message="Detailed specs, setup guides, and FAQs are on our documentation site while we complete this migration." />
+  <DocLinkBanner message="콘텐츠 마이그레이션이 진행되는 동안 상세 사양, 설치 가이드 및 FAQ는 문서 사이트에서 확인하실 수 있습니다." />
 
   <section class="py-12">
     <div class="mx-auto max-w-6xl px-4">
@@ -58,7 +58,7 @@ const { product } = Astro.props;
 
   <section class="bg-surface py-12">
     <div class="mx-auto max-w-6xl px-4">
-      <h2 class="section-title text-center">The Problem</h2>
+      <h2 class="section-title text-center">문제점</h2>
       <ul class="mx-auto mt-6 grid max-w-3xl gap-3">
         {
           product.painPoints.map((point) => (
@@ -74,7 +74,7 @@ const { product } = Astro.props;
 
   <section class="py-12">
     <div class="mx-auto max-w-6xl px-4">
-      <h2 class="section-title text-center">The Solution</h2>
+      <h2 class="section-title text-center">솔루션</h2>
       <ul class="mx-auto mt-6 grid max-w-3xl gap-3">
         {
           product.solutions.map((point) => (
@@ -90,11 +90,11 @@ const { product } = Astro.props;
 
   <section class="bg-surface py-12">
     <div class="mx-auto max-w-6xl px-4">
-      <h2 class="section-title text-center">Hardware + Software</h2>
-      <p class="section-subtitle text-center">Openterface products work best with our open-source host apps.</p>
+      <h2 class="section-title text-center">하드웨어 + 소프트웨어</h2>
+      <p class="section-subtitle text-center">Openterface 제품은 오픈 소스 호스트 앱과 함께 사용할 때 최상의 성능을 발휘합니다.</p>
       <div class="mt-8 grid gap-6 md:grid-cols-2">
         <div class="card">
-          <h3 class="text-lg font-semibold text-primary-dark">Hardware</h3>
+          <h3 class="text-lg font-semibold text-primary-dark">하드웨어</h3>
           <ul class="mt-4 space-y-4">
             {
               product.hwFeatures.map((f) => (
@@ -107,7 +107,7 @@ const { product } = Astro.props;
           </ul>
         </div>
         <div class="card">
-          <h3 class="text-lg font-semibold text-primary-dark">Software</h3>
+          <h3 class="text-lg font-semibold text-primary-dark">소프트웨어</h3>
           <ul class="mt-4 space-y-4">
             {
               product.swFeatures.length > 0 ? (
@@ -118,7 +118,7 @@ const { product } = Astro.props;
                   </li>
                 ))
               ) : (
-                <li class="text-muted">See TxA Shop for accessory compatibility details.</li>
+                <li class="text-muted">액세서리 호환성 세부 정보는 TxA Shop을 참조하세요.</li>
               )
             }
           </ul>
@@ -131,7 +131,7 @@ const { product } = Astro.props;
     product.specs.length > 0 && (
       <section class="py-12">
         <div class="mx-auto max-w-6xl px-4">
-          <h2 class="section-title text-center">Key Specs</h2>
+          <h2 class="section-title text-center">주요 사양</h2>
           <dl class="mx-auto mt-6 grid max-w-2xl gap-4">
             {product.specs.map((spec) => (
               <div class="flex justify-between border-b border-gray-200 pb-2">
@@ -147,7 +147,7 @@ const { product } = Astro.props;
 
   <section class="bg-surface py-12">
     <div class="mx-auto max-w-6xl px-4">
-      <h2 class="section-title text-center">Use Cases</h2>
+      <h2 class="section-title text-center">활용 사례</h2>
       <div class="mt-6 flex flex-wrap justify-center gap-3">
         {
           product.useCases.map((uc) => (
@@ -160,7 +160,7 @@ const { product } = Astro.props;
 
   <section class="py-12">
     <div class="mx-auto max-w-6xl px-4">
-      <h2 class="section-title text-center">Documentation</h2>
+      <h2 class="section-title text-center">문서</h2>
       <div class="mt-6 flex flex-wrap justify-center gap-3">
         {
           product.docLinks.map((link) => (
@@ -175,8 +175,8 @@ const { product } = Astro.props;
 
   <section class="bg-primary-dark py-12 text-white">
     <div class="mx-auto max-w-6xl px-4 text-center">
-      <h2 class="text-2xl font-bold">Ready to get started?</h2>
-      <p class="mt-2 opacity-90">Order hardware and download the Openterface app for your platform.</p>
+      <h2 class="text-2xl font-bold">시작할 준비가 되셨나요?</h2>
+      <p class="mt-2 opacity-90">하드웨어를 주문하고 해당 플랫폼용 Openterface 앱을 다운로드하세요.</p>
       <div class="mt-6 flex flex-wrap justify-center gap-3">
         <a
           href={product.buyHref}
@@ -187,7 +187,7 @@ const { product } = Astro.props;
           {product.buyLabel}
         </a>
         <a href={siteConfig.links.appOverview} class="btn border border-white/40 hover:bg-white/10" target="_blank" rel="noopener">
-          Download App
+          앱 다운로드
         </a>
       </div>
     </div>
