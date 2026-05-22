@@ -14,6 +14,38 @@ export const siteConfig = {
     appOverview: 'https://openterface.com/app/overview/',
     subscribe: 'https://subscribe.openterface.com/api/subscribe/',
   },
+  analytics: {
+    enabled: import.meta.env.PROD,
+    google: {
+      provider: 'google' as const,
+      measurementId: 'G-EKZEH6QYWT',
+      linkerDomains: [
+        'openterface.com',
+        'en.openterface.com',
+        'de.openterface.com',
+        'es.openterface.com',
+        'fr.openterface.com',
+        'it.openterface.com',
+        'jp.openterface.com',
+        'ko.openterface.com',
+        'pt.openterface.com',
+        'ro.openterface.com',
+        'zh.openterface.com',
+      ],
+    },
+    ahrefs: {
+      dataKey: 'b3G5nUND8OglcZwfjfwixQ',
+    },
+    consent: {
+      storageKey: 'openterface-cookie-consent',
+      title: '쿠키 동의',
+      description:
+        '당사는 문서 콘텐츠 품질 향상 및 사이트 효과 분석을 위해 쿠키를 사용합니다. 동의해 주시면 웹사이트 개선에 도움이 됩니다. 감사합니다!',
+      acceptLabel: '동의',
+      rejectLabel: '거부',
+      cookieLabel: 'Cookie',
+    },
+  },
 } as const;
 
 /** Build a legacy openterface.com URL for doc-heavy pages not yet migrated. */
