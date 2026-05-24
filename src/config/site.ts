@@ -1,7 +1,7 @@
 export const siteConfig = {
   name: 'Openterface',
   locale: 'ko',
-  url: 'https://ko.openterface.com',
+  url: 'https://kr.openterface.com',
   legacyUrl: 'https://openterface.com',
   description:
     'IT 전문가를 위한 초소형 KVM-over-USB 솔루션 — KVM-GO, Mini-KVM, KeyMod 및 uConsole KVM Extension.',
@@ -28,10 +28,10 @@ export const siteConfig = {
         'fr.openterface.com',
         'it.openterface.com',
         'jp.openterface.com',
-        'ko.openterface.com',
+        'kr.openterface.com',
         'pt.openterface.com',
         'ro.openterface.com',
-        'zh.openterface.com',
+        'cn.openterface.com',
       ],
     },
     ahrefs: {
