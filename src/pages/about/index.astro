@@ -1,7 +1,7 @@
 ---
 import BaseLayout from '../../layouts/BaseLayout.astro';
 import DocLinkBanner from '../../components/DocLinkBanner.astro';
-import { legacyPath } from '../../config/site';
+import { docsPath } from '../../config/site';
 ---
 
 <BaseLayout
@@ -20,13 +20,13 @@ import { legacyPath } from '../../config/site';
         부피가 큰 장비나 복잡한 네트워크 없이 헤드리스 컴퓨터 제어를 단순화하는 것입니다.
       </p>
       <div class="mt-8 flex flex-wrap gap-3">
-        <a href={legacyPath('/about/about-us/')} class="btn btn-secondary" target="_blank" rel="noopener">
+        <a href={docsPath('/about/about-us/')} class="btn btn-secondary" target="_blank" rel="noopener">
           더 알아보기 →
         </a>
-        <a href={legacyPath('/about/compliance/')} class="btn btn-secondary" target="_blank" rel="noopener">
+        <a href={docsPath('/about/compliance/')} class="btn btn-secondary" target="_blank" rel="noopener">
           규정 준수 →
         </a>
-        <a href={legacyPath('/about/community/')} class="btn btn-secondary" target="_blank" rel="noopener">
+        <a href={docsPath('/about/community/')} class="btn btn-secondary" target="_blank" rel="noopener">
           커뮤니티 →
         </a>
       </div>

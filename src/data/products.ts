@@ -1,4 +1,4 @@
-import { legacyPath, siteConfig } from '../config/site';
+import { docsPath, siteConfig } from '../config/site';
 
 export interface ProductDocLink {
   label: string;
@@ -74,11 +74,11 @@ export const products: Record<string, Product> = {
     ],
     useCases: ['스마트 TV 및 키오스크 입력', '모바일 워크플로우 매크로', '게임 및 접근성 설정'],
     docLinks: [
-      { label: '기능', href: legacyPath('/product/keymod/features/') },
-      { label: '구성품', href: legacyPath('/product/keymod/whats-in-the-box/') },
-      { label: '연결 방법', href: legacyPath('/product/keymod/how-to-connect/') },
-      { label: 'FAQ', href: legacyPath('/product/keymod/faq/') },
-      { label: 'KeyMod 앱 다운로드', href: legacyPath('/app/overview/') },
+      { label: '기능', href: docsPath('/product/keymod/features/') },
+      { label: '구성품', href: docsPath('/product/keymod/whats-in-the-box/') },
+      { label: '연결 방법', href: docsPath('/product/keymod/how-to-connect/') },
+      { label: 'FAQ', href: docsPath('/product/keymod/faq/') },
+      { label: 'KeyMod 앱 다운로드', href: docsPath('/app/overview/') },
     ],
     legacyBase: '/product/keymod/',
   },
@@ -127,11 +127,11 @@ export const products: Record<string, Product> = {
     ],
     useCases: ['데이터 센터 점검', '헤드리스 장치 설정', '현장 IT 및 홈랩 복구'],
     docLinks: [
-      { label: '기능', href: legacyPath('/product/kvm-go/features/') },
-      { label: '베타 빠른 시작 가이드', href: legacyPath('/product/kvm-go/beta-quick-start/') },
-      { label: '연결 방법', href: legacyPath('/product/kvm-go/how-to-connect/') },
-      { label: 'FAQ', href: legacyPath('/product/kvm-go/faq/') },
-      { label: '앱 다운로드', href: legacyPath('/app/overview/') },
+      { label: '기능', href: docsPath('/product/kvm-go/features/') },
+      { label: '베타 빠른 시작 가이드', href: docsPath('/product/kvm-go/beta-quick-start/') },
+      { label: '연결 방법', href: docsPath('/product/kvm-go/how-to-connect/') },
+      { label: 'FAQ', href: docsPath('/product/kvm-go/faq/') },
+      { label: '앱 다운로드', href: docsPath('/app/overview/') },
     ],
     legacyBase: '/product/kvm-go/',
   },
@@ -180,11 +180,11 @@ export const products: Record<string, Product> = {
     ],
     useCases: ['홈랩 관리', '개발자 워크스테이션 나란히 제어', 'IT 벤치 문제 해결'],
     docLinks: [
-      { label: '기능', href: legacyPath('/product/minikvm/features/') },
-      { label: 'USB 스위치', href: legacyPath('/product/minikvm/usb-switch/') },
-      { label: '기술 지원', href: legacyPath('/product/minikvm/support/') },
-      { label: 'FAQ', href: legacyPath('/product/minikvm/faq/') },
-      { label: '앱 다운로드', href: legacyPath('/app/overview/') },
+      { label: '기능', href: docsPath('/product/minikvm/features/') },
+      { label: 'USB 스위치', href: docsPath('/product/minikvm/usb-switch/') },
+      { label: '기술 지원', href: docsPath('/product/minikvm/support/') },
+      { label: 'FAQ', href: docsPath('/product/minikvm/faq/') },
+      { label: '앱 다운로드', href: docsPath('/app/overview/') },
     ],
     legacyBase: '/product/minikvm/',
   },
@@ -203,7 +203,7 @@ export const products: Record<string, Product> = {
       'https://assets.openterface.com/images/uconsole-kvm-extension/uconsole-kvm-extension-1.webp',
     ],
     buyLabel: '더 알아보기',
-    buyHref: legacyPath('/product/uconsole-kvm-extension/'),
+    buyHref: docsPath('/product/uconsole-kvm-extension/'),
     painPoints: [
       '휴대용 콘솔에는 헤드리스 타겟을 위한 통합 KVM 기능이 부족합니다',
       '현장 기술자는 하나의 장치로 모든 것을 해결하기를 원합니다',
@@ -226,10 +226,10 @@ export const products: Record<string, Product> = {
     ],
     useCases: ['휴대용 데이터 센터 도구', '이동 중인 메이커 및 홈랩'],
     docLinks: [
-      { label: '하드웨어 설치', href: legacyPath('/product/uconsole-kvm-extension/hardware-installation/') },
-      { label: '소프트웨어 설정', href: legacyPath('/product/uconsole-kvm-extension/software-setup/') },
-      { label: '연결 방법', href: legacyPath('/product/uconsole-kvm-extension/connect-to-target/') },
-      { label: 'FAQ', href: legacyPath('/product/uconsole-kvm-extension/faq/') },
+      { label: '하드웨어 설치', href: docsPath('/product/uconsole-kvm-extension/hardware-installation/') },
+      { label: '소프트웨어 설정', href: docsPath('/product/uconsole-kvm-extension/software-setup/') },
+      { label: '연결 방법', href: docsPath('/product/uconsole-kvm-extension/connect-to-target/') },
+      { label: 'FAQ', href: docsPath('/product/uconsole-kvm-extension/faq/') },
     ],
     legacyBase: '/product/uconsole-kvm-extension/',
   },
@@ -257,7 +257,7 @@ export const products: Record<string, Product> = {
     specs: [],
     useCases: ['현장 키트 정리', '비디오 형식 변환', 'IT 고백(go-bag)을 위한 백업 케이블'],
     docLinks: [
-      { label: '모든 품목', href: legacyPath('/product/accessories/') },
+      { label: '모든 품목', href: docsPath('/product/accessories/') },
       { label: 'TxA Shop', href: siteConfig.links.shop },
     ],
     legacyBase: '/product/accessories/',
