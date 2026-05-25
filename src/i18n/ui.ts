@@ -17,6 +17,44 @@ export interface MarketingUi {
     emailPlaceholder: string;
     footnote: string;
   };
+  siteFooter: {
+    tagline: string;
+    productsHeading: string;
+    keymodSeries: string;
+    kvmGoSeries: string;
+    miniKvm: string;
+    accessories: string;
+    resourcesHeading: string;
+    videos: string;
+    faqs: string;
+    apps: string;
+    support: string;
+    newsletterTitle: string;
+    newsletterDescription: string;
+    newsletterSubmit: string;
+    newsletterNamePlaceholder: string;
+    newsletterEmailPlaceholder: string;
+    newsletterFootnote: string;
+    copyright: string;
+    privacy: string;
+    terms: string;
+  };
+  productLanding: {
+    downloadApp: string;
+    backers: string;
+    theProblem: string;
+    theSolution: string;
+    hwSoftwareTitle: string;
+    hwSoftwareSubtitle: string;
+    hardware: string;
+    software: string;
+    swFallback: string;
+    keySpecs: string;
+    useCases: string;
+    documentation: string;
+    ctaTitle: string;
+    ctaSubtitle: string;
+  };
 }
 
 export const ui: MarketingUi = {
@@ -37,5 +75,43 @@ export const ui: MarketingUi = {
     "namePlaceholder": "이름 (선택)",
     "emailPlaceholder": "이메일 주소 *",
     "footnote": "월 최대 1통. 언제든 구독 취소 가능. 문의: info@openterface.com"
+  },
+  "siteFooter": {
+    "tagline": "IT 전문가를 위한 초소형 KVM-over-USB 솔루션.",
+    "productsHeading": "제품",
+    "keymodSeries": "KeyMod 시리즈",
+    "kvmGoSeries": "KVM-GO 시리즈",
+    "miniKvm": "Mini-KVM",
+    "accessories": "액세서리",
+    "resourcesHeading": "리소스",
+    "videos": "비디오",
+    "faqs": "FAQ",
+    "apps": "앱",
+    "support": "지원",
+    "newsletterTitle": "뉴스레터",
+    "newsletterDescription": "제품, 펌웨어, KVM 팁에 대한 월간 업데이트.",
+    "newsletterSubmit": "구독",
+    "newsletterNamePlaceholder": "이름",
+    "newsletterEmailPlaceholder": "이메일 *",
+    "newsletterFootnote": "언제든지 구독 취소 가능.",
+    "copyright": "Openterface. 오픈 소스 KVM-over-USB.",
+    "privacy": "개인정보 보호정책",
+    "terms": "서비스 약관"
+  },
+  "productLanding": {
+    "downloadApp": "앱 다운로드",
+    "backers": "후원자",
+    "theProblem": "문제",
+    "theSolution": "해결책",
+    "hwSoftwareTitle": "하드웨어 + 소프트웨어",
+    "hwSoftwareSubtitle": "Openterface 제품은 오픈 소스 호스트 앱과 함께 사용할 때 가장 잘 작동합니다.",
+    "hardware": "하드웨어",
+    "software": "소프트웨어",
+    "swFallback": "액세서리 호환성 자세한 내용은 TxA Shop을 참조하세요.",
+    "keySpecs": "주요 사양",
+    "useCases": "사용 사례",
+    "documentation": "문서",
+    "ctaTitle": "시작할 준비가 되셨나요?",
+    "ctaSubtitle": "하드웨어를 주문하고 플랫폼용 Openterface 앱을 다운로드하세요."
   }
 };
