@@ -9,20 +9,29 @@ export interface NavItem {
 
 export const mainNav: NavItem[] = [
   {
-    label: '제품',
-    href: '#',
+    label: 'Products',
+    href: '/products/',
     children: [
-      { label: 'KeyMod 시리즈', href: '/products/keymod/' },
-      { label: 'KVM-GO 시리즈', href: '/products/kvm-go/' },
-      { label: 'Mini-KVM', href: '/products/minikvm/' },
-      { label: 'uConsole KVM Extension', href: '/products/uconsole-kvm-extension/' },
-      { label: '액세서리', href: '/products/accessories/' },
+      { label: 'All Products', href: '/products/' },
+      { label: 'KeyMod Series', href: '/keymod/' },
+      { label: 'KVM-GO Series', href: '/kvmgo/' },
+      { label: 'Mini-KVM', href: '/minikvm/' },
+      { label: 'uConsole KVM Extension', href: '/kvmext/' },
+      { label: 'Accessories', href: '/accessories/' },
     ],
   },
-  { label: '비디오', href: '/videos/' },
-  { label: '활용 사례', href: '/use-cases/' },
-  { label: '정보', href: '/about/' },
-  { label: '문서', href: docsPath(), external: true },
-  { label: '뉴스', href: newsPath(), external: true },
-  { label: '쇼핑', href: siteConfig.links.shop, external: true },
+  {
+    label: 'Apps',
+    href: '/app/',
+    children: [
+      { label: 'All Apps', href: '/app/' },
+      { label: 'KVM Control', href: '/kvm/' },
+      { label: 'KeyCmd', href: '/keycmd/' },
+    ],
+  },
+  { label: 'Media', href: '/videos/' },
+  { label: 'About', href: '/about/' },
+  { label: 'Docs', href: docsPath(), external: true },
+  { label: 'News', href: newsPath(), external: true },
+  { label: 'Shop', href: siteConfig.links.shop, external: true },
 ];
